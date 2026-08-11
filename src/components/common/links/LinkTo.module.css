@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+
+  color: rgb(31 41 55);
+}
+
+.message {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 500;
+
+  color:
+    color-mix(in srgb, rgb(17 24 39), transparent 50%);
+}
+.link {
+  margin-left: 0.5rem;
+  padding-inline: 1rem;
+  padding-block: 0.25rem;
+  color: white;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+
+  border-radius: 9999px;
+
+  text-decoration: none;
+
+  background:
+    linear-gradient(
+      to left,
+      rgb(99 102 241),
+      rgb(216 180 254)
+    );
+
+  animation:
+    pulse 2s
+    cubic-bezier(0.4, 0, 0.6, 1)
+    infinite;
+
+  box-shadow:
+    0 1px 2px 0 rgb(0 0 0 / 0.05);
+
+  transition-property:
+    background,
+    transform,
+    opacity,
+    box-shadow;
+
+  transition-duration: 300ms;
+
+  transition-timing-function:
+    cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link:hover {
+  background:
+    linear-gradient(
+      to left,
+      black,
+      rgb(17 24 39)
+    );
+}

@@ -1,0 +1,12 @@
+.vscode/*
+history
+*.local
+!.vscode/extensions.json
+
+node_modules
+.env.development
+build
+package-lock.json
+logs
+*.log
+npm-debug.log*
