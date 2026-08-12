@@ -221,6 +221,119 @@
     "title": "Contact",
     "connect": "Restons en contact"
   },
+  "projects-section": {
+    "label": "Projets",
+    "description": "Expérience dans la réalisation de projets de transformation numérique de bout en bout — de la conception de l'architecture à l'infrastructure — en appliquant les principes du Clean Code, une architecture modulaire et les meilleures pratiques de sécurité.",
+    "focus": "Axé sur la conception de systèmes évolutifs, les architectures backend orientées services et les systèmes distribués, avec un fort intérêt pour le rôle de la technologie comme moteur de la modernisation institutionnelle et économique.",
+    "action": {
+      "github": "[ GITHUB ]",
+      "explore": "Explorer",
+      "to": "pour :"
+    },
+    "projects": {
+      "andinet": {
+        "title": "Andinet Marketplace",
+        "client": "H&B Consulting (Luxembourg)",
+        "category": "FULL-STACK / DEVOPS",
+        "type": "Professionnel",
+        "role": "Ingénieur logiciel",
+        "period": "06/2023 – Présent",
+        "status": "EN LIGNE",
+        "featured": true,
+        "description": "Plateforme marketplace full-stack conçue pour le commerce numérique, les paiements et des opérations de production évolutives.",
+        "highlights": {
+          "item1": "Développement d'une marketplace full-stack",
+          "item2": "Architecture de base de données évolutive",
+          "item3": "Intégrations des paiements et de l'authentification",
+          "item4": "Déploiement et maintenance en production"
+        }
+      },
+      "abk-ope": {
+        "title": "ABK Opé | Easy Compta",
+        "client": "Ambassade du Niger à Cuba",
+        "category": "BACKEND / SÉCURITÉ",
+        "type": "Professionnel",
+        "role": "Ingénieur logiciel",
+        "period": "02/2024 – 05/2024",
+        "status": "TERMINÉ",
+        "featured": true,
+        "description": "Système de gestion financière conçu pour moderniser les flux de travail comptables et sécuriser les données institutionnelles.",
+        "highlights": {
+          "item1": "Numérisation des flux financiers",
+          "item2": "Gestion sécurisée des données et des utilisateurs",
+          "item3": "Rapports administratifs",
+          "item4": "Bonnes pratiques de sécurité backend"
+        }
+      },
+      "planb-srl": {
+        "title": "PlanB SRL Shop",
+        "client": "PlanB SRL",
+        "category": "E-COMMERCE",
+        "type": "Professionnel",
+        "role": "Ingénieur logiciel",
+        "period": "06/2024 – 11/2024",
+        "status": "TERMINÉ",
+        "featured": true,
+        "description": "Site e-commerce développé avec WordPress et WooCommerce pour une entreprise de vente au détail, conçu pour présenter les produits et permettre des fonctionnalités de vente en ligne de base.",
+        "highlights": {
+          "item1": "Mise en œuvre d'une plateforme e-commerce",
+          "item2": "Configuration de WordPress et WooCommerce",
+          "item3": "Mise en place de la boutique en ligne",
+          "item4": "Livraison complète du projet"
+        }
+      },
+      "gamor": {
+        "title": "Gamor",
+        "client": "Avangenio",
+        "category": "FRONTEND / UI",
+        "type": "Projet technique",
+        "role": "Développeur",
+        "period": "03/2026 – 04/2026",
+        "status": "DÉMO",
+        "featured": false,
+        "description": "Concept de plateforme gaming créé dans le cadre d'un projet technique frontend et d'une implémentation UI.",
+        "highlights": {
+          "item1": "Interface gaming responsive",
+          "item2": "Architecture basée sur les composants",
+          "item3": "Implémentation d'une UI interactive"
+        }
+      }
+    }
+  },
+  "certificate-section": {
+    "label": "Qualifications",
+    "title": "Certificats",
+    "action": {
+      "view": "Voir",
+      "verified": "Vérifié"
+    },
+    "certificates": {
+      "freecodecamp": {
+        "title": "Anglais A2 pour les développeurs",
+        "issuer": "freeCodeCamp",
+        "featured": "",
+        "category": "LANGUE",
+        "type": "Certificat",
+        "description": "Certification d'anglais axée sur la communication et le vocabulaire technique pour les développeurs."
+      },
+      "seminar": {
+        "title": "Transformation numérique des industries pour les pays en développement",
+        "issuer": "Académie des sciences du Guizhou",
+        "featured": "Mérite",
+        "category": "SÉMINAIRE",
+        "type": "Certificat",
+        "description": "Séminaire international consacré à la transformation numérique, aux technologies émergentes et à la sécurité des données."
+      },
+      "ggj": {
+        "title": "Prix du meilleur design 2D",
+        "issuer": "Global Game Jam Cuba",
+        "featured": "",
+        "category": "PRIX",
+        "type": "RÉALISATION",
+        "description": "Prix reçu pour la conception 2D lors de la Global Game Jam Cuba."
+      }
+    }
+  },
   "footer": {
     "navigation": {
       "about": "À propos",

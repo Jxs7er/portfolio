@@ -1,41 +1,10 @@
-const CERTIFICATES = [
-  {
-    title: "A2 English for Developers",
-    issuer: "freeCodeCamp",
-    category: "LANGUAGE",
-    year: "2026",
-    type: "Certificate",
-    description:
-      "English certification focused on communication and technical vocabulary for developers.",
-    url: "https://www.freecodecamp.org/certification/jxs7er/a2-english-for-developers",
-    image: "/assets/resources/certificates/freecodecamp.png",
-  },
+import { useTranslation } from "react-i18next";
 
-  {
-    title: "Digital Transformation of Industries for Developing Countries",
-    issuer: "Guizhou Academy of Sciences",
-    category: "SEMINAR",
-    year: "2024",
-    type: "Merit",
-    description:
-      "International seminar focused on digital transformation, emerging technologies, and data security.",
-    url: null,
-    image: "/assets/resources/certificates/seminar2.png",
-  },
-
-  {
-    title: "Best 2D Design Award",
-    issuer: "Global Game Jam Cuba",
-    category: "AWARD",
-    year: "2018",
-    type: "Achievement",
-    description: "Award received for 2D design during Global Game Jam Cuba.",
-    url: null,
-    image: null,
-  },
-];
+import { CERTIFICATES } from "@/mocks";
 
 const CertificatesSection = ({ certificates = CERTIFICATES }) => {
+  const { t } = useTranslation();
+
   return (
     <section id="credentials" className="relative overflow-hidden px-6 ">
       {/* Header */}
@@ -50,7 +19,7 @@ const CertificatesSection = ({ certificates = CERTIFICATES }) => {
               backdrop-blur-3xl
             "
           >
-            Credentials
+            {t("certificate-section.label")}
           </span>
         </div>
         {/* Decorative background */}
@@ -74,7 +43,8 @@ const CertificatesSection = ({ certificates = CERTIFICATES }) => {
               "
               style={{ fontFamily: "'Georgia', serif" }}
             >
-              Certificates<span className="text-amber-600">.</span>
+              {t("certificate-section.title")}
+              <span className="text-amber-600">.</span>
             </h2>
           </div>
         </div>
@@ -116,7 +86,7 @@ const CertificatesSection = ({ certificates = CERTIFICATES }) => {
                         text-amber-600
                       "
                     >
-                      {certificate.category}
+                      {t(certificate.category)}
                     </span>
 
                     <span className="text-stone-300">/</span>
@@ -135,7 +105,7 @@ const CertificatesSection = ({ certificates = CERTIFICATES }) => {
                       <div className="my-2 md:w-[800px]">
                         <img
                           src={certificate.image}
-                          alt={certificate.title}
+                          alt={t(certificate.title)}
                           className=" block p-10 object-center 
                         object-cover transition-transform 
                         duration-700 group-hover:scale-105"
@@ -143,7 +113,7 @@ const CertificatesSection = ({ certificates = CERTIFICATES }) => {
                       </div>
                     )}
 
-                    <div className="w-1/2">
+                    <div className="w-1/2 relative">
                       <h3
                         className="
                             mt-3 max-w-2xl
@@ -153,23 +123,33 @@ const CertificatesSection = ({ certificates = CERTIFICATES }) => {
                             group-hover:translate-x-2
                             md:text-3xl"
                       >
-                        {certificate.title}
+                        {t(certificate.title)}
                       </h3>
 
                       <div className="mt-2 flex items-center gap-2 px-6">
                         <span className="text-xs font-semibold uppercase tracking-wide text-stone-500">
-                          {certificate.issuer}
+                          {t(certificate.issuer)}
                         </span>
 
                         <span className="text-amber-500">·</span>
 
                         <span className="font-mono text-[9px] uppercase text-stone-400">
-                          {certificate.type}
+                          {t(certificate.type)}
                         </span>
                       </div>
+                      {t(certificate.featured) && (
+                        <div className="absolute -top-6 left-2">
+                          <span
+                            className="px-2 py-1 bg-amber-200 text-xs 
+                          text-stone-800/50 font-semibold"
+                          >
+                            {t(certificate.featured)}
+                          </span>
+                        </div>
+                      )}
 
                       <p className="mt-4 px-7 w-full text-xs leading-relaxed text-stone-500">
-                        {certificate.description}
+                        {t(certificate.description)}
                       </p>
                     </div>
                   </div>
@@ -192,7 +172,7 @@ const CertificatesSection = ({ certificates = CERTIFICATES }) => {
                         hover:text-amber-600
                       "
                   >
-                    View
+                    {t("certificate-section.action.view")}
                     <span
                       className="
                           transition-transform duration-300
@@ -211,7 +191,7 @@ const CertificatesSection = ({ certificates = CERTIFICATES }) => {
                         text-stone-300
                       "
                   >
-                    Verified
+                    {t("certificate-section.action.verified")}
                   </span>
                 )}
               </div>

@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-import { EDUCATION } from "@/mocks/education";
+import { EDUCATION } from "@/mocks";
 
 const EducationSection = ({ education = EDUCATION }) => {
   const { t } = useTranslation();

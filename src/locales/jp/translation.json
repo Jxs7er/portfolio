@@ -1,0 +1,350 @@
+{
+  "hero-section": {
+    "main-role": "コンピューターエンジニア | フルスタック開発者",
+    "portfolio": "ポートフォリオ",
+    "last-name": "Marzo Gomez",
+    "given-name": "Ariel Alejandro",
+    "age": "歳",
+    "intro": "フルスタック開発、DevOps、ネットワーク管理、サイバーセキュリティにおいて3年以上の経験を持つコンピューターエンジニア。",
+    "description": "政府、金融、商業分野において、スケーラブルなデジタルソリューションの設計・構築、API統合、本番システムのデプロイを専門としています。"
+  },
+  "experience-section": {
+    "title": "経験",
+    "intro": "開発、ネットワーク、セキュリティの分野で、ソフトウェア開発、インフラ管理、技術的問題の解決に携わっています。",
+    "responsibilities": "担当業務",
+    "career-progression": "キャリア推移",
+    "experiences": {
+      "osde-gelect": {
+        "category": "ネットワーク / セキュリティ / インフラ",
+        "type": "職務経験",
+        "role": "ネットワーク管理者",
+        "period": "2021 – 現在",
+        "status": "現在",
+        "description": "本番環境における企業ネットワーク、サーバーインフラ、セキュリティ運用を管理。",
+        "highlights": {
+          "network": "ネットワークおよびサーバーインフラの管理",
+          "security": "セキュリティポリシーの実装と適用",
+          "firewall": "ファイアウォール設定とトラフィック管理",
+          "monitoring": "重要サービスの監視と最適化",
+          "incidents": "技術的インシデントの解決"
+        },
+        "progression": {
+          "itTechnician": {
+            "role": "IT技術者",
+            "period": "2021 – 2022"
+          },
+          "securitySpecialist": {
+            "role": "セキュリティスペシャリスト",
+            "period": "2022 – 2024"
+          },
+          "networkAdministrator": {
+            "role": "ネットワーク管理者",
+            "period": "2024 – 現在"
+          }
+        }
+      },
+      "freelance": {
+        "category": "フルスタック / DEVOPS / セキュリティ",
+        "type": "職務経験",
+        "role": "ソフトウェアエンジニア",
+        "period": "2022 – 現在",
+        "status": "現在",
+        "description": "ソフトウェア開発、インフラ、セキュリティにまたがり、フルスタックアプリケーションと本番システムを構築。",
+        "highlights": {
+          "fullstack": "フルスタックアプリケーション開発",
+          "backend": "バックエンドおよびREST APIアーキテクチャ",
+          "database": "データベース設計と統合",
+          "deployment": "本番デプロイとインフラストラクチャ",
+          "security": "セキュリティおよび認証の実装",
+          "integrations": "サードパーティAPIおよび決済システムの統合"
+        },
+        "projects": {
+          "andinet": {
+            "title": "Andinet Marketplace",
+            "period": "06/2023 – 現在"
+          },
+          "abkOpe": {
+            "title": "ABK Opé",
+            "period": "02/2024 – 05/2024"
+          },
+          "planBSrl": {
+            "title": "PlanB SRL",
+            "period": "06/2024 – 11/2024"
+          }
+        }
+      }
+    }
+  },
+  "education-section": {
+    "label": "学歴",
+    "record": "学歴記録",
+    "degree": "学位",
+    "thesis": "卒業論文",
+    "bachelorThesis": "学士論文",
+    "education": {
+      "cujae": {
+        "institution": "ハバナ・ホセ・アントニオ・エチェベリア工科大学",
+        "shortName": "CUJAE",
+        "degree": "コンピューター工学",
+        "period": "2016 – 2021",
+        "location": "ハバナ、キューバ",
+        "thesis": {
+          "title": "Lucky Imagingを用いた大気歪みの安定化および補正。",
+          "category": "学士論文"
+        }
+      }
+    }
+  },
+  "skills-section": {
+    "label": "スキル",
+    "yearsExperience": "年の経験",
+    "items": {
+      "javascript": {
+        "type": "プログラミング言語",
+        "description": "フロントエンドおよびバックエンド開発の主要言語。"
+      },
+      "typescript": {
+        "type": "プログラミング言語",
+        "description": "スケーラブルなアプリケーション向けの型付きJavaScript。"
+      },
+      "python": {
+        "type": "プログラミング言語",
+        "description": "API、自動化、バックエンドサービスに使用。"
+      },
+      "java": {
+        "type": "プログラミング言語",
+        "description": "アプリケーションおよびバックエンド開発に使用。"
+      },
+      "cpp": {
+        "type": "プログラミング言語",
+        "description": "低レベルおよびシステムプログラミングに使用。"
+      },
+      "csharp": {
+        "type": "プログラミング言語",
+        "description": "アプリケーションおよびバックエンド開発に使用。"
+      },
+      "sql": {
+        "type": "データベース",
+        "description": "データベースクエリとリレーショナルデータ管理。"
+      },
+      "html5": {
+        "type": "フロントエンド",
+        "description": "最新のWebアプリケーションのためのセマンティック構造。"
+      },
+      "css3": {
+        "type": "フロントエンド",
+        "description": "レスポンシブレイアウトと最新のWebスタイリング。"
+      },
+      "react": {
+        "type": "フロントエンド",
+        "description": "インタラクティブなインターフェース構築のための主要フレームワーク。"
+      },
+      "redux": {
+        "type": "フロントエンド",
+        "description": "Reactアプリケーションの状態管理。"
+      },
+      "tailwind": {
+        "type": "フロントエンド",
+        "description": "レスポンシブインターフェース向けのユーティリティファーストCSS。"
+      },
+      "bootstrap": {
+        "type": "フロントエンド",
+        "description": "再利用可能なコンポーネントによるレスポンシブUI開発。"
+      },
+      "nextjs": {
+        "type": "フロントエンド",
+        "description": "フルスタックWebアプリケーション向けのReactフレームワーク。"
+      },
+      "nodejs": {
+        "type": "バックエンド",
+        "description": "スケーラブルなWebアプリケーション向けのバックエンドランタイム。"
+      },
+      "express": {
+        "type": "バックエンド",
+        "description": "Node.js APIおよびサービス向けWebフレームワーク。"
+      },
+      "fastapi": {
+        "type": "バックエンド",
+        "description": "API向けの高性能Pythonフレームワーク。"
+      },
+      "rest": {
+        "type": "バックエンド",
+        "description": "RESTfulサービスの設計および開発。"
+      },
+      "postgresql": {
+        "type": "データベース",
+        "description": "バックエンドシステム向けの主要なリレーショナルデータベース。"
+      },
+      "mysql": {
+        "type": "データベース",
+        "description": "アプリケーションデータ向けのリレーショナルデータベース。"
+      },
+      "sqlite": {
+        "type": "データベース",
+        "description": "ローカルアプリケーション向けの軽量データベース。"
+      },
+      "mongodb": {
+        "type": "データベース",
+        "description": "柔軟なデータモデル向けのNoSQLデータベース。"
+      },
+      "nginx": {
+        "type": "インフラストラクチャ",
+        "description": "Webサーバー、リバースプロキシ、本番環境のルーティング。"
+      },
+      "apache": {
+        "type": "インフラストラクチャ",
+        "description": "Webサーバーの設定とデプロイ。"
+      },
+      "redis": {
+        "type": "分散システム",
+        "description": "キャッシュおよび高速インメモリデータストレージ。"
+      },
+      "rabbitmq": {
+        "type": "分散システム",
+        "description": "分散アプリケーション向けメッセージブローカー。"
+      },
+      "bullmq": {
+        "type": "分散システム",
+        "description": "Redisを使用したバックグラウンドジョブ処理。"
+      },
+      "git": {
+        "type": "開発ツール",
+        "description": "バージョン管理と共同開発。"
+      },
+      "bash": {
+        "type": "開発ツール",
+        "description": "シェルスクリプトとシステム自動化。"
+      }
+    }
+  },
+  "contact-section": {
+    "title": "お問い合わせ",
+    "connect": "つながりましょう"
+  },
+  "projects-section": {
+    "label": "プロジェクト",
+    "description": "アーキテクチャ設計からインフラストラクチャまで、Clean Code原則、モジュール型アーキテクチャ、セキュリティのベストプラクティスを適用し、エンドツーエンドのデジタルトランスフォーメーションプロジェクトを実現してきました。",
+    "focus": "スケーラブルなシステム設計、サービス指向バックエンドアーキテクチャ、分散システムに注力し、制度および経済の近代化を推進する技術の役割に強い関心を持っています。",
+    "action": {
+      "github": "[ GITHUB ]",
+      "explore": "詳しく見る",
+      "to": "宛先:"
+    },
+    "projects": {
+      "andinet": {
+        "title": "Andinet Marketplace",
+        "client": "H&B Consulting (Luxembourg)",
+        "category": "FULL-STACK / DEVOPS",
+        "type": "プロフェッショナル",
+        "role": "ソフトウェアエンジニア",
+        "period": "06/2023 – 現在",
+        "status": "稼働中",
+        "featured": true,
+        "description": "デジタルコマース、決済、スケーラブルな本番運用のために構築されたフルスタックマーケットプレイスプラットフォーム。",
+        "highlights": {
+          "item1": "フルスタックマーケットプレイス開発",
+          "item2": "スケーラブルなデータベースアーキテクチャ",
+          "item3": "決済および認証の統合",
+          "item4": "本番環境へのデプロイと保守"
+        }
+      },
+      "abk-ope": {
+        "title": "ABK Opé | Easy Compta",
+        "client": "キューバ駐在ニジェール大使館",
+        "category": "バックエンド / セキュリティ",
+        "type": "プロフェッショナル",
+        "role": "ソフトウェアエンジニア",
+        "period": "02/2024 – 05/2024",
+        "status": "完了",
+        "featured": true,
+        "description": "会計業務を近代化し、組織データを保護するために設計された財務管理システム。",
+        "highlights": {
+          "item1": "財務ワークフローのデジタル化",
+          "item2": "安全なデータおよびユーザー管理",
+          "item3": "管理レポート",
+          "item4": "バックエンドセキュリティの実践"
+        }
+      },
+      "planb-srl": {
+        "title": "PlanB SRL Shop",
+        "client": "PlanB SRL",
+        "category": "Eコマース",
+        "type": "プロフェッショナル",
+        "role": "ソフトウェアエンジニア",
+        "period": "06/2024 – 11/2024",
+        "status": "完了",
+        "featured": true,
+        "description": "小売企業向けにWordPressとWooCommerceで構築したEコマースサイト。商品を紹介し、基本的なオンライン販売機能を提供するよう設計されています。",
+        "highlights": {
+          "item1": "Eコマースプラットフォームの実装",
+          "item2": "WordPressとWooCommerceの設定",
+          "item3": "オンラインストアの構築",
+          "item4": "エンドツーエンドのプロジェクト納品"
+        }
+      },
+      "gamor": {
+        "title": "Gamor",
+        "client": "Avangenio",
+        "category": "フロントエンド / UI",
+        "type": "技術プロジェクト",
+        "role": "開発者",
+        "period": "03/2026 – 04/2026",
+        "status": "デモ",
+        "featured": false,
+        "description": "技術的なフロントエンドプロジェクトおよびUI実装として制作されたゲーミングプラットフォームのコンセプト。",
+        "highlights": {
+          "item1": "レスポンシブなゲーミングインターフェース",
+          "item2": "コンポーネントベースのアーキテクチャ",
+          "item3": "インタラクティブUIの実装"
+        }
+      }
+    }
+  },
+  "certificate-section": {
+    "label": "資格",
+    "title": "証明書",
+    "action": {
+      "view": "表示",
+      "verified": "認証済み"
+    },
+    "certificates": {
+      "freecodecamp": {
+        "title": "開発者向けA2英語",
+        "issuer": "freeCodeCamp",
+        "featured": "",
+        "category": "言語",
+        "type": "証明書",
+        "description": "開発者向けのコミュニケーションと技術用語に重点を置いた英語認定。"
+      },
+      "seminar": {
+        "title": "発展途上国における産業のデジタルトランスフォーメーション",
+        "issuer": "Guizhou Academy of Sciences",
+        "featured": "功績",
+        "category": "セミナー",
+        "type": "証明書",
+        "description": "デジタルトランスフォーメーション、新興技術、データセキュリティに焦点を当てた国際セミナー。"
+      },
+      "ggj": {
+        "title": "最優秀2Dデザイン賞",
+        "issuer": "Global Game Jam Cuba",
+        "featured": "",
+        "category": "賞",
+        "type": "実績",
+        "description": "Global Game Jam Cubaで2Dデザインにより受賞した賞。"
+      }
+    }
+  },
+  "footer": {
+    "navigation": {
+      "about": "自己紹介",
+      "experience": "経験",
+      "education": "学歴",
+      "skills": "スキル",
+      "projects": "プロジェクト",
+      "credentials": "資格",
+      "contact": "お問い合わせ"
+    },
+    "tagline": "ソフトウェアエンジニア · ネットワーク · インフラ · セキュリティ",
+    "builtBy": "制作:"
+  }
+}

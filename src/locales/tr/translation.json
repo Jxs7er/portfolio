@@ -1,0 +1,350 @@
+{
+  "hero-section": {
+    "main-role": "Bilgisayar Mühendisi | Full Stack Geliştirici",
+    "portfolio": "Portföy",
+    "last-name": "Marzo Gomez",
+    "given-name": "Ariel Alejandro",
+    "age": "yaşında",
+    "intro": "Full Stack geliştirme, DevOps, ağ yönetimi ve siber güvenlik alanlarında 3 yıldan fazla deneyime sahip Bilgisayar Mühendisi.",
+    "description": "Kamu, finans ve ticaret sektörlerinde ölçeklenebilir dijital çözümler tasarlama ve geliştirme, API entegrasyonu ve üretim sistemlerinin dağıtımı konusunda uzmanlaşmıştır."
+  },
+  "experience-section": {
+    "title": "Deneyim",
+    "intro": "Geliştirme, ağ ve güvenlik alanlarında yazılım geliştirme, altyapı yönetimi ve teknik sorun çözme.",
+    "responsibilities": "Sorumluluklar",
+    "career-progression": "Kariyer Gelişimi",
+    "experiences": {
+      "osde-gelect": {
+        "category": "AĞ / GÜVENLİK / ALTYAPI",
+        "type": "Profesyonel Deneyim",
+        "role": "Ağ Yöneticisi",
+        "period": "2021 – Günümüz",
+        "status": "GÜNCEL",
+        "description": "Üretim ortamlarında kurumsal ağ, sunucu altyapısı ve güvenlik operasyonlarının yönetimi.",
+        "highlights": {
+          "network": "Ağ ve sunucu altyapısı yönetimi",
+          "security": "Güvenlik politikalarının uygulanması ve yürütülmesi",
+          "firewall": "Güvenlik duvarı yapılandırması ve trafik yönetimi",
+          "monitoring": "Kritik hizmetlerin izlenmesi ve optimizasyonu",
+          "incidents": "Teknik olayların çözümü"
+        },
+        "progression": {
+          "itTechnician": {
+            "role": "BT Teknisyeni",
+            "period": "2021 – 2022"
+          },
+          "securitySpecialist": {
+            "role": "Güvenlik Uzmanı",
+            "period": "2022 – 2024"
+          },
+          "networkAdministrator": {
+            "role": "Ağ Yöneticisi",
+            "period": "2024 – Günümüz"
+          }
+        }
+      },
+      "freelance": {
+        "category": "FULL-STACK / DEVOPS / GÜVENLİK",
+        "type": "Profesyonel Deneyim",
+        "role": "Yazılım Mühendisi",
+        "period": "2022 – Günümüz",
+        "status": "GÜNCEL",
+        "description": "Yazılım geliştirme, altyapı ve güvenlik alanlarında çalışarak full-stack uygulamalar ve üretim sistemleri geliştirme.",
+        "highlights": {
+          "fullstack": "Full-stack uygulama geliştirme",
+          "backend": "Backend ve REST API mimarisi",
+          "database": "Veritabanı tasarımı ve entegrasyonu",
+          "deployment": "Üretim dağıtımı ve altyapı",
+          "security": "Güvenlik ve kimlik doğrulama uygulaması",
+          "integrations": "Üçüncü taraf API ve ödeme entegrasyonu"
+        },
+        "projects": {
+          "andinet": {
+            "title": "Andinet Marketplace",
+            "period": "06/2023 – Günümüz"
+          },
+          "abkOpe": {
+            "title": "ABK Opé",
+            "period": "02/2024 – 05/2024"
+          },
+          "planBSrl": {
+            "title": "PlanB SRL",
+            "period": "06/2024 – 11/2024"
+          }
+        }
+      }
+    }
+  },
+  "education-section": {
+    "label": "Eğitim",
+    "record": "AKADEMİK GEÇMİŞ",
+    "degree": "Derece",
+    "thesis": "TEZ",
+    "bachelorThesis": "Lisans Tezi",
+    "education": {
+      "cujae": {
+        "institution": "Havana José Antonio Echeverría Teknoloji Üniversitesi",
+        "shortName": "CUJAE",
+        "degree": "Bilgisayar Mühendisliği",
+        "period": "2016 – 2021",
+        "location": "Havana, Küba",
+        "thesis": {
+          "title": "Lucky Imaging kullanılarak atmosferik bozulmaların stabilizasyonu ve düzeltilmesi.",
+          "category": "Lisans Tezi"
+        }
+      }
+    }
+  },
+  "skills-section": {
+    "label": "YETENEKLER",
+    "yearsExperience": "yıl deneyim",
+    "items": {
+      "javascript": {
+        "type": "Programlama Dili",
+        "description": "Frontend ve backend geliştirme için ana dil."
+      },
+      "typescript": {
+        "type": "Programlama Dili",
+        "description": "Ölçeklenebilir uygulamalar için tip güvenli JavaScript."
+      },
+      "python": {
+        "type": "Programlama Dili",
+        "description": "API'ler, otomasyon ve backend servisleri için kullanılır."
+      },
+      "java": {
+        "type": "Programlama Dili",
+        "description": "Uygulama ve backend geliştirme için kullanılır."
+      },
+      "cpp": {
+        "type": "Programlama Dili",
+        "description": "Düşük seviyeli ve sistem programlama için kullanılır."
+      },
+      "csharp": {
+        "type": "Programlama Dili",
+        "description": "Uygulama ve backend geliştirme için kullanılır."
+      },
+      "sql": {
+        "type": "Veritabanı",
+        "description": "Veritabanı sorgulama ve ilişkisel veri yönetimi."
+      },
+      "html5": {
+        "type": "Frontend",
+        "description": "Modern web uygulamaları için semantik yapı."
+      },
+      "css3": {
+        "type": "Frontend",
+        "description": "Responsive düzenler ve modern web stillendirmesi."
+      },
+      "react": {
+        "type": "Frontend",
+        "description": "Etkileşimli arayüzler oluşturmak için ana framework."
+      },
+      "redux": {
+        "type": "Frontend",
+        "description": "React uygulamaları için durum yönetimi."
+      },
+      "tailwind": {
+        "type": "Frontend",
+        "description": "Responsive arayüzler için utility-first CSS."
+      },
+      "bootstrap": {
+        "type": "Frontend",
+        "description": "Yeniden kullanılabilir bileşenlerle responsive UI geliştirme."
+      },
+      "nextjs": {
+        "type": "Frontend",
+        "description": "Full-stack web uygulamaları için React framework'ü."
+      },
+      "nodejs": {
+        "type": "Backend",
+        "description": "Ölçeklenebilir web uygulamaları için backend runtime."
+      },
+      "express": {
+        "type": "Backend",
+        "description": "Node.js API'leri ve servisleri için web framework'ü."
+      },
+      "fastapi": {
+        "type": "Backend",
+        "description": "API'ler için yüksek performanslı Python framework'ü."
+      },
+      "rest": {
+        "type": "Backend",
+        "description": "RESTful servislerin tasarımı ve geliştirilmesi."
+      },
+      "postgresql": {
+        "type": "Veritabanı",
+        "description": "Backend sistemleri için birincil ilişkisel veritabanı."
+      },
+      "mysql": {
+        "type": "Veritabanı",
+        "description": "Uygulama verileri için ilişkisel veritabanı."
+      },
+      "sqlite": {
+        "type": "Veritabanı",
+        "description": "Yerel uygulamalar için hafif veritabanı."
+      },
+      "mongodb": {
+        "type": "Veritabanı",
+        "description": "Esnek veri modelleri için NoSQL veritabanı."
+      },
+      "nginx": {
+        "type": "Altyapı",
+        "description": "Web sunucusu, reverse proxy ve üretim yönlendirmesi."
+      },
+      "apache": {
+        "type": "Altyapı",
+        "description": "Web sunucusu yapılandırması ve dağıtımı."
+      },
+      "redis": {
+        "type": "Dağıtık Sistemler",
+        "description": "Önbellekleme ve yüksek hızlı bellek içi veri depolama."
+      },
+      "rabbitmq": {
+        "type": "Dağıtık Sistemler",
+        "description": "Dağıtık uygulamalar için mesaj aracısı."
+      },
+      "bullmq": {
+        "type": "Dağıtık Sistemler",
+        "description": "Redis ile arka plan işlerinin işlenmesi."
+      },
+      "git": {
+        "type": "Geliştirme Araçları",
+        "description": "Sürüm kontrolü ve işbirlikçi geliştirme."
+      },
+      "bash": {
+        "type": "Geliştirme Araçları",
+        "description": "Shell betikleme ve sistem otomasyonu."
+      }
+    }
+  },
+  "contact-section": {
+    "title": "İletişim",
+    "connect": "Bağlantı Kuralım"
+  },
+  "projects-section": {
+    "label": "Projeler",
+    "description": "Mimari tasarımdan altyapıya kadar uçtan uca dijital dönüşüm projeleri sunma konusunda deneyimli; Clean Code prensipleri, modüler mimari ve güvenlik en iyi uygulamalarını uyguluyorum.",
+    "focus": "Ölçeklenebilir sistem tasarımı, servis odaklı backend mimarileri ve dağıtık sistemlere odaklanıyor; teknolojinin kurumsal ve ekonomik modernleşmenin itici gücü olarak rolüne büyük ilgi duyuyorum.",
+    "action": {
+      "github": "[ GITHUB ]",
+      "explore": "Keşfet",
+      "to": "için:"
+    },
+    "projects": {
+      "andinet": {
+        "title": "Andinet Marketplace",
+        "client": "H&B Consulting (Luxembourg)",
+        "category": "FULL-STACK / DEVOPS",
+        "type": "Profesyonel",
+        "role": "Yazılım Mühendisi",
+        "period": "06/2023 – Günümüz",
+        "status": "CANLI",
+        "featured": true,
+        "description": "Dijital ticaret, ödemeler ve ölçeklenebilir üretim operasyonları için oluşturulmuş full-stack marketplace platformu.",
+        "highlights": {
+          "item1": "Full-stack marketplace geliştirme",
+          "item2": "Ölçeklenebilir veritabanı mimarisi",
+          "item3": "Ödeme ve kimlik doğrulama entegrasyonları",
+          "item4": "Üretim ortamında dağıtım ve bakım"
+        }
+      },
+      "abk-ope": {
+        "title": "ABK Opé | Easy Compta",
+        "client": "Küba'daki Nijer Büyükelçiliği",
+        "category": "BACKEND / GÜVENLİK",
+        "type": "Profesyonel",
+        "role": "Yazılım Mühendisi",
+        "period": "02/2024 – 05/2024",
+        "status": "TAMAMLANDI",
+        "featured": true,
+        "description": "Muhasebe iş akışlarını modernize etmek ve kurumsal verileri güvence altına almak için tasarlanmış finansal yönetim sistemi.",
+        "highlights": {
+          "item1": "Finansal iş akışlarının dijitalleştirilmesi",
+          "item2": "Güvenli veri ve kullanıcı yönetimi",
+          "item3": "Yönetim raporlaması",
+          "item4": "Backend güvenlik uygulamaları"
+        }
+      },
+      "planb-srl": {
+        "title": "PlanB SRL Shop",
+        "client": "PlanB SRL",
+        "category": "E-TİCARET",
+        "type": "Profesyonel",
+        "role": "Yazılım Mühendisi",
+        "period": "06/2024 – 11/2024",
+        "status": "TAMAMLANDI",
+        "featured": true,
+        "description": "Bir perakende işletmesi için WordPress ve WooCommerce ile oluşturulmuş, ürünleri sergilemek ve temel online satış işlevlerini sunmak üzere tasarlanmış e-ticaret web sitesi.",
+        "highlights": {
+          "item1": "E-ticaret platformu uygulaması",
+          "item2": "WordPress ve WooCommerce yapılandırması",
+          "item3": "Online mağaza kurulumu",
+          "item4": "Uçtan uca proje teslimi"
+        }
+      },
+      "gamor": {
+        "title": "Gamor",
+        "client": "Avangenio",
+        "category": "FRONTEND / UI",
+        "type": "Teknik Proje",
+        "role": "Geliştirici",
+        "period": "03/2026 – 04/2026",
+        "status": "DEMO",
+        "featured": false,
+        "description": "Teknik bir frontend projesi ve UI uygulaması olarak oluşturulmuş oyun platformu konsepti.",
+        "highlights": {
+          "item1": "Responsive oyun arayüzü",
+          "item2": "Bileşen tabanlı mimari",
+          "item3": "Etkileşimli UI uygulaması"
+        }
+      }
+    }
+  },
+  "certificate-section": {
+    "label": "Yetkinlikler",
+    "title": "Sertifikalar",
+    "action": {
+      "view": "Görüntüle",
+      "verified": "Doğrulandı"
+    },
+    "certificates": {
+      "freecodecamp": {
+        "title": "Geliştiriciler için A2 İngilizce",
+        "issuer": "freeCodeCamp",
+        "featured": "",
+        "category": "DİL",
+        "type": "Sertifika",
+        "description": "Geliştiriciler için iletişim ve teknik kelime bilgisine odaklanan İngilizce sertifikası."
+      },
+      "seminar": {
+        "title": "Gelişmekte Olan Ülkeler için Endüstrilerin Dijital Dönüşümü",
+        "issuer": "Guizhou Academy of Sciences",
+        "featured": "Başarı",
+        "category": "SEMİNER",
+        "type": "Sertifika",
+        "description": "Dijital dönüşüm, gelişmekte olan teknolojiler ve veri güvenliğine odaklanan uluslararası seminer."
+      },
+      "ggj": {
+        "title": "En İyi 2D Tasarım Ödülü",
+        "issuer": "Global Game Jam Cuba",
+        "featured": "",
+        "category": "ÖDÜL",
+        "type": "BAŞARI",
+        "description": "Global Game Jam Cuba sırasında 2D tasarım için alınan ödül."
+      }
+    }
+  },
+  "footer": {
+    "navigation": {
+      "about": "Hakkımda",
+      "experience": "Deneyim",
+      "education": "Eğitim",
+      "skills": "Yetenekler",
+      "projects": "Projeler",
+      "credentials": "Yetkinlikler",
+      "contact": "İletişim"
+    },
+    "tagline": "Yazılım Mühendisi · Ağ · Altyapı · Güvenlik",
+    "builtBy": "Tarafından geliştirildi"
+  }
+}

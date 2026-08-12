@@ -1,0 +1,350 @@
+{
+  "hero-section": {
+    "main-role": "Engenheiro de Computação | Desenvolvedor Full Stack",
+    "portfolio": "Portfólio",
+    "last-name": "Marzo Gomez",
+    "given-name": "Ariel Alejandro",
+    "age": "anos",
+    "intro": "Engenheiro de Computação com mais de 3 anos de experiência em Desenvolvimento Full Stack, DevOps, administração de redes e cibersegurança.",
+    "description": "Especializado em projetar e construir soluções digitais escaláveis, integração de APIs e implantação de sistemas em produção nos setores governamental, financeiro e comercial."
+  },
+  "experience-section": {
+    "title": "Experiência",
+    "intro": "Desenvolvimento de software, gerenciamento de infraestrutura e resolução de problemas técnicos nas áreas de desenvolvimento, redes e segurança.",
+    "responsibilities": "Responsabilidades",
+    "career-progression": "Progressão de Carreira",
+    "experiences": {
+      "osde-gelect": {
+        "category": "REDE / SEGURANÇA / INFRAESTRUTURA",
+        "type": "Experiência Profissional",
+        "role": "Administrador de Redes",
+        "period": "2021 – Presente",
+        "status": "ATUAL",
+        "description": "Gerenciamento de redes corporativas, infraestrutura de servidores e operações de segurança em ambientes de produção.",
+        "highlights": {
+          "network": "Administração de infraestrutura de redes e servidores",
+          "security": "Implementação e aplicação de políticas de segurança",
+          "firewall": "Configuração de firewall e gerenciamento de tráfego",
+          "monitoring": "Monitoramento e otimização de serviços críticos",
+          "incidents": "Resolução de incidentes técnicos"
+        },
+        "progression": {
+          "itTechnician": {
+            "role": "Técnico de TI",
+            "period": "2021 – 2022"
+          },
+          "securitySpecialist": {
+            "role": "Especialista em Segurança",
+            "period": "2022 – 2024"
+          },
+          "networkAdministrator": {
+            "role": "Administrador de Redes",
+            "period": "2024 – Presente"
+          }
+        }
+      },
+      "freelance": {
+        "category": "FULL-STACK / DEVOPS / SEGURANÇA",
+        "type": "Experiência Profissional",
+        "role": "Engenheiro de Software",
+        "period": "2022 – Presente",
+        "status": "ATUAL",
+        "description": "Construção de aplicações full-stack e sistemas de produção, atuando em desenvolvimento de software, infraestrutura e segurança.",
+        "highlights": {
+          "fullstack": "Desenvolvimento de aplicações full-stack",
+          "backend": "Arquitetura de backend e APIs REST",
+          "database": "Projeto e integração de bancos de dados",
+          "deployment": "Implantação em produção e infraestrutura",
+          "security": "Implementação de segurança e autenticação",
+          "integrations": "Integração de APIs de terceiros e pagamentos"
+        },
+        "projects": {
+          "andinet": {
+            "title": "Andinet Marketplace",
+            "period": "06/2023 – Presente"
+          },
+          "abkOpe": {
+            "title": "ABK Opé",
+            "period": "02/2024 – 05/2024"
+          },
+          "planBSrl": {
+            "title": "PlanB SRL",
+            "period": "06/2024 – 11/2024"
+          }
+        }
+      }
+    }
+  },
+  "education-section": {
+    "label": "Educação",
+    "record": "HISTÓRICO ACADÊMICO",
+    "degree": "Graduação",
+    "thesis": "TCC",
+    "bachelorThesis": "Trabalho de Conclusão de Curso",
+    "education": {
+      "cujae": {
+        "institution": "Universidade Tecnológica José Antonio Echeverría de Havana",
+        "shortName": "CUJAE",
+        "degree": "Engenharia da Computação",
+        "period": "2016 – 2021",
+        "location": "Havana, Cuba",
+        "thesis": {
+          "title": "Estabilização e correção de distorções atmosféricas usando Lucky Imaging.",
+          "category": "Trabalho de Conclusão de Curso"
+        }
+      }
+    }
+  },
+  "skills-section": {
+    "label": "HABILIDADES",
+    "yearsExperience": "anos de experiência",
+    "items": {
+      "javascript": {
+        "type": "Linguagem de Programação",
+        "description": "Principal linguagem para desenvolvimento frontend e backend."
+      },
+      "typescript": {
+        "type": "Linguagem de Programação",
+        "description": "JavaScript tipado para aplicações escaláveis."
+      },
+      "python": {
+        "type": "Linguagem de Programação",
+        "description": "Usado para APIs, automação e serviços backend."
+      },
+      "java": {
+        "type": "Linguagem de Programação",
+        "description": "Usado para desenvolvimento de aplicações e backend."
+      },
+      "cpp": {
+        "type": "Linguagem de Programação",
+        "description": "Usado para programação de baixo nível e sistemas."
+      },
+      "csharp": {
+        "type": "Linguagem de Programação",
+        "description": "Usado para desenvolvimento de aplicações e backend."
+      },
+      "sql": {
+        "type": "Banco de Dados",
+        "description": "Consultas a bancos de dados e gerenciamento de dados relacionais."
+      },
+      "html5": {
+        "type": "Frontend",
+        "description": "Estrutura semântica para aplicações web modernas."
+      },
+      "css3": {
+        "type": "Frontend",
+        "description": "Layouts responsivos e estilização web moderna."
+      },
+      "react": {
+        "type": "Frontend",
+        "description": "Principal framework para construção de interfaces interativas."
+      },
+      "redux": {
+        "type": "Frontend",
+        "description": "Gerenciamento de estado para aplicações React."
+      },
+      "tailwind": {
+        "type": "Frontend",
+        "description": "CSS utility-first para interfaces responsivas."
+      },
+      "bootstrap": {
+        "type": "Frontend",
+        "description": "Desenvolvimento de UI responsiva com componentes reutilizáveis."
+      },
+      "nextjs": {
+        "type": "Frontend",
+        "description": "Framework React para aplicações web full-stack."
+      },
+      "nodejs": {
+        "type": "Backend",
+        "description": "Runtime backend para aplicações web escaláveis."
+      },
+      "express": {
+        "type": "Backend",
+        "description": "Framework web para APIs e serviços Node.js."
+      },
+      "fastapi": {
+        "type": "Backend",
+        "description": "Framework Python de alto desempenho para APIs."
+      },
+      "rest": {
+        "type": "Backend",
+        "description": "Projeto e desenvolvimento de serviços RESTful."
+      },
+      "postgresql": {
+        "type": "Banco de Dados",
+        "description": "Principal banco de dados relacional para sistemas backend."
+      },
+      "mysql": {
+        "type": "Banco de Dados",
+        "description": "Banco de dados relacional para dados de aplicações."
+      },
+      "sqlite": {
+        "type": "Banco de Dados",
+        "description": "Banco de dados leve para aplicações locais."
+      },
+      "mongodb": {
+        "type": "Banco de Dados",
+        "description": "Banco de dados NoSQL para modelos de dados flexíveis."
+      },
+      "nginx": {
+        "type": "Infraestrutura",
+        "description": "Servidor web, proxy reverso e roteamento de produção."
+      },
+      "apache": {
+        "type": "Infraestrutura",
+        "description": "Configuração e implantação de servidores web."
+      },
+      "redis": {
+        "type": "Sistemas Distribuídos",
+        "description": "Cache e armazenamento de dados em memória de alta velocidade."
+      },
+      "rabbitmq": {
+        "type": "Sistemas Distribuídos",
+        "description": "Message broker para aplicações distribuídas."
+      },
+      "bullmq": {
+        "type": "Sistemas Distribuídos",
+        "description": "Processamento de tarefas em segundo plano com Redis."
+      },
+      "git": {
+        "type": "Ferramentas de Desenvolvimento",
+        "description": "Controle de versão e desenvolvimento colaborativo."
+      },
+      "bash": {
+        "type": "Ferramentas de Desenvolvimento",
+        "description": "Scripting de shell e automação de sistemas."
+      }
+    }
+  },
+  "contact-section": {
+    "title": "Contato",
+    "connect": "Vamos nos conectar"
+  },
+  "projects-section": {
+    "label": "Projetos",
+    "description": "Experiência na entrega de projetos de transformação digital de ponta a ponta — desde o design da arquitetura até a infraestrutura — aplicando princípios de Clean Code, arquitetura modular e boas práticas de segurança.",
+    "focus": "Focado em design de sistemas escaláveis, arquiteturas backend orientadas a serviços e sistemas distribuídos, com forte interesse no papel da tecnologia como impulsionadora da modernização institucional e econômica.",
+    "action": {
+      "github": "[ GITHUB ]",
+      "explore": "Explorar",
+      "to": "para:"
+    },
+    "projects": {
+      "andinet": {
+        "title": "Andinet Marketplace",
+        "client": "H&B Consulting (Luxembourg)",
+        "category": "FULL-STACK / DEVOPS",
+        "type": "Profissional",
+        "role": "Engenheiro de Software",
+        "period": "06/2023 – Presente",
+        "status": "ATIVO",
+        "featured": true,
+        "description": "Plataforma marketplace full-stack desenvolvida para comércio digital, pagamentos e operações de produção escaláveis.",
+        "highlights": {
+          "item1": "Desenvolvimento de marketplace full-stack",
+          "item2": "Arquitetura de banco de dados escalável",
+          "item3": "Integrações de pagamentos e autenticação",
+          "item4": "Implantação e manutenção em produção"
+        }
+      },
+      "abk-ope": {
+        "title": "ABK Opé | Easy Compta",
+        "client": "Embaixada do Níger em Cuba",
+        "category": "BACKEND / SEGURANÇA",
+        "type": "Profissional",
+        "role": "Engenheiro de Software",
+        "period": "02/2024 – 05/2024",
+        "status": "CONCLUÍDO",
+        "featured": true,
+        "description": "Sistema de gestão financeira projetado para modernizar fluxos de trabalho contábeis e proteger dados institucionais.",
+        "highlights": {
+          "item1": "Digitalização de fluxos financeiros",
+          "item2": "Gestão segura de dados e usuários",
+          "item3": "Relatórios administrativos",
+          "item4": "Práticas de segurança backend"
+        }
+      },
+      "planb-srl": {
+        "title": "PlanB SRL Shop",
+        "client": "PlanB SRL",
+        "category": "E-COMMERCE",
+        "type": "Profissional",
+        "role": "Engenheiro de Software",
+        "period": "06/2024 – 11/2024",
+        "status": "CONCLUÍDO",
+        "featured": true,
+        "description": "Site de e-commerce desenvolvido com WordPress e WooCommerce para uma empresa de varejo, projetado para apresentar produtos e permitir funcionalidades básicas de vendas online.",
+        "highlights": {
+          "item1": "Implementação de plataforma de e-commerce",
+          "item2": "Configuração do WordPress e WooCommerce",
+          "item3": "Configuração da loja online",
+          "item4": "Entrega completa do projeto"
+        }
+      },
+      "gamor": {
+        "title": "Gamor",
+        "client": "Avangenio",
+        "category": "FRONTEND / UI",
+        "type": "Projeto Técnico",
+        "role": "Desenvolvedor",
+        "period": "03/2026 – 04/2026",
+        "status": "DEMO",
+        "featured": false,
+        "description": "Conceito de plataforma de jogos criado como projeto técnico de frontend e implementação de UI.",
+        "highlights": {
+          "item1": "Interface de jogos responsiva",
+          "item2": "Arquitetura baseada em componentes",
+          "item3": "Implementação de UI interativa"
+        }
+      }
+    }
+  },
+  "certificate-section": {
+    "label": "Credenciais",
+    "title": "Certificados",
+    "action": {
+      "view": "Ver",
+      "verified": "Verificado"
+    },
+    "certificates": {
+      "freecodecamp": {
+        "title": "Inglês A2 para Desenvolvedores",
+        "issuer": "freeCodeCamp",
+        "featured": "",
+        "category": "IDIOMA",
+        "type": "Certificado",
+        "description": "Certificação de inglês focada em comunicação e vocabulário técnico para desenvolvedores."
+      },
+      "seminar": {
+        "title": "Transformação Digital das Indústrias para Países em Desenvolvimento",
+        "issuer": "Guizhou Academy of Sciences",
+        "featured": "Mérito",
+        "category": "SEMINÁRIO",
+        "type": "Certificado",
+        "description": "Seminário internacional focado em transformação digital, tecnologias emergentes e segurança de dados."
+      },
+      "ggj": {
+        "title": "Prêmio de Melhor Design 2D",
+        "issuer": "Global Game Jam Cuba",
+        "featured": "",
+        "category": "PRÊMIO",
+        "type": "CONQUISTA",
+        "description": "Prêmio recebido por design 2D durante a Global Game Jam Cuba."
+      }
+    }
+  },
+  "footer": {
+    "navigation": {
+      "about": "Sobre Mim",
+      "experience": "Experiência",
+      "education": "Educação",
+      "skills": "Habilidades",
+      "projects": "Projetos",
+      "credentials": "Credenciais",
+      "contact": "Contato"
+    },
+    "tagline": "Engenheiro de Software · Redes · Infraestrutura · Segurança",
+    "builtBy": "Desenvolvido por"
+  }
+}

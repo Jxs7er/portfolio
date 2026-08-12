@@ -221,6 +221,119 @@
     "title": "联系方式",
     "connect": "联系我"
   },
+  "projects-section": {
+    "label": "项目",
+    "description": "拥有交付端到端数字化转型项目的经验——从架构设计到基础设施——遵循整洁代码原则、模块化架构和安全最佳实践。",
+    "focus": "专注于可扩展的系统设计、面向服务的后端架构和分布式系统，并高度关注技术在推动机构和经济现代化中的作用。",
+    "action": {
+      "github": "[ GITHUB ]",
+      "explore": "探索",
+      "to": "致："
+    },
+    "projects": {
+      "andinet": {
+        "title": "Andinet Marketplace",
+        "client": "H&B Consulting (Luxembourg)",
+        "category": "全栈 / DevOps",
+        "type": "专业项目",
+        "role": "软件工程师",
+        "period": "06/2023 – 至今",
+        "status": "上线",
+        "featured": true,
+        "description": "为数字商务、支付和可扩展生产运营构建的全栈市场平台。",
+        "highlights": {
+          "item1": "全栈市场平台开发",
+          "item2": "可扩展的数据库架构",
+          "item3": "支付和身份认证集成",
+          "item4": "生产环境部署和维护"
+        }
+      },
+      "abk-ope": {
+        "title": "ABK Opé | Easy Compta",
+        "client": "古巴尼日尔大使馆",
+        "category": "后端 / 安全",
+        "type": "专业项目",
+        "role": "软件工程师",
+        "period": "02/2024 – 05/2024",
+        "status": "已完成",
+        "featured": true,
+        "description": "为现代化会计工作流程并保障机构数据安全而设计的财务管理系统。",
+        "highlights": {
+          "item1": "财务工作流程数字化",
+          "item2": "安全的数据和用户管理",
+          "item3": "行政报表",
+          "item4": "后端安全实践"
+        }
+      },
+      "planb-srl": {
+        "title": "PlanB SRL Shop",
+        "client": "PlanB SRL",
+        "category": "电子商务",
+        "type": "专业项目",
+        "role": "软件工程师",
+        "period": "06/2024 – 11/2024",
+        "status": "已完成",
+        "featured": true,
+        "description": "使用 WordPress 和 WooCommerce 为零售企业构建的电子商务网站，用于展示产品并实现基本的在线销售功能。",
+        "highlights": {
+          "item1": "电子商务平台实施",
+          "item2": "WordPress 和 WooCommerce 配置",
+          "item3": "在线商店搭建",
+          "item4": "端到端项目交付"
+        }
+      },
+      "gamor": {
+        "title": "Gamor",
+        "client": "Avangenio",
+        "category": "前端 / UI",
+        "type": "技术项目",
+        "role": "开发人员",
+        "period": "03/2026 – 04/2026",
+        "status": "演示",
+        "featured": false,
+        "description": "作为技术前端项目和 UI 实现而创建的游戏平台概念。",
+        "highlights": {
+          "item1": "响应式游戏界面",
+          "item2": "基于组件的架构",
+          "item3": "交互式 UI 实现"
+        }
+      }
+    }
+  },
+  "certificate-section": {
+    "label": "资历",
+    "title": "证书",
+    "action": {
+      "view": "查看",
+      "verified": "已验证"
+    },
+    "certificates": {
+      "freecodecamp": {
+        "title": "面向开发者的 A2 英语",
+        "issuer": "freeCodeCamp",
+        "featured": "",
+        "category": "语言",
+        "type": "证书",
+        "description": "专注于开发者沟通能力和技术词汇的英语认证。"
+      },
+      "seminar": {
+        "title": "发展中国家产业数字化转型",
+        "issuer": "贵州科学院",
+        "featured": "优秀",
+        "category": "研讨会",
+        "type": "证书",
+        "description": "聚焦数字化转型、新兴技术和数据安全的国际研讨会。"
+      },
+      "ggj": {
+        "title": "最佳 2D 设计奖",
+        "issuer": "Global Game Jam Cuba",
+        "featured": "",
+        "category": "奖项",
+        "type": "成就",
+        "description": "在 Global Game Jam Cuba 中因 2D 设计获得的奖项。"
+      }
+    }
+  },
   "footer": {
     "navigation": {
       "about": "关于我",

@@ -24,7 +24,7 @@ const SplashScreen = () => {
         >
           <div>
             <img
-              src="/assets/logo.jpg"
+              src="/assets/logo.webp"
               alt="Jxs7er Dev"
               className="
                 w-64 h-64 object-contain

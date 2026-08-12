@@ -1,43 +1,9 @@
 import { useLanguage } from "@/context/language/LanguageContext";
+import { COUNTRIES } from "@/mocks";
 import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/outline";
 import { useEffect, useRef, useState } from "react";
-import { useTranslation } from "react-i18next";
 
-const LanguageSwitcher = () => {
-  const allowedCountries = [
-    {
-      value: "en",
-      locale: "en-US",
-      label: "English",
-      emoji: "https://flagcdn.com/us.svg",
-    },
-    {
-      value: "es",
-      locale: "es-ES",
-      label: "Español",
-      emoji: "https://flagcdn.com/es.svg",
-    },
-    {
-      value: "fr",
-      locale: "fr-FR",
-      label: "Français",
-      emoji: "https://flagcdn.com/fr.svg",
-    },
-    {
-      value: "am",
-      locale: "am-AR",
-      label: "Հայերեն",
-      emoji: "https://flagcdn.com/am.svg",
-    },
-    {
-      value: "zh",
-      locale: "zh-CN",
-      label: "中文",
-      emoji: "https://flagcdn.com/cn.svg",
-    },
-  ];
-
-  const { t } = useTranslation();
+const LanguageSwitcher = ({ allowedCountries = COUNTRIES }) => {
   const { language, handleChangeLanguage } = useLanguage();
 
   const [isOpen, setIsOpen] = useState(false);

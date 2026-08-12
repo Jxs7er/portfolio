@@ -78,7 +78,7 @@ const Footer = () => {
       <div className={styles.container}>
         <div className="flex justify-center items-center mb-2">
           <img
-            src="/assets/logo.jpg"
+            src="/assets/logo.webp"
             alt="Jxs7er Dev"
             className="w-16 h-16 object-contain rounded-full grayscale 
           opacity-35"

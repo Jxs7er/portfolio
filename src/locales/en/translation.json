@@ -221,6 +221,119 @@
     "title": "Contact",
     "connect": "Let's connect"
   },
+  "projects-section": {
+    "label": "Projects",
+    "description": "Experienced in delivering end-to-end digital transformation projects — from architecture design to infrastructure — applying Clean Code principles, modular architecture, and security best practices.",
+    "focus": "Focused on scalable system design, service-oriented backend architectures, and distributed systems, with a strong interest in the role of technology as a driver of institutional and economic modernization.",
+    "action": {
+      "github": "[ GITHUB ]",
+      "explore": "Explore",
+      "to": "to:"
+    },
+    "projects": {
+      "andinet": {
+        "title": "Andinet Marketplace",
+        "client": "H&B Consulting (Luxembourg)",
+        "category": "FULL-STACK / DEVOPS",
+        "type": "Professional",
+        "role": "Software Engineer",
+        "period": "06/2023 – Present",
+        "status": "LIVE",
+        "featured": true,
+        "description": "Full-stack marketplace platform built for digital commerce, payments, and scalable production operations.",
+        "highlights": {
+          "item1": "Full-stack marketplace development",
+          "item2": "Scalable database architecture",
+          "item3": "Payment and authentication integrations",
+          "item4": "Production deployment and maintenance"
+        }
+      },
+      "abk-ope": {
+        "title": "ABK Opé | Easy Compta",
+        "client": "Embassy of Niger in Cuba",
+        "category": "BACKEND / SECURITY",
+        "type": "Professional",
+        "role": "Software Engineer",
+        "period": "02/2024 – 05/2024",
+        "status": "COMPLETED",
+        "featured": true,
+        "description": "Financial management system designed to modernize accounting workflows and secure institutional data.",
+        "highlights": {
+          "item1": "Digitalization of financial workflows",
+          "item2": "Secure data and user management",
+          "item3": "Administrative reporting",
+          "item4": "Backend security practices"
+        }
+      },
+      "planb-srl": {
+        "title": "PlanB SRL Shop",
+        "client": "PlanB SRL",
+        "category": "E-COMMERCE",
+        "type": "Professional",
+        "role": "Software Engineer",
+        "period": "06/2024 – 11/2024",
+        "status": "COMPLETED",
+        "featured": true,
+        "description": "An e-commerce website built with WordPress and WooCommerce for a retail business, designed to showcase products and enable basic online sales functionality.",
+        "highlights": {
+          "item1": "E-commerce platform implementation",
+          "item2": "WordPress and WooCommerce configuration",
+          "item3": "Online store setup",
+          "item4": "End-to-end project delivery"
+        }
+      },
+      "gamor": {
+        "title": "Gamor",
+        "client": "Avangenio",
+        "category": "FRONTEND / UI",
+        "type": "Technical Project",
+        "role": "Developer",
+        "period": "03/2026 – 04/2026",
+        "status": "DEMO",
+        "featured": false,
+        "description": "Gaming platform concept created as a technical frontend project and UI implementation.",
+        "highlights": {
+          "item1": "Responsive gaming interface",
+          "item2": "Component-based architecture",
+          "item3": "Interactive UI implementation"
+        }
+      }
+    }
+  },
+  "certificate-section": {
+    "label": "Credentials",
+    "title": "Certificates",
+    "action": {
+      "view": "View",
+      "verified": "Verified"
+    },
+    "certificates": {
+      "freecodecamp": {
+        "title": "A2 English for Developers",
+        "issuer": "freeCodeCamp",
+        "featured": "",
+        "category": "LANGUAGE",
+        "type": "Certificate",
+        "description": "English certification focused on communication and technical vocabulary for developers."
+      },
+      "seminar": {
+        "title": "Digital Transformation of Industries for Developing Countries",
+        "issuer": "Guizhou Academy of Sciences",
+        "featured": "Merit",
+        "category": "SEMINAR",
+        "type": "Certificate",
+        "description": "International seminar focused on digital transformation, emerging technologies, and data security."
+      },
+      "ggj": {
+        "title": "Best 2D Design Award",
+        "issuer": "Global Game Jam Cuba",
+        "featured": "",
+        "category": "AWARD",
+        "type": "ACHIEVEMENT",
+        "description": "Award received for 2D design during Global Game Jam Cuba."
+      }
+    }
+  },
   "footer": {
     "navigation": {
       "about": "About Me",

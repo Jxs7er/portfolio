@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import StarsRating from "./StarsRating";
 
-import { SKILLS } from "@/mocks/skills";
+import { SKILLS } from "@/mocks";
 import { useTranslation } from "react-i18next";
 
 const SLOT_STEP = 54; // separacion vertical (px) entre cada peldano del abanico

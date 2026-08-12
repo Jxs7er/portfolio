@@ -1,0 +1,350 @@
+{
+  "hero-section": {
+    "main-role": "مهندس حاسوب | مطور Full Stack",
+    "portfolio": "معرض الأعمال",
+    "last-name": "Marzo Gomez",
+    "given-name": "Ariel Alejandro",
+    "age": "عامًا",
+    "intro": "مهندس حاسوب يتمتع بأكثر من 3 سنوات من الخبرة في تطوير Full Stack وDevOps وإدارة الشبكات والأمن السيبراني.",
+    "description": "متخصص في تصميم وبناء حلول رقمية قابلة للتوسع، وتكامل واجهات API، ونشر أنظمة الإنتاج في القطاعات الحكومية والمالية والتجارية."
+  },
+  "experience-section": {
+    "title": "الخبرة",
+    "intro": "تطوير البرمجيات وإدارة البنية التحتية وحل المشكلات التقنية في مجالات التطوير والشبكات والأمن.",
+    "responsibilities": "المسؤوليات",
+    "career-progression": "التطور المهني",
+    "experiences": {
+      "osde-gelect": {
+        "category": "الشبكات / الأمن / البنية التحتية",
+        "type": "الخبرة المهنية",
+        "role": "مسؤول شبكات",
+        "period": "2021 – حتى الآن",
+        "status": "حالي",
+        "description": "إدارة شبكات المؤسسات والبنية التحتية للخوادم وعمليات الأمن عبر بيئات الإنتاج.",
+        "highlights": {
+          "network": "إدارة البنية التحتية للشبكات والخوادم",
+          "security": "تنفيذ وتطبيق سياسات الأمن",
+          "firewall": "تهيئة جدار الحماية وإدارة حركة المرور",
+          "monitoring": "مراقبة وتحسين الخدمات الحيوية",
+          "incidents": "حل الحوادث التقنية"
+        },
+        "progression": {
+          "itTechnician": {
+            "role": "فني تكنولوجيا المعلومات",
+            "period": "2021 – 2022"
+          },
+          "securitySpecialist": {
+            "role": "أخصائي أمن",
+            "period": "2022 – 2024"
+          },
+          "networkAdministrator": {
+            "role": "مسؤول شبكات",
+            "period": "2024 – حتى الآن"
+          }
+        }
+      },
+      "freelance": {
+        "category": "FULL-STACK / DEVOPS / الأمن",
+        "type": "الخبرة المهنية",
+        "role": "مهندس برمجيات",
+        "period": "2022 – حتى الآن",
+        "status": "حالي",
+        "description": "بناء تطبيقات Full Stack وأنظمة إنتاج مع العمل في تطوير البرمجيات والبنية التحتية والأمن.",
+        "highlights": {
+          "fullstack": "تطوير تطبيقات Full Stack",
+          "backend": "هندسة Backend وREST API",
+          "database": "تصميم قواعد البيانات وتكاملها",
+          "deployment": "النشر في بيئة الإنتاج والبنية التحتية",
+          "security": "تنفيذ الأمن والمصادقة",
+          "integrations": "تكامل واجهات API وأنظمة الدفع التابعة لجهات خارجية"
+        },
+        "projects": {
+          "andinet": {
+            "title": "Andinet Marketplace",
+            "period": "06/2023 – حتى الآن"
+          },
+          "abkOpe": {
+            "title": "ABK Opé",
+            "period": "02/2024 – 05/2024"
+          },
+          "planBSrl": {
+            "title": "PlanB SRL",
+            "period": "06/2024 – 11/2024"
+          }
+        }
+      }
+    }
+  },
+  "education-section": {
+    "label": "التعليم",
+    "record": "السجل الأكاديمي",
+    "degree": "الدرجة العلمية",
+    "thesis": "الأطروحة",
+    "bachelorThesis": "أطروحة البكالوريوس",
+    "education": {
+      "cujae": {
+        "institution": "جامعة خوسيه أنطونيو إتشيفيريا التكنولوجية في هافانا",
+        "shortName": "CUJAE",
+        "degree": "هندسة الحاسوب",
+        "period": "2016 – 2021",
+        "location": "هافانا، كوبا",
+        "thesis": {
+          "title": "تثبيت وتصحيح التشوهات الجوية باستخدام Lucky Imaging.",
+          "category": "أطروحة البكالوريوس"
+        }
+      }
+    }
+  },
+  "skills-section": {
+    "label": "المهارات",
+    "yearsExperience": "سنوات خبرة",
+    "items": {
+      "javascript": {
+        "type": "لغة برمجة",
+        "description": "اللغة الرئيسية لتطوير الواجهات الأمامية والخلفية."
+      },
+      "typescript": {
+        "type": "لغة برمجة",
+        "description": "JavaScript مكتوب الأنواع للتطبيقات القابلة للتوسع."
+      },
+      "python": {
+        "type": "لغة برمجة",
+        "description": "يُستخدم لواجهات API والأتمتة وخدمات Backend."
+      },
+      "java": {
+        "type": "لغة برمجة",
+        "description": "يُستخدم لتطوير التطبيقات وBackend."
+      },
+      "cpp": {
+        "type": "لغة برمجة",
+        "description": "يُستخدم للبرمجة منخفضة المستوى وبرمجة الأنظمة."
+      },
+      "csharp": {
+        "type": "لغة برمجة",
+        "description": "يُستخدم لتطوير التطبيقات وBackend."
+      },
+      "sql": {
+        "type": "قاعدة بيانات",
+        "description": "استعلامات قواعد البيانات وإدارة البيانات العلائقية."
+      },
+      "html5": {
+        "type": "الواجهة الأمامية",
+        "description": "هيكل دلالي لتطبيقات الويب الحديثة."
+      },
+      "css3": {
+        "type": "الواجهة الأمامية",
+        "description": "تخطيطات متجاوبة وتنسيق ويب حديث."
+      },
+      "react": {
+        "type": "الواجهة الأمامية",
+        "description": "الإطار الرئيسي لبناء الواجهات التفاعلية."
+      },
+      "redux": {
+        "type": "الواجهة الأمامية",
+        "description": "إدارة الحالة لتطبيقات React."
+      },
+      "tailwind": {
+        "type": "الواجهة الأمامية",
+        "description": "CSS بنهج utility-first للواجهات المتجاوبة."
+      },
+      "bootstrap": {
+        "type": "الواجهة الأمامية",
+        "description": "تطوير واجهات UI متجاوبة باستخدام مكونات قابلة لإعادة الاستخدام."
+      },
+      "nextjs": {
+        "type": "الواجهة الأمامية",
+        "description": "إطار React لتطبيقات الويب Full Stack."
+      },
+      "nodejs": {
+        "type": "Backend",
+        "description": "بيئة تشغيل Backend لتطبيقات الويب القابلة للتوسع."
+      },
+      "express": {
+        "type": "Backend",
+        "description": "إطار ويب لواجهات وخدمات Node.js."
+      },
+      "fastapi": {
+        "type": "Backend",
+        "description": "إطار Python عالي الأداء لواجهات API."
+      },
+      "rest": {
+        "type": "Backend",
+        "description": "تصميم وتطوير خدمات RESTful."
+      },
+      "postgresql": {
+        "type": "قاعدة بيانات",
+        "description": "قاعدة البيانات العلائقية الأساسية لأنظمة Backend."
+      },
+      "mysql": {
+        "type": "قاعدة بيانات",
+        "description": "قاعدة بيانات علائقية لبيانات التطبيقات."
+      },
+      "sqlite": {
+        "type": "قاعدة بيانات",
+        "description": "قاعدة بيانات خفيفة للتطبيقات المحلية."
+      },
+      "mongodb": {
+        "type": "قاعدة بيانات",
+        "description": "قاعدة بيانات NoSQL لنماذج البيانات المرنة."
+      },
+      "nginx": {
+        "type": "البنية التحتية",
+        "description": "خادم ويب ووكيل عكسي وتوجيه في بيئة الإنتاج."
+      },
+      "apache": {
+        "type": "البنية التحتية",
+        "description": "تهيئة ونشر خوادم الويب."
+      },
+      "redis": {
+        "type": "الأنظمة الموزعة",
+        "description": "التخزين المؤقت وتخزين البيانات عالي السرعة في الذاكرة."
+      },
+      "rabbitmq": {
+        "type": "الأنظمة الموزعة",
+        "description": "وسيط رسائل للتطبيقات الموزعة."
+      },
+      "bullmq": {
+        "type": "الأنظمة الموزعة",
+        "description": "معالجة المهام في الخلفية باستخدام Redis."
+      },
+      "git": {
+        "type": "أدوات التطوير",
+        "description": "التحكم في الإصدارات والتطوير التعاوني."
+      },
+      "bash": {
+        "type": "أدوات التطوير",
+        "description": "برمجة Shell النصية وأتمتة الأنظمة."
+      }
+    }
+  },
+  "contact-section": {
+    "title": "اتصل",
+    "connect": "لنتواصل"
+  },
+  "projects-section": {
+    "label": "المشاريع",
+    "description": "خبرة في تنفيذ مشاريع التحول الرقمي المتكاملة — من تصميم البنية المعمارية إلى البنية التحتية — مع تطبيق مبادئ Clean Code والهندسة المعمارية المعيارية وأفضل ممارسات الأمن.",
+    "focus": "التركيز على تصميم الأنظمة القابلة للتوسع، وهندسة Backend الموجهة للخدمات، والأنظمة الموزعة، مع اهتمام كبير بدور التكنولوجيا كمحرك للتحديث المؤسسي والاقتصادي.",
+    "action": {
+      "github": "[ GITHUB ]",
+      "explore": "استكشف",
+      "to": "إلى:"
+    },
+    "projects": {
+      "andinet": {
+        "title": "Andinet Marketplace",
+        "client": "H&B Consulting (Luxembourg)",
+        "category": "FULL-STACK / DEVOPS",
+        "type": "احترافي",
+        "role": "مهندس برمجيات",
+        "period": "06/2023 – حتى الآن",
+        "status": "مباشر",
+        "featured": true,
+        "description": "منصة Marketplace متكاملة مبنية للتجارة الرقمية والمدفوعات وعمليات الإنتاج القابلة للتوسع.",
+        "highlights": {
+          "item1": "تطوير Marketplace متكامل",
+          "item2": "هندسة قواعد بيانات قابلة للتوسع",
+          "item3": "تكاملات الدفع والمصادقة",
+          "item4": "النشر والصيانة في بيئة الإنتاج"
+        }
+      },
+      "abk-ope": {
+        "title": "ABK Opé | Easy Compta",
+        "client": "سفارة النيجر في كوبا",
+        "category": "BACKEND / الأمن",
+        "type": "احترافي",
+        "role": "مهندس برمجيات",
+        "period": "02/2024 – 05/2024",
+        "status": "مكتمل",
+        "featured": true,
+        "description": "نظام لإدارة الشؤون المالية مصمم لتحديث سير العمل المحاسبي وتأمين البيانات المؤسسية.",
+        "highlights": {
+          "item1": "رقمنة سير العمل المالي",
+          "item2": "إدارة آمنة للبيانات والمستخدمين",
+          "item3": "التقارير الإدارية",
+          "item4": "ممارسات أمان Backend"
+        }
+      },
+      "planb-srl": {
+        "title": "PlanB SRL Shop",
+        "client": "PlanB SRL",
+        "category": "التجارة الإلكترونية",
+        "type": "احترافي",
+        "role": "مهندس برمجيات",
+        "period": "06/2024 – 11/2024",
+        "status": "مكتمل",
+        "featured": true,
+        "description": "موقع تجارة إلكترونية تم بناؤه باستخدام WordPress وWooCommerce لنشاط تجزئة، ومصمم لعرض المنتجات وتمكين وظائف البيع الأساسية عبر الإنترنت.",
+        "highlights": {
+          "item1": "تنفيذ منصة للتجارة الإلكترونية",
+          "item2": "تهيئة WordPress وWooCommerce",
+          "item3": "إعداد المتجر الإلكتروني",
+          "item4": "تسليم المشروع من البداية إلى النهاية"
+        }
+      },
+      "gamor": {
+        "title": "Gamor",
+        "client": "Avangenio",
+        "category": "FRONTEND / UI",
+        "type": "مشروع تقني",
+        "role": "مطور",
+        "period": "03/2026 – 04/2026",
+        "status": "عرض تجريبي",
+        "featured": false,
+        "description": "مفهوم لمنصة ألعاب تم إنشاؤه كمشروع تقني للواجهة الأمامية وتنفيذ واجهة المستخدم.",
+        "highlights": {
+          "item1": "واجهة ألعاب متجاوبة",
+          "item2": "هندسة قائمة على المكونات",
+          "item3": "تنفيذ واجهة مستخدم تفاعلية"
+        }
+      }
+    }
+  },
+  "certificate-section": {
+    "label": "المؤهلات",
+    "title": "الشهادات",
+    "action": {
+      "view": "عرض",
+      "verified": "تم التحقق"
+    },
+    "certificates": {
+      "freecodecamp": {
+        "title": "اللغة الإنجليزية A2 للمطورين",
+        "issuer": "freeCodeCamp",
+        "featured": "",
+        "category": "اللغة",
+        "type": "شهادة",
+        "description": "شهادة في اللغة الإنجليزية تركز على التواصل والمفردات التقنية للمطورين."
+      },
+      "seminar": {
+        "title": "التحول الرقمي للصناعات في البلدان النامية",
+        "issuer": "Guizhou Academy of Sciences",
+        "featured": "استحقاق",
+        "category": "ندوة",
+        "type": "شهادة",
+        "description": "ندوة دولية تركز على التحول الرقمي والتقنيات الناشئة وأمن البيانات."
+      },
+      "ggj": {
+        "title": "جائزة أفضل تصميم ثنائي الأبعاد",
+        "issuer": "Global Game Jam Cuba",
+        "featured": "",
+        "category": "جائزة",
+        "type": "إنجاز",
+        "description": "جائزة حصل عليها لتصميم ثنائي الأبعاد خلال Global Game Jam Cuba."
+      }
+    }
+  },
+  "footer": {
+    "navigation": {
+      "about": "عني",
+      "experience": "الخبرة",
+      "education": "التعليم",
+      "skills": "المهارات",
+      "projects": "المشاريع",
+      "credentials": "المؤهلات",
+      "contact": "اتصل"
+    },
+    "tagline": "مهندس برمجيات · الشبكات · البنية التحتية · الأمن",
+    "builtBy": "تم التطوير بواسطة"
+  }
+}

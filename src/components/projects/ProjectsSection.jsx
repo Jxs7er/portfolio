@@ -1,134 +1,12 @@
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router";
 
-const PROJECTS = [
-  {
-    title: "Andinet Marketplace",
-    client: "H&B Consulting (Luxembourg)",
-    category: "FULL-STACK / DEVOPS",
-    type: "Professional",
-    role: "Software Engineer",
-    period: "06/2023 – Present",
-    status: "LIVE",
-    featured: true,
-
-    description:
-      "Full-stack marketplace platform built for digital commerce, payments, and scalable production operations.",
-
-    images: ["/assets/resources/projects/andinet/andinet.png"],
-
-    stack: [
-      "React",
-      "Node.js",
-      "PostgreSQL",
-      "Docker",
-      "NGINX",
-      "Stripe",
-      "PayPal",
-    ],
-
-    highlights: [
-      "Full-stack marketplace development",
-      "Scalable database architecture",
-      "Payment and authentication integrations",
-      "Production deployment and maintenance",
-    ],
-
-    url: "https://www.hbconsulting-lu.com/",
-    github: null,
-  },
-
-  {
-    title: "ABK Opé | Easy Compta",
-    client: "Embassy of Niger in Cuba",
-    category: "BACKEND / SECURITY",
-    type: "Professional",
-    role: "Software Engineer",
-    period: "02/2024 – 05/2024",
-    status: "COMPLETED",
-    featured: true,
-
-    description:
-      "Financial management system designed to modernize accounting workflows and secure institutional data.",
-
-    images: ["/assets/resources/projects/abk-ope/abk-ope.jpeg"],
-
-    stack: ["React", "Node.js", "PostgreSQL", "Authentication", "REST API"],
-
-    highlights: [
-      "Digitalization of financial workflows",
-      "Secure data and user management",
-      "Administrative reporting",
-      "Backend security practices",
-    ],
-
-    url: null,
-    github: null,
-  },
-
-  {
-    title: "PlanB SRL Shop",
-    client: "PlanB SRL",
-    category: "E-COMMERCE",
-    type: "Professional",
-    role: "Software Engineer",
-    period: "06/2024 – 11/2024",
-    status: "COMPLETED",
-    featured: true,
-
-    description:
-      "An e-commerce website built with WordPress and WooCommerce for a retail business, designed to showcase products and enable basic online sales functionality.",
-
-    images: ["/assets/resources/projects/planbsrl/planbsrl.jpeg"],
-
-    stack: ["WordPress", "WooCommerce", "PHP", "MySQL"],
-
-    highlights: [
-      "E-commerce platform implementation",
-      "WordPress and WooCommerce configuration",
-      "Online store setup",
-      "End-to-end project delivery",
-    ],
-
-    url: "https://planbsrlshop.com",
-    github: null,
-  },
-
-  // // ─────────────────────────────────────────
-  // // TECHNICAL / PERSONAL PROJECTS
-  // // ─────────────────────────────────────────
-
-  {
-    title: "Gamor",
-    client: "Avangenio",
-    category: "FRONTEND / UI",
-    type: "Technical Project",
-    role: "Developer",
-    period: "03/2026 – 04/2026",
-    status: "DEMO",
-    featured: false,
-
-    description:
-      "Gaming platform concept created as a technical frontend project and UI implementation.",
-
-    images: ["/assets/resources/projects/gamor/gamor.png"],
-
-    stack: ["React", "TailwindCSS"],
-
-    highlights: [
-      "Responsive gaming interface",
-      "Component-based architecture",
-      "Interactive UI implementation",
-    ],
-
-    url: "#",
-    video: "/assets/resources/projects/gamor/gamor-video.mp4",
-    github:
-      "https://github.com/Jxs7er/streaming-platform-gamor/tree/refactor/tailwindcss-to-css",
-  },
-];
+import { PROJECTS } from "@/mocks";
 
 const ProjectsSection = ({ projects = PROJECTS }) => {
+  const { t } = useTranslation();
+
   return (
     <>
       <section
@@ -144,7 +22,7 @@ const ProjectsSection = ({ projects = PROJECTS }) => {
             className="text-xs font-bold tracking-[0.3em] uppercase backdrop-blur-3xl 
           text-amber-400 bg-amber-400/10 border border-amber-400/30 px-4 py-1 rounded-full"
           >
-            Projects
+            {t("projects-section.label")}
           </span>
         </div>
 
@@ -157,9 +35,7 @@ const ProjectsSection = ({ projects = PROJECTS }) => {
             className=" text-stone-500 max-w-2xl w-full md:pr-44 
               text-sm md:text-lg font-semibold md:max-w-none mx-auto md:mx-0 text-start"
           >
-            Experienced in delivering end-to-end digital transformation projects
-            — from architecture design to infrastructure — applying Clean Code
-            principles, modular architecture, and security best practices.
+            {t("projects-section.description")}
           </p>
 
           <div className="flex flex-col justify-center items-center my-10 z-0">
@@ -175,10 +51,7 @@ const ProjectsSection = ({ projects = PROJECTS }) => {
             className=" text-stone-400 max-w-2xl w-full md:pl-44
               text-xs md:text-sm font-semibold md:max-w-none mx-auto md:mx-0 text-end"
           >
-            Focused on scalable system design, service-oriented backend
-            architectures, and distributed systems, with a strong interest in
-            the role of technology as a driver of institutional and economic
-            modernization.
+            {t("projects-section.focus")}
           </p>
         </div>
 
@@ -250,7 +123,7 @@ const ProjectsSection = ({ projects = PROJECTS }) => {
                           ) : (
                             <img
                               src={src}
-                              alt={project.title}
+                              alt={t(project.title)}
                               className=" block w-full object-cover transition-transform duration-700 group-hover:scale-105"
                             />
                           )}
@@ -276,17 +149,17 @@ const ProjectsSection = ({ projects = PROJECTS }) => {
                     className={`font-mono text-sm px-2 py-1  border-2 rounded-full
                   absolute -top-10  backdrop-blur-2xl
                   ${
-                    project.status === "COMPLETED"
+                    t(project.status) === "COMPLETED"
                       ? "text-emerald-500 border-green-900/20 bg-green-300/10"
-                      : project.status === "LIVE"
+                      : t(project.status) === "LIVE"
                         ? "text-red-500 border-red-900/20 bg-red-300/10 animate-pulse"
-                        : project.status === "DEMO"
+                        : t(project.status) === "DEMO"
                           ? "text-amber-500 border-amber-900/20 bg-amber-300/10"
                           : "text-stone-500 border-stone-900/20 bg-stone-300/10"
                   }
                   `}
                   >
-                    ● {project.status}
+                    ● {t(project.status)}
                   </span>
 
                   <div className="flex items-start justify-between gap-4">
@@ -296,26 +169,26 @@ const ProjectsSection = ({ projects = PROJECTS }) => {
                         style={{ fontFamily: "'Georgia', serif" }}
                       >
                         <span className="font-bold uppercase">
-                          {project.title}
+                          {t(project.title)}
                         </span>{" "}
                         /
                         <p className="text-sm text-amber-500 align-top ml-1 ">
-                          {project.category}
+                          {t(project.category)}
                         </p>
                       </h1>
                     </div>
                   </div>
 
                   <p className="mt-4 max-w-xl text-sm leading-relaxed text-stone-400">
-                    {project.description}
+                    {t(project.description)}
                   </p>
 
                   <span className="font-mono text-xs text-stone-100/30">
-                    {project.period}
+                    {t(project.period)}
                   </span>
-                  {project.client && (
+                  {t(project.client) && (
                     <p className="text-xs text-amber-500/50 align-bottom ml-1 ">
-                      to: {project.client}
+                      {t("projects-section.action.to")} {t(project.client)}
                     </p>
                   )}
 
@@ -341,7 +214,7 @@ const ProjectsSection = ({ projects = PROJECTS }) => {
                       hover:text-stone-900 hover:font-normal cursor-pointer bg-stone-100 px-2 py-1"
                       >
                         <span className=" flex justify-center items-center gap-x-1">
-                          [ GITHUB ]
+                          {t("projects-section.action.github")}
                         </span>
                       </Link>
                     )}
@@ -352,7 +225,8 @@ const ProjectsSection = ({ projects = PROJECTS }) => {
                       hover:text-stone-900 hover:font-semibold cursor-pointer bg-amber-200 px-2 py-1"
                     >
                       <span className=" flex justify-center items-center gap-x-1">
-                        Explore <ArrowRightIcon className="w-4 h-4" />
+                        {t("projects-section.action.explore")}{" "}
+                        <ArrowRightIcon className="w-4 h-4" />
                       </span>
                     </Link>
                   </div>

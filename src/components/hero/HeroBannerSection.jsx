@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router";
 
-import Profile from "/assets/resources/images/profile.png";
 import { useTranslation } from "react-i18next";
 
 const HeroBannerSection = () => {
@@ -41,7 +39,7 @@ const HeroBannerSection = () => {
       >
         <div className="w-full h-full flex justify-center items-center mt-8">
           <img
-            src={Profile}
+            src={`/assets/resources/images/profile.webp`}
             alt=""
             className="h-64 rounded-full object-contain "
           />

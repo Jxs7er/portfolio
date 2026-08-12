@@ -1,0 +1,350 @@
+{
+  "hero-section": {
+    "main-role": "Insinyur Komputer | Pengembang Full Stack",
+    "portfolio": "Portofolio",
+    "last-name": "Marzo Gomez",
+    "given-name": "Ariel Alejandro",
+    "age": "tahun",
+    "intro": "Insinyur Komputer dengan pengalaman lebih dari 3 tahun dalam Pengembangan Full Stack, DevOps, administrasi jaringan, dan keamanan siber.",
+    "description": "Spesialis dalam merancang dan membangun solusi digital yang skalabel, integrasi API, dan deployment sistem produksi di sektor pemerintahan, keuangan, dan komersial."
+  },
+  "experience-section": {
+    "title": "Pengalaman",
+    "intro": "Mengembangkan perangkat lunak, mengelola infrastruktur, dan menyelesaikan masalah teknis dalam pengembangan, jaringan, dan keamanan.",
+    "responsibilities": "Tanggung Jawab",
+    "career-progression": "Perkembangan Karier",
+    "experiences": {
+      "osde-gelect": {
+        "category": "JARINGAN / KEAMANAN / INFRASTRUKTUR",
+        "type": "Pengalaman Profesional",
+        "role": "Administrator Jaringan",
+        "period": "2021 – Sekarang",
+        "status": "SAAT INI",
+        "description": "Mengelola jaringan perusahaan, infrastruktur server, dan operasi keamanan di lingkungan produksi.",
+        "highlights": {
+          "network": "Administrasi infrastruktur jaringan dan server",
+          "security": "Implementasi dan penerapan kebijakan keamanan",
+          "firewall": "Konfigurasi firewall dan manajemen lalu lintas",
+          "monitoring": "Pemantauan dan optimalisasi layanan penting",
+          "incidents": "Penyelesaian insiden teknis"
+        },
+        "progression": {
+          "itTechnician": {
+            "role": "Teknisi TI",
+            "period": "2021 – 2022"
+          },
+          "securitySpecialist": {
+            "role": "Spesialis Keamanan",
+            "period": "2022 – 2024"
+          },
+          "networkAdministrator": {
+            "role": "Administrator Jaringan",
+            "period": "2024 – Sekarang"
+          }
+        }
+      },
+      "freelance": {
+        "category": "FULL-STACK / DEVOPS / KEAMANAN",
+        "type": "Pengalaman Profesional",
+        "role": "Insinyur Perangkat Lunak",
+        "period": "2022 – Sekarang",
+        "status": "SAAT INI",
+        "description": "Membangun aplikasi full-stack dan sistem produksi dengan bekerja di bidang pengembangan perangkat lunak, infrastruktur, dan keamanan.",
+        "highlights": {
+          "fullstack": "Pengembangan aplikasi full-stack",
+          "backend": "Arsitektur backend dan REST API",
+          "database": "Desain dan integrasi basis data",
+          "deployment": "Deployment produksi dan infrastruktur",
+          "security": "Implementasi keamanan dan autentikasi",
+          "integrations": "Integrasi API pihak ketiga dan pembayaran"
+        },
+        "projects": {
+          "andinet": {
+            "title": "Andinet Marketplace",
+            "period": "06/2023 – Sekarang"
+          },
+          "abkOpe": {
+            "title": "ABK Opé",
+            "period": "02/2024 – 05/2024"
+          },
+          "planBSrl": {
+            "title": "PlanB SRL",
+            "period": "06/2024 – 11/2024"
+          }
+        }
+      }
+    }
+  },
+  "education-section": {
+    "label": "Pendidikan",
+    "record": "RIWAYAT AKADEMIK",
+    "degree": "Gelar",
+    "thesis": "SKRIPSI",
+    "bachelorThesis": "Skripsi Sarjana",
+    "education": {
+      "cujae": {
+        "institution": "Universitas Teknologi José Antonio Echeverría Havana",
+        "shortName": "CUJAE",
+        "degree": "Teknik Komputer",
+        "period": "2016 – 2021",
+        "location": "Havana, Kuba",
+        "thesis": {
+          "title": "Stabilisasi dan koreksi distorsi atmosfer menggunakan Lucky Imaging.",
+          "category": "Skripsi Sarjana"
+        }
+      }
+    }
+  },
+  "skills-section": {
+    "label": "KEAHLIAN",
+    "yearsExperience": "tahun pengalaman",
+    "items": {
+      "javascript": {
+        "type": "Bahasa Pemrograman",
+        "description": "Bahasa utama untuk pengembangan frontend dan backend."
+      },
+      "typescript": {
+        "type": "Bahasa Pemrograman",
+        "description": "JavaScript bertipe untuk aplikasi yang skalabel."
+      },
+      "python": {
+        "type": "Bahasa Pemrograman",
+        "description": "Digunakan untuk API, otomatisasi, dan layanan backend."
+      },
+      "java": {
+        "type": "Bahasa Pemrograman",
+        "description": "Digunakan untuk pengembangan aplikasi dan backend."
+      },
+      "cpp": {
+        "type": "Bahasa Pemrograman",
+        "description": "Digunakan untuk pemrograman tingkat rendah dan sistem."
+      },
+      "csharp": {
+        "type": "Bahasa Pemrograman",
+        "description": "Digunakan untuk pengembangan aplikasi dan backend."
+      },
+      "sql": {
+        "type": "Basis Data",
+        "description": "Query basis data dan pengelolaan data relasional."
+      },
+      "html5": {
+        "type": "Frontend",
+        "description": "Struktur semantik untuk aplikasi web modern."
+      },
+      "css3": {
+        "type": "Frontend",
+        "description": "Layout responsif dan styling web modern."
+      },
+      "react": {
+        "type": "Frontend",
+        "description": "Framework utama untuk membangun antarmuka interaktif."
+      },
+      "redux": {
+        "type": "Frontend",
+        "description": "Manajemen state untuk aplikasi React."
+      },
+      "tailwind": {
+        "type": "Frontend",
+        "description": "CSS utility-first untuk antarmuka responsif."
+      },
+      "bootstrap": {
+        "type": "Frontend",
+        "description": "Pengembangan UI responsif dengan komponen yang dapat digunakan kembali."
+      },
+      "nextjs": {
+        "type": "Frontend",
+        "description": "Framework React untuk aplikasi web full-stack."
+      },
+      "nodejs": {
+        "type": "Backend",
+        "description": "Runtime backend untuk aplikasi web yang skalabel."
+      },
+      "express": {
+        "type": "Backend",
+        "description": "Framework web untuk API dan layanan Node.js."
+      },
+      "fastapi": {
+        "type": "Backend",
+        "description": "Framework Python berperforma tinggi untuk API."
+      },
+      "rest": {
+        "type": "Backend",
+        "description": "Desain dan pengembangan layanan RESTful."
+      },
+      "postgresql": {
+        "type": "Basis Data",
+        "description": "Basis data relasional utama untuk sistem backend."
+      },
+      "mysql": {
+        "type": "Basis Data",
+        "description": "Basis data relasional untuk data aplikasi."
+      },
+      "sqlite": {
+        "type": "Basis Data",
+        "description": "Basis data ringan untuk aplikasi lokal."
+      },
+      "mongodb": {
+        "type": "Basis Data",
+        "description": "Basis data NoSQL untuk model data yang fleksibel."
+      },
+      "nginx": {
+        "type": "Infrastruktur",
+        "description": "Server web, reverse proxy, dan routing produksi."
+      },
+      "apache": {
+        "type": "Infrastruktur",
+        "description": "Konfigurasi dan deployment server web."
+      },
+      "redis": {
+        "type": "Sistem Terdistribusi",
+        "description": "Caching dan penyimpanan data dalam memori berkecepatan tinggi."
+      },
+      "rabbitmq": {
+        "type": "Sistem Terdistribusi",
+        "description": "Message broker untuk aplikasi terdistribusi."
+      },
+      "bullmq": {
+        "type": "Sistem Terdistribusi",
+        "description": "Pemrosesan pekerjaan latar belakang dengan Redis."
+      },
+      "git": {
+        "type": "Alat Pengembangan",
+        "description": "Kontrol versi dan pengembangan kolaboratif."
+      },
+      "bash": {
+        "type": "Alat Pengembangan",
+        "description": "Scripting shell dan otomatisasi sistem."
+      }
+    }
+  },
+  "contact-section": {
+    "title": "Kontak",
+    "connect": "Mari terhubung"
+  },
+  "projects-section": {
+    "label": "Proyek",
+    "description": "Berpengalaman dalam mengerjakan proyek transformasi digital end-to-end — mulai dari desain arsitektur hingga infrastruktur — dengan menerapkan prinsip Clean Code, arsitektur modular, dan praktik terbaik keamanan.",
+    "focus": "Berfokus pada desain sistem yang skalabel, arsitektur backend berorientasi layanan, dan sistem terdistribusi, dengan minat kuat terhadap peran teknologi sebagai penggerak modernisasi institusional dan ekonomi.",
+    "action": {
+      "github": "[ GITHUB ]",
+      "explore": "Jelajahi",
+      "to": "untuk:"
+    },
+    "projects": {
+      "andinet": {
+        "title": "Andinet Marketplace",
+        "client": "H&B Consulting (Luxembourg)",
+        "category": "FULL-STACK / DEVOPS",
+        "type": "Profesional",
+        "role": "Insinyur Perangkat Lunak",
+        "period": "06/2023 – Sekarang",
+        "status": "AKTIF",
+        "featured": true,
+        "description": "Platform marketplace full-stack yang dibangun untuk perdagangan digital, pembayaran, dan operasi produksi yang skalabel.",
+        "highlights": {
+          "item1": "Pengembangan marketplace full-stack",
+          "item2": "Arsitektur basis data yang skalabel",
+          "item3": "Integrasi pembayaran dan autentikasi",
+          "item4": "Deployment dan pemeliharaan produksi"
+        }
+      },
+      "abk-ope": {
+        "title": "ABK Opé | Easy Compta",
+        "client": "Kedutaan Besar Niger di Kuba",
+        "category": "BACKEND / KEAMANAN",
+        "type": "Profesional",
+        "role": "Insinyur Perangkat Lunak",
+        "period": "02/2024 – 05/2024",
+        "status": "SELESAI",
+        "featured": true,
+        "description": "Sistem manajemen keuangan yang dirancang untuk memodernisasi alur kerja akuntansi dan mengamankan data institusional.",
+        "highlights": {
+          "item1": "Digitalisasi alur kerja keuangan",
+          "item2": "Manajemen data dan pengguna yang aman",
+          "item3": "Pelaporan administratif",
+          "item4": "Praktik keamanan backend"
+        }
+      },
+      "planb-srl": {
+        "title": "PlanB SRL Shop",
+        "client": "PlanB SRL",
+        "category": "E-COMMERCE",
+        "type": "Profesional",
+        "role": "Insinyur Perangkat Lunak",
+        "period": "06/2024 – 11/2024",
+        "status": "SELESAI",
+        "featured": true,
+        "description": "Situs web e-commerce yang dibangun dengan WordPress dan WooCommerce untuk bisnis ritel, dirancang untuk menampilkan produk dan menyediakan fungsi dasar penjualan online.",
+        "highlights": {
+          "item1": "Implementasi platform e-commerce",
+          "item2": "Konfigurasi WordPress dan WooCommerce",
+          "item3": "Penyiapan toko online",
+          "item4": "Penyelesaian proyek end-to-end"
+        }
+      },
+      "gamor": {
+        "title": "Gamor",
+        "client": "Avangenio",
+        "category": "FRONTEND / UI",
+        "type": "Proyek Teknis",
+        "role": "Pengembang",
+        "period": "03/2026 – 04/2026",
+        "status": "DEMO",
+        "featured": false,
+        "description": "Konsep platform gaming yang dibuat sebagai proyek frontend teknis dan implementasi UI.",
+        "highlights": {
+          "item1": "Antarmuka gaming responsif",
+          "item2": "Arsitektur berbasis komponen",
+          "item3": "Implementasi UI interaktif"
+        }
+      }
+    }
+  },
+  "certificate-section": {
+    "label": "Kredensial",
+    "title": "Sertifikat",
+    "action": {
+      "view": "Lihat",
+      "verified": "Terverifikasi"
+    },
+    "certificates": {
+      "freecodecamp": {
+        "title": "Bahasa Inggris A2 untuk Pengembang",
+        "issuer": "freeCodeCamp",
+        "featured": "",
+        "category": "BAHASA",
+        "type": "Sertifikat",
+        "description": "Sertifikasi bahasa Inggris yang berfokus pada komunikasi dan kosakata teknis untuk pengembang."
+      },
+      "seminar": {
+        "title": "Transformasi Digital Industri untuk Negara Berkembang",
+        "issuer": "Guizhou Academy of Sciences",
+        "featured": "Prestasi",
+        "category": "SEMINAR",
+        "type": "Sertifikat",
+        "description": "Seminar internasional yang berfokus pada transformasi digital, teknologi baru, dan keamanan data."
+      },
+      "ggj": {
+        "title": "Penghargaan Desain 2D Terbaik",
+        "issuer": "Global Game Jam Cuba",
+        "featured": "",
+        "category": "PENGHARGAAN",
+        "type": "PRESTASI",
+        "description": "Penghargaan yang diterima untuk desain 2D selama Global Game Jam Cuba."
+      }
+    }
+  },
+  "footer": {
+    "navigation": {
+      "about": "Tentang Saya",
+      "experience": "Pengalaman",
+      "education": "Pendidikan",
+      "skills": "Keahlian",
+      "projects": "Proyek",
+      "credentials": "Kredensial",
+      "contact": "Kontak"
+    },
+    "tagline": "Insinyur Perangkat Lunak · Jaringan · Infrastruktur · Keamanan",
+    "builtBy": "Dibuat oleh"
+  }
+}

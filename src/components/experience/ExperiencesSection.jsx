@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-import { EXPERIENCES } from "@/mocks/experiences";
+import { EXPERIENCES } from "@/mocks";
 
 const ExperiencesSection = ({ experiences = EXPERIENCES }) => {
   const { t } = useTranslation();

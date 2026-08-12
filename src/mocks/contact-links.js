@@ -1,7 +1,7 @@
-import Mail from "/assets/resources/ico/icons8-envelope-50.png";
-import LinkedIn from "/assets/resources/ico/icons8-linkedin-48.png";
-import Github from "/assets/resources/ico/icons8-github-logo-48.png";
-import Globe from "/assets/resources/ico/icons8-globe-50.png";
+import Mail from "/assets/resources/ico/icons8-envelope-50.webp";
+import LinkedIn from "/assets/resources/ico/icons8-linkedin-48.webp";
+import Github from "/assets/resources/ico/icons8-github-logo-48.webp";
+import Globe from "/assets/resources/ico/icons8-globe-50.webp";
 
 export const CONTACT_LINKS = [
   {

@@ -1,0 +1,16 @@
+export { default as am } from "./am/translation.json";
+export { default as de } from "./de/translation.json";
+export { default as en } from "./en/translation.json";
+export { default as es } from "./es/translation.json";
+export { default as fr } from "./fr/translation.json";
+export { default as id } from "./id/translation.json";
+export { default as in } from "./in/translation.json";
+export { default as it } from "./it/translation.json";
+export { default as jp } from "./jp/translation.json";
+export { default as kr } from "./kr/translation.json";
+export { default as pt } from "./pt/translation.json";
+export { default as ru } from "./ru/translation.json";
+export { default as sa } from "./sa/translation.json";
+export { default as th } from "./th/translation.json";
+export { default as tr } from "./tr/translation.json";
+export { default as zh } from "./zh/translation.json";
