@@ -11,7 +11,7 @@ const LoadingProvider = ({ children }) => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 5000);
 
     // const fetchHealthy = async () => {
     //   try {

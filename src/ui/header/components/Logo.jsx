@@ -5,17 +5,18 @@ const Logo = () => {
   return (
     <div className="self-center relative">
       <div className="flex justify-start items-center gap-x-6">
-        <div className="">
+        {/* <div className="">
           <img src={Profile} alt="" 
           className="w-12 h-12 rounded-full object-container" />
-        </div>
+        </div> */}
+        <span className="font-semibold text-2xl text-gray-900/70 leading-1">
+          Jxs7er
+        </span>
         <Link to={`/`}>
           <span
             className="font-semibold text-gray-800/80
             text-2xl tracking-wide"
-          >
-            Ariel
-          </span>
+          ></span>
         </Link>
         {/* <hr className="border-2 mt-0.5 border-gray-100/80"/> */}
       </div>

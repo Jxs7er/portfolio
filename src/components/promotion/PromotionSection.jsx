@@ -1,4 +1,3 @@
-import { SignInButton, SignUpButton } from "../common/buttons";
 import styles from "./Promotion.module.css";
 
 const PromotionSection = () => {
@@ -15,12 +14,6 @@ const PromotionSection = () => {
             Gamor now has a real-time stream party platform for gamers who want
             to play, watch and connect instantly.
           </p>
-        </div>
-
-        <div className={styles.cta_group}>
-          <SignInButton />
-
-          <SignUpButton />
         </div>
       </div>
     </div>

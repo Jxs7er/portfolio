@@ -4,16 +4,16 @@ import { initReactI18next } from "react-i18next";
 import en from "./locales/en/translation.json";
 import es from "./locales/es/translation.json";
 import fr from "./locales/fr/translation.json";
-import ch from "./locales/ch/translation.json";
-import ar from "./locales/ar/translation.json";
+import zh from "./locales/zh/translation.json";
+import am from "./locales/am/translation.json";
 
 i18n.use(initReactI18next).init({
   resources: {
     en: { translation: en },
     es: { translation: es },
     fr: { translation: fr },
-    ar: { translation: ar },
-    ch: { translation: ch },
+    am: { translation: am },
+    zh: { translation: zh },
   },
   lng: "en", // idioma inicial
   fallbackLng: "es", // idioma de respaldo

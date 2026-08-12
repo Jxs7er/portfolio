@@ -21,8 +21,8 @@ module.exports = withMT({
         dark: { DEFAULT: "#1E293B", 500: "#0F172A" },
       },
       fontFamily: {
-        sans: ["Poppins", ...fontFamily.sans],        // Fuente principal
-        roboto: ["Roboto", ...fontFamily.sans],       // Opcional
+        sans: ["Poppins", ...fontFamily.sans], // Fuente principal
+        roboto: ["Roboto", ...fontFamily.sans], // Opcional
         barlow: ["Barlow Condensed", ...fontFamily.sans],
         quicksand: ["Quicksand", ...fontFamily.sans],
         bebas: ["Bebas Neue", ...fontFamily.sans],
@@ -32,9 +32,18 @@ module.exports = withMT({
           "0%": { transform: "translateX(0%)" },
           "100%": { transform: "translateX(-50%)" },
         },
+        "cursor-blink": {
+          "0%, 50%": {
+            opacity: "1",
+          },
+          "51%, 100%": {
+            opacity: "0",
+          },
+        },
       },
       animation: {
         marquee: "marquee 6s linear infinite alternate",
+        "cursor-blink": "cursor-blink 1s steps(1, start) infinite",
       },
     },
   },

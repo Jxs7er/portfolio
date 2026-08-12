@@ -1,3 +1,237 @@
 {
-    
+  "hero-section": {
+    "main-role": "Computer Engineer | Full Stack Developer",
+    "portfolio": "Portfolio",
+    "last-name": "Marzo Gomez",
+    "given-name": "Ariel Alejandro",
+    "age": "yo'",
+    "intro": "Computer Engineer with more than 3 years of experience in Full Stack Development, DevOps, network administration, and cybersecurity.",
+    "description": "Specialized in designing and building scalable digital solutions, API integration, and production system deployment across government, financial, and commercial sectors."
+  },
+  "experience-section": {
+    "title": "Experience",
+    "intro": "Building software, managing infrastructure, and solving technical problems across development, networking, and security.",
+    "responsibilities": "Responsibilities",
+    "career-progression": "Career Progression",
+    "experiences": {
+      "osde-gelect": {
+        "category": "NETWORK / SECURITY / INFRASTRUCTURE",
+        "type": "Professional Experience",
+        "role": "Network Administrator",
+        "period": "2021 – Present",
+        "status": "CURRENT",
+        "description": "Managing enterprise network, server infrastructure, and security operations across production environments.",
+        "highlights": {
+          "network": "Network and server infrastructure administration",
+          "security": "Security policy implementation and enforcement",
+          "firewall": "Firewall configuration and traffic management",
+          "monitoring": "Monitoring and optimization of critical services",
+          "incidents": "Technical incident resolution"
+        },
+        "progression": {
+          "itTechnician": {
+            "role": "IT Technician",
+            "period": "2021 – 2022"
+          },
+          "securitySpecialist": {
+            "role": "Security Specialist",
+            "period": "2022 – 2024"
+          },
+          "networkAdministrator": {
+            "role": "Network Administrator",
+            "period": "2024 – Present"
+          }
+        }
+      },
+      "freelance": {
+        "category": "FULL-STACK / DEVOPS / SECURITY",
+        "type": "Professional Experience",
+        "role": "Software Engineer",
+        "period": "2022 – Present",
+        "status": "CURRENT",
+        "description": "Building full-stack applications and production systems while working across software development, infrastructure, and security.",
+        "highlights": {
+          "fullstack": "Full-stack application development",
+          "backend": "Backend and REST API architecture",
+          "database": "Database design and integration",
+          "deployment": "Production deployment and infrastructure",
+          "security": "Security and authentication implementation",
+          "integrations": "Third-party API and payment integration"
+        },
+        "projects": {
+          "andinet": {
+            "title": "Andinet Marketplace",
+            "period": "06/2023 – Present"
+          },
+          "abkOpe": {
+            "title": "ABK Opé",
+            "period": "02/2024 – 05/2024"
+          },
+          "planBSrl": {
+            "title": "PlanB SRL",
+            "period": "06/2024 – 11/2024"
+          }
+        }
+      }
+    }
+  },
+  "education-section": {
+    "label": "Education",
+    "record": "ACADEMIC RECORD",
+    "degree": "Degree",
+    "thesis": "THESIS",
+    "bachelorThesis": "Bachelor Thesis",
+    "education": {
+      "cujae": {
+        "institution": "José Antonio Echeverría Technological University of Havana",
+        "shortName": "CUJAE",
+        "degree": "Computer Engineering",
+        "period": "2016 – 2021",
+        "location": "Havana, Cuba",
+        "thesis": {
+          "title": "Atmospheric distortion stabilization and correction using Lucky Imaging.",
+          "category": "Bachelor Thesis"
+        }
+      }
+    }
+  },
+  "skills-section": {
+    "label": "SKILLS",
+    "yearsExperience": "years exp",
+    "items": {
+      "javascript": {
+        "type": "Programming Language",
+        "description": "Main language for frontend and backend development."
+      },
+      "typescript": {
+        "type": "Programming Language",
+        "description": "Typed JavaScript for scalable applications."
+      },
+      "python": {
+        "type": "Programming Language",
+        "description": "Used for APIs, automation, and backend services."
+      },
+      "java": {
+        "type": "Programming Language",
+        "description": "Used for application and backend development."
+      },
+      "cpp": {
+        "type": "Programming Language",
+        "description": "Used for low-level and systems programming."
+      },
+      "csharp": {
+        "type": "Programming Language",
+        "description": "Used for application and backend development."
+      },
+      "sql": {
+        "type": "Database",
+        "description": "Database querying and relational data management."
+      },
+      "html5": {
+        "type": "Frontend",
+        "description": "Semantic structure for modern web applications."
+      },
+      "css3": {
+        "type": "Frontend",
+        "description": "Responsive layouts and modern web styling."
+      },
+      "react": {
+        "type": "Frontend",
+        "description": "Main framework for building interactive interfaces."
+      },
+      "redux": {
+        "type": "Frontend",
+        "description": "State management for React applications."
+      },
+      "tailwind": {
+        "type": "Frontend",
+        "description": "Utility-first CSS for responsive interfaces."
+      },
+      "bootstrap": {
+        "type": "Frontend",
+        "description": "Responsive UI development with reusable components."
+      },
+      "nextjs": {
+        "type": "Frontend",
+        "description": "React framework for full-stack web applications."
+      },
+      "nodejs": {
+        "type": "Backend",
+        "description": "Backend runtime for scalable web applications."
+      },
+      "express": {
+        "type": "Backend",
+        "description": "Web framework for Node.js APIs and services."
+      },
+      "fastapi": {
+        "type": "Backend",
+        "description": "High-performance Python framework for APIs."
+      },
+      "rest": {
+        "type": "Backend",
+        "description": "Design and development of RESTful services."
+      },
+      "postgresql": {
+        "type": "Database",
+        "description": "Primary relational database for backend systems."
+      },
+      "mysql": {
+        "type": "Database",
+        "description": "Relational database for application data."
+      },
+      "sqlite": {
+        "type": "Database",
+        "description": "Lightweight database for local applications."
+      },
+      "mongodb": {
+        "type": "Database",
+        "description": "NoSQL database for flexible data models."
+      },
+      "nginx": {
+        "type": "Infrastructure",
+        "description": "Web server, reverse proxy, and production routing."
+      },
+      "apache": {
+        "type": "Infrastructure",
+        "description": "Web server configuration and deployment."
+      },
+      "redis": {
+        "type": "Distributed Systems",
+        "description": "Caching and high-speed in-memory data storage."
+      },
+      "rabbitmq": {
+        "type": "Distributed Systems",
+        "description": "Message broker for distributed applications."
+      },
+      "bullmq": {
+        "type": "Distributed Systems",
+        "description": "Background job processing with Redis."
+      },
+      "git": {
+        "type": "Development Tools",
+        "description": "Version control and collaborative development."
+      },
+      "bash": {
+        "type": "Development Tools",
+        "description": "Shell scripting and system automation."
+      }
+    }
+  },
+  "contact-section": {
+    "title": "Contact",
+    "connect": "Let's connect"
+  },
+  "footer": {
+    "navigation": {
+      "about": "About Me",
+      "experience": "Experience",
+      "education": "Education",
+      "skills": "Skills",
+      "projects": "Projects",
+      "credentials": "Credentials",
+      "contact": "Contact"
+    },
+    "tagline": "Software Engineer · Networking · Infrastructure · Security",
+    "builtBy": "Built by"
+  }
 }

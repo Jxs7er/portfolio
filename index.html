@@ -3,89 +3,176 @@
   <head>
     <!--
       Developed by Ariel Alejandro Marzo Gomez (Jxs7er)
-      LinkedIn: https://www.linkedin.com/in/ariel-alejandro-marzo-gómez-840406262
+      Portfolio: Jxs7er
     -->
+
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Title and Description -->
-    <title>Ariel Alejandro Marzo Gomez | Portfolio | (Jxs7er)</title>
-    <meta
-      name="title"
-      content="Ariel Alejandro Marzo Gomez | Portfolio | (Jxs7er)"
-    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Ariel Alejandro Marzo Gomez | Computer Engineer | Jxs7er</title>
+
     <meta
       name="description"
-      content="Computer Engineer - Full Stack Development, DevOps, network administration, and cybersecurity."
+      content="Ariel Alejandro Marzo Gomez (Jxs7er) — Computer Engineer and Software Engineer focused on full-stack development, networking, infrastructure, DevOps, and cybersecurity."
     />
 
-    <!-- Open Graph / Facebook -->
+    <meta
+      name="keywords"
+      content="Ariel Alejandro Marzo Gomez, Jxs7er, Computer Engineer, Software Engineer, Full Stack Developer, Network Administrator, DevOps, Cybersecurity, Networking, Infrastructure, React, Node.js, Python"
+    />
+
+    <meta name="author" content="Ariel Alejandro Marzo Gomez" />
+
+    <meta name="robots" content="index, follow" />
+
+    <meta name="language" content="English" />
+
+    <link rel="canonical" href="https://jxs7er.vercel.app/" />
+
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.hbconsulting-lu.com/" />
+
+    <meta property="og:url" content="https://jxs7er.vercel.app/" />
+
     <meta
       property="og:title"
-      content="Ariel Alejandro Marzo Gomez | Portfolio | (Jxs7er)"
+      content="Ariel Alejandro Marzo Gomez | Computer Engineer | Jxs7er"
     />
+
     <meta
       property="og:description"
-      content="Computer Engineer - Full Stack Development, DevOps, network administration, and cybersecurity."
+      content="Computer Engineer and Software Engineer focused on full-stack development, networking, infrastructure, DevOps, and cybersecurity."
     />
+
     <meta
       property="og:image"
-      content="https://www.hbconsulting-lu.com/assets/logo-letter.png"
+      content="https://jxs7er.vercel.app/assets/logo.jpg"
     />
 
-    <!-- X (Twitter) -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://www.hbconsulting-lu.com/" />
     <meta
-      property="twitter:title"
-      content="Ariel Alejandro Marzo Gomez | Portfolio | (Jxs7er)"
-    />
-    <meta
-      property="twitter:description"
-      content="Computer Engineer - Full Stack Development, DevOps, network administration, and cybersecurity."
-    />
-    <meta
-      property="twitter:image"
-      content="https://www.hbconsulting-lu.com/assets/logo-letter.png"
+      property="og:image:alt"
+      content="Jxs7er — Ariel Alejandro Marzo Gomez"
     />
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="/assets/logo2.webp" />
+    <meta property="og:site_name" content="Jxs7er Portfolio" />
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <meta property="og:locale" content="en_US" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <meta
+      name="twitter:title"
+      content="Ariel Alejandro Marzo Gomez | Computer Engineer | Jxs7er"
+    />
+
+    <meta
+      name="twitter:description"
+      content="Computer Engineer and Software Engineer focused on full-stack development, networking, infrastructure, DevOps, and cybersecurity."
+    />
+
+    <meta
+      name="twitter:image"
+      content="https://jxs7er.vercel.app/assets/logo-letter.png"
+    />
+
+    <meta
+      name="twitter:image:alt"
+      content="Jxs7er — Ariel Alejandro Marzo Gomez"
+    />
+
+    <link rel="icon" type="image/webp" href="/assets/logo2.webp" />
+
+    <link rel="apple-touch-icon" href="/assets/logo2.webp" />
+
+    <meta name="theme-color" content="#292524" />
+
+    <meta name="color-scheme" content="dark light" />
+
+    <script src="https://cdn.tailwindcss.com">
+      tailwind.config = {
+        theme: {
+          extend: {
+            keyframes: {
+              "cursor-blink": {
+                "0%, 50%": {
+                  opacity: "1",
+                },
+                "50.01%, 100%": {
+                  opacity: "0",
+                },
+              },
+            },
+
+            animation: {
+              "cursor-blink": "cursor-blink 1s steps(1) infinite",
+            },
+          },
+        },
+      };
+    </script>
+
     <style type="text/tailwindcss">
       @layer utilities {
         .content-auto {
           content-visibility: auto;
         }
+
+        html {
+          scroll-behavior: smooth;
+        }
       }
     </style>
 
-    <!-- Meta robots -->
-    <meta name="robots" content="index, follow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-    <!-- Canonical URL -->
-    <!-- <link rel="canonical" href="https://www.hbconsulting-lu.com" /> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <!-- Theme color for PWA -->
-    <meta name="theme-color" content="#3066FF" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Ariel Alejandro Marzo Gomez | Portfolio | (Jxs7er)"
-        <!-- "url": "https://www.hbconsulting-lu.com" -->
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://jxs7er.vercel.app/#person",
+            "name": "Ariel Alejandro Marzo Gomez",
+            "alternateName": "Jxs7er",
+            "jobTitle": "Computer Engineer",
+            "url": "https://jxs7er.vercel.app/",
+            "sameAs": [
+              "https://github.com/Jxs7er",
+              "https://www.linkedin.com/in/ariel-alejandro-marzo-gómez-840406262"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://jxs7er.vercel.app/#website",
+            "url": "https://jxs7er.vercel.app/",
+            "name": "Jxs7er Portfolio",
+            "description": "Portfolio of Ariel Alejandro Marzo Gomez, Computer Engineer and Software Engineer.",
+            "author": {
+              "@id": "https://jxs7er.vercel.app/#person"
+            }
+          }
+        ]
       }
     </script>
   </head>
 
   <body>
     <div id="app"></div>
-    <script type="module" src="src/main.jsx"></script>
+
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

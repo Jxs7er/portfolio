@@ -15,10 +15,9 @@ const LanguageProvider = ({ children }) => {
   }, [language]);
 
   const handleChangeLanguage = ({ value, locale }) => {
-    setLanguage(value);
+    setLanguage({ value, locale });
     i18n.changeLanguage(value);
     sessionStorage.setItem("language", value, locale);
-    setIsOpen(false); // cerrar dropdown al seleccionar
   };
 
   return (

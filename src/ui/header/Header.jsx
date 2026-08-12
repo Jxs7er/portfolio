@@ -1,5 +1,6 @@
+import LanguageSwitcher from "../forms/select/LanguageSwitcher";
 import styles from "./Header.module.css";
-import { Logo, MenusLinks, ThemeButton } from "./components";
+import { Logo, MenusLinks } from "./components";
 
 const Header = () => {
   return (
@@ -7,11 +8,14 @@ const Header = () => {
       {/* Menu Links */}
       <MenusLinks />
 
+      {/* <div className="hidden md:flex justify-center items-center"> */}
+        <LanguageSwitcher />
+      {/* </div> */}
       {/* Logo */}
       <Logo />
 
       {/* Theme */}
-      <ThemeButton />
+      {/* <ThemeButton /> */}
     </nav>
   );
 };

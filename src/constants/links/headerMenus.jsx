@@ -1,1 +1,3 @@
-export const headerMenus = [{ id: "home-header", name: "Home", path: "/" }];
+export const headerMenus = [
+  // { id: "home-header", name: "Home", path: "/" }
+];

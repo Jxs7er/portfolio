@@ -1,3 +1,237 @@
 {
-    
+  "hero-section": {
+    "main-role": "Ingénieur informatique | Développeur Full Stack",
+    "portfolio": "Portfolio",
+    "last-name": "Marzo Gomez",
+    "given-name": "Ariel Alejandro",
+    "age": "ans",
+    "intro": "Ingénieur informatique avec plus de 3 ans d’expérience en développement Full Stack, DevOps, administration réseau et cybersécurité.",
+    "description": "Spécialisé dans la conception et le développement de solutions numériques évolutives, l’intégration d’API et le déploiement de systèmes en production dans les secteurs gouvernemental, financier et commercial."
+  },
+  "experience-section": {
+    "title": "Expérience",
+    "intro": "Je développe des logiciels, administre des infrastructures et résous des problèmes techniques dans les domaines du développement, des réseaux et de la sécurité.",
+    "responsibilities": "Responsabilités",
+    "career-progression": "Évolution professionnelle",
+    "experiences": {
+      "osde-gelect": {
+        "category": "RÉSEAUX / SÉCURITÉ / INFRASTRUCTURE",
+        "type": "Expérience professionnelle",
+        "role": "Administrateur réseau",
+        "period": "2021 – Aujourd’hui",
+        "status": "EN COURS",
+        "description": "Gestion des réseaux d’entreprise, des infrastructures serveurs et des opérations de sécurité dans des environnements de production.",
+        "highlights": {
+          "network": "Administration des infrastructures réseau et serveurs",
+          "security": "Mise en œuvre et application des politiques de sécurité",
+          "firewall": "Configuration des pare-feu et gestion du trafic réseau",
+          "monitoring": "Surveillance et optimisation des services critiques",
+          "incidents": "Résolution des incidents techniques"
+        },
+        "progression": {
+          "itTechnician": {
+            "role": "Technicien informatique",
+            "period": "2021 – 2022"
+          },
+          "securitySpecialist": {
+            "role": "Spécialiste en sécurité",
+            "period": "2022 – 2024"
+          },
+          "networkAdministrator": {
+            "role": "Administrateur réseau",
+            "period": "2024 – Aujourd’hui"
+          }
+        }
+      },
+      "freelance": {
+        "category": "FULL-STACK / DEVOPS / SÉCURITÉ",
+        "type": "Expérience professionnelle",
+        "role": "Ingénieur logiciel",
+        "period": "2022 – Aujourd’hui",
+        "status": "EN COURS",
+        "description": "Développement d’applications full-stack et de systèmes de production dans les domaines du développement logiciel, de l’infrastructure et de la sécurité.",
+        "highlights": {
+          "fullstack": "Développement d’applications full-stack",
+          "backend": "Architecture backend et APIs REST",
+          "database": "Conception et intégration de bases de données",
+          "deployment": "Déploiement et infrastructure de production",
+          "security": "Mise en œuvre de la sécurité et de l’authentification",
+          "integrations": "Intégration d’APIs tierces et de systèmes de paiement"
+        },
+        "projects": {
+          "andinet": {
+            "title": "Andinet Marketplace",
+            "period": "06/2023 – Aujourd’hui"
+          },
+          "abkOpe": {
+            "title": "ABK Opé",
+            "period": "02/2024 – 05/2024"
+          },
+          "planBSrl": {
+            "title": "PlanB SRL",
+            "period": "06/2024 – 11/2024"
+          }
+        }
+      }
+    }
+  },
+  "education-section": {
+    "label": "Formation",
+    "record": "PARCOURS ACADÉMIQUE",
+    "degree": "Diplôme",
+    "thesis": "THÈSE",
+    "bachelorThesis": "Mémoire de Licence",
+    "education": {
+      "cujae": {
+        "institution": "Université Technologique de La Havane José Antonio Echeverría",
+        "shortName": "CUJAE",
+        "degree": "Génie Informatique",
+        "period": "2016 – 2021",
+        "location": "La Havane, Cuba",
+        "thesis": {
+          "title": "Stabilisation et correction de la distorsion atmosphérique à l'aide de la technique Lucky Imaging.",
+          "category": "Mémoire de Licence"
+        }
+      }
+    }
+  },
+  "skills-section": {
+    "label": "COMPÉTENCES",
+    "yearsExperience": "ans d'expérience",
+    "items": {
+      "javascript": {
+        "type": "Langage de Programmation",
+        "description": "Langage principal pour le développement frontend et backend."
+      },
+      "typescript": {
+        "type": "Langage de Programmation",
+        "description": "JavaScript typé pour les applications évolutives."
+      },
+      "python": {
+        "type": "Langage de Programmation",
+        "description": "Utilisé pour les APIs, l'automatisation et les services backend."
+      },
+      "java": {
+        "type": "Langage de Programmation",
+        "description": "Utilisé pour le développement d'applications et backend."
+      },
+      "cpp": {
+        "type": "Langage de Programmation",
+        "description": "Utilisé pour la programmation système et bas niveau."
+      },
+      "csharp": {
+        "type": "Langage de Programmation",
+        "description": "Utilisé pour le développement d'applications et backend."
+      },
+      "sql": {
+        "type": "Base de Données",
+        "description": "Requêtes et gestion des données relationnelles."
+      },
+      "html5": {
+        "type": "Frontend",
+        "description": "Structure sémantique pour les applications web modernes."
+      },
+      "css3": {
+        "type": "Frontend",
+        "description": "Mises en page responsives et styles web modernes."
+      },
+      "react": {
+        "type": "Frontend",
+        "description": "Framework principal pour créer des interfaces interactives."
+      },
+      "redux": {
+        "type": "Frontend",
+        "description": "Gestion d'état pour les applications React."
+      },
+      "tailwind": {
+        "type": "Frontend",
+        "description": "CSS utility-first pour les interfaces responsives."
+      },
+      "bootstrap": {
+        "type": "Frontend",
+        "description": "Développement d'interfaces responsives avec des composants réutilisables."
+      },
+      "nextjs": {
+        "type": "Frontend",
+        "description": "Framework React pour les applications web full-stack."
+      },
+      "nodejs": {
+        "type": "Backend",
+        "description": "Runtime backend pour les applications web évolutives."
+      },
+      "express": {
+        "type": "Backend",
+        "description": "Framework web pour les APIs et services Node.js."
+      },
+      "fastapi": {
+        "type": "Backend",
+        "description": "Framework Python haute performance pour les APIs."
+      },
+      "rest": {
+        "type": "Backend",
+        "description": "Conception et développement de services RESTful."
+      },
+      "postgresql": {
+        "type": "Base de Données",
+        "description": "Base de données relationnelle principale pour les systèmes backend."
+      },
+      "mysql": {
+        "type": "Base de Données",
+        "description": "Base de données relationnelle pour les données applicatives."
+      },
+      "sqlite": {
+        "type": "Base de Données",
+        "description": "Base de données légère pour les applications locales."
+      },
+      "mongodb": {
+        "type": "Base de Données",
+        "description": "Base de données NoSQL pour des modèles de données flexibles."
+      },
+      "nginx": {
+        "type": "Infrastructure",
+        "description": "Serveur web, proxy inverse et routage en production."
+      },
+      "apache": {
+        "type": "Infrastructure",
+        "description": "Configuration et déploiement de serveurs web."
+      },
+      "redis": {
+        "type": "Systèmes Distribués",
+        "description": "Mise en cache et stockage de données en mémoire haute vitesse."
+      },
+      "rabbitmq": {
+        "type": "Systèmes Distribués",
+        "description": "Broker de messages pour les applications distribuées."
+      },
+      "bullmq": {
+        "type": "Systèmes Distribués",
+        "description": "Traitement des tâches en arrière-plan avec Redis."
+      },
+      "git": {
+        "type": "Outils de Développement",
+        "description": "Contrôle de version et développement collaboratif."
+      },
+      "bash": {
+        "type": "Outils de Développement",
+        "description": "Scripts shell et automatisation des systèmes."
+      }
+    }
+  },
+  "contact-section": {
+    "title": "Contact",
+    "connect": "Restons en contact"
+  },
+  "footer": {
+    "navigation": {
+      "about": "À propos",
+      "experience": "Expérience",
+      "education": "Formation",
+      "skills": "Compétences",
+      "projects": "Projets",
+      "credentials": "Certifications",
+      "contact": "Contact"
+    },
+    "tagline": "Ingénieur logiciel · Réseaux · Infrastructure · Sécurité",
+    "builtBy": "Développé par"
+  }
 }

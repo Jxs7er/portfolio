@@ -1,0 +1,237 @@
+{
+  "hero-section": {
+    "main-role": "计算机工程师 | 全栈开发工程师",
+    "portfolio": "作品集",
+    "last-name": "Marzo Gomez",
+    "given-name": "Ariel Alejandro",
+    "age": "岁",
+    "intro": "计算机工程师，拥有超过3年的全栈开发、DevOps、网络管理和网络安全经验。",
+    "description": "专注于设计和构建可扩展的数字解决方案、API集成以及生产系统部署，服务于政府、金融和商业领域。"
+  },
+  "experience-section": {
+    "title": "工作经历",
+    "intro": "从事软件开发、基础设施管理以及开发、网络和安全领域的技术问题解决。",
+    "responsibilities": "职责",
+    "career-progression": "职业发展",
+    "experiences": {
+      "osde-gelect": {
+        "category": "网络 / 安全 / 基础设施",
+        "type": "工作经历",
+        "role": "网络管理员",
+        "period": "2021 – 至今",
+        "status": "当前",
+        "description": "负责企业网络、服务器基础设施以及生产环境中的安全运营管理。",
+        "highlights": {
+          "network": "网络与服务器基础设施管理",
+          "security": "安全策略的实施与执行",
+          "firewall": "防火墙配置与网络流量管理",
+          "monitoring": "关键服务的监控与优化",
+          "incidents": "技术故障与事件处理"
+        },
+        "progression": {
+          "itTechnician": {
+            "role": "IT 技术员",
+            "period": "2021 – 2022"
+          },
+          "securitySpecialist": {
+            "role": "安全专家",
+            "period": "2022 – 2024"
+          },
+          "networkAdministrator": {
+            "role": "网络管理员",
+            "period": "2024 – 至今"
+          }
+        }
+      },
+      "freelance": {
+        "category": "全栈 / DEVOPS / 安全",
+        "type": "工作经历",
+        "role": "软件工程师",
+        "period": "2022 – 至今",
+        "status": "当前",
+        "description": "开发全栈应用和生产系统，涵盖软件开发、基础设施和安全领域。",
+        "highlights": {
+          "fullstack": "全栈应用开发",
+          "backend": "后端与 REST API 架构设计",
+          "database": "数据库设计与集成",
+          "deployment": "生产环境部署与基础设施管理",
+          "security": "安全与身份认证实现",
+          "integrations": "第三方 API 与支付系统集成"
+        },
+        "projects": {
+          "andinet": {
+            "title": "Andinet Marketplace",
+            "period": "06/2023 – 至今"
+          },
+          "abkOpe": {
+            "title": "ABK Opé",
+            "period": "02/2024 – 05/2024"
+          },
+          "planBSrl": {
+            "title": "PlanB SRL",
+            "period": "06/2024 – 11/2024"
+          }
+        }
+      }
+    }
+  },
+  "education-section": {
+    "label": "教育经历",
+    "record": "学术经历",
+    "degree": "学位",
+    "thesis": "毕业论文",
+    "bachelorThesis": "学士学位论文",
+    "education": {
+      "cujae": {
+        "institution": "哈瓦那何塞·安东尼奥·埃切韦里亚理工大学",
+        "shortName": "CUJAE",
+        "degree": "计算机工程",
+        "period": "2016 – 2021",
+        "location": "哈瓦那，古巴",
+        "thesis": {
+          "title": "使用 Lucky Imaging 方法进行大气畸变稳定与校正。",
+          "category": "学士学位论文"
+        }
+      }
+    }
+  },
+  "skills-section": {
+    "label": "技能",
+    "yearsExperience": "年经验",
+    "items": {
+      "javascript": {
+        "type": "编程语言",
+        "description": "用于前端和后端开发的主要语言。"
+      },
+      "typescript": {
+        "type": "编程语言",
+        "description": "用于构建可扩展应用程序的类型化 JavaScript。"
+      },
+      "python": {
+        "type": "编程语言",
+        "description": "用于 API、自动化和后端服务开发。"
+      },
+      "java": {
+        "type": "编程语言",
+        "description": "用于应用程序和后端开发。"
+      },
+      "cpp": {
+        "type": "编程语言",
+        "description": "用于底层和系统级编程。"
+      },
+      "csharp": {
+        "type": "编程语言",
+        "description": "用于应用程序和后端开发。"
+      },
+      "sql": {
+        "type": "数据库",
+        "description": "数据库查询和关系型数据管理。"
+      },
+      "html5": {
+        "type": "前端",
+        "description": "现代 Web 应用程序的语义化结构。"
+      },
+      "css3": {
+        "type": "前端",
+        "description": "响应式布局和现代 Web 样式设计。"
+      },
+      "react": {
+        "type": "前端",
+        "description": "用于构建交互式界面的主要框架。"
+      },
+      "redux": {
+        "type": "前端",
+        "description": "React 应用程序的状态管理。"
+      },
+      "tailwind": {
+        "type": "前端",
+        "description": "用于构建响应式界面的 Utility-first CSS。"
+      },
+      "bootstrap": {
+        "type": "前端",
+        "description": "使用可复用组件开发响应式用户界面。"
+      },
+      "nextjs": {
+        "type": "前端",
+        "description": "用于构建全栈 Web 应用程序的 React 框架。"
+      },
+      "nodejs": {
+        "type": "后端",
+        "description": "用于构建可扩展 Web 应用程序的后端运行环境。"
+      },
+      "express": {
+        "type": "后端",
+        "description": "用于 Node.js API 和服务的 Web 框架。"
+      },
+      "fastapi": {
+        "type": "后端",
+        "description": "用于构建 API 的高性能 Python 框架。"
+      },
+      "rest": {
+        "type": "后端",
+        "description": "RESTful 服务的设计与开发。"
+      },
+      "postgresql": {
+        "type": "数据库",
+        "description": "后端系统的主要关系型数据库。"
+      },
+      "mysql": {
+        "type": "数据库",
+        "description": "用于应用程序数据的关系型数据库。"
+      },
+      "sqlite": {
+        "type": "数据库",
+        "description": "用于本地应用程序的轻量级数据库。"
+      },
+      "mongodb": {
+        "type": "数据库",
+        "description": "用于灵活数据模型的 NoSQL 数据库。"
+      },
+      "nginx": {
+        "type": "基础设施",
+        "description": "Web 服务器、反向代理和生产环境路由。"
+      },
+      "apache": {
+        "type": "基础设施",
+        "description": "Web 服务器配置与部署。"
+      },
+      "redis": {
+        "type": "分布式系统",
+        "description": "缓存和高速内存数据存储。"
+      },
+      "rabbitmq": {
+        "type": "分布式系统",
+        "description": "用于分布式应用程序的消息代理。"
+      },
+      "bullmq": {
+        "type": "分布式系统",
+        "description": "基于 Redis 的后台任务处理。"
+      },
+      "git": {
+        "type": "开发工具",
+        "description": "版本控制和协作开发。"
+      },
+      "bash": {
+        "type": "开发工具",
+        "description": "Shell 脚本和系统自动化。"
+      }
+    }
+  },
+  "contact-section": {
+    "title": "联系方式",
+    "connect": "联系我"
+  },
+  "footer": {
+    "navigation": {
+      "about": "关于我",
+      "experience": "工作经历",
+      "education": "教育经历",
+      "skills": "技能",
+      "projects": "项目",
+      "credentials": "资质",
+      "contact": "联系方式"
+    },
+    "tagline": "软件工程师 · 网络 · 基础设施 · 安全",
+    "builtBy": "开发者"
+  }
+}
