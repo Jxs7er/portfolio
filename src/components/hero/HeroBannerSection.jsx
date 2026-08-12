@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 
-import Profile from "@/assets/images/profile.png";
+import Profile from "/assets/resources/images/profile.png";
 import { useTranslation } from "react-i18next";
 
 const HeroBannerSection = () => {

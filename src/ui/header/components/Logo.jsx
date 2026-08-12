@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import Profile from "@/assets/images/profile.jpeg";
+import Profile from "/assets/resources/images/profile.jpeg";
 
 const Logo = () => {
   return (
