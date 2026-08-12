@@ -116,7 +116,7 @@ export const PROJECTS = [
     ],
 
     url: "#",
-    video: "/assets/resources/projects/gamor/gamor-video.mp4",
+    video: "/assets/resources/projects/gamor/gamor-video.webp",
     github:
       "https://github.com/Jxs7er/streaming-platform-gamor/tree/refactor/tailwindcss-to-css",
   },
