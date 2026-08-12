@@ -78,7 +78,7 @@ export const COUNTRIES = [
     value: "id",
     locale: "id-ID",
     label: "Bahasa Indonesia",
-    emoji: "/assets/resources/flags/kr.webp",
+    emoji: "/assets/resources/flags/id.webp",
   },
   {
     value: "in",
