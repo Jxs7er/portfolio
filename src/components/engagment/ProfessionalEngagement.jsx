@@ -1,0 +1,156 @@
+import { useTranslation } from "react-i18next";
+
+const ProfessionalEngagement = () => {
+  const { t } = useTranslation();
+
+  return (
+    <section
+      id="professional-engagement"
+      className="relative overflow-hidden bg-stone-950 px-6"
+      style={{
+        zIndex: 100,
+      }}
+    >
+      <div className="mx-auto max-w-6xl">
+        {/* HEADER */}
+        <div className="px-4 py-12 flex justify-center items-center sticky top-1">
+          <span
+            className="text-xs font-bold tracking-[0.3em] uppercase backdrop-blur-3xl 
+          text-amber-400 bg-amber-400/10 border border-amber-400/30 px-4 py-1 rounded-full"
+          >
+            {t("professional-engagement-section.label")}
+          </span>
+        </div>
+        <div className="mb-16">
+          <h2
+            className="mt-4 text-5xl font-semibold text-stone-200 md:text-7xl"
+            style={{ fontFamily: "'Georgia', serif" }}
+          >
+            {t("professional-engagement-section.title")}
+            <span className="text-amber-600">.</span>
+          </h2>
+
+          <p className="mt-6 max-w-2xl text-sm leading-relaxed text-stone-400 md:text-base">
+            {t("professional-engagement-section.description")}
+          </p>
+        </div>
+
+        {/* SEMINAR */}
+        <article className="border-y border-stone-800 py-10">
+          <div className="grid gap-10 md:grid-cols-[120px_1fr]">
+            {/* INDEX */}
+            <div className="font-mono text-xs text-stone-500">07 / 2026</div>
+
+            {/* CONTENT */}
+            <div>
+              <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-amber-500">
+                {t("professional-engagement-section.title")}
+              </div>
+
+              <h3 className="mt-4 max-w-4xl text-3xl font-semibold leading-tight text-stone-200 md:text-5xl">
+                {t(
+                  "professional-engagement-section.engagements.seminar.title1",
+                )}
+                <span className="text-stone-500">
+                  {" "}
+                  {t(
+                    "professional-engagement-section.engagements.seminar.title2",
+                  )}
+                </span>
+              </h3>
+
+              <div className="mt-4 flex flex-wrap gap-3 font-mono text-xs text-stone-500">
+                <span>
+                  {t(
+                    "professional-engagement-section.engagements.seminar.location",
+                  )}
+                </span>
+                <span>·</span>
+                <span>
+                  {t(
+                    "professional-engagement-section.engagements.seminar.language",
+                  )}
+                </span>
+                <span>·</span>
+                <span>
+                  {t(
+                    "professional-engagement-section.engagements.seminar.recognition",
+                  )}
+                </span>
+              </div>
+
+              {/* VIDEO */}
+              <div
+                className="mt-10 overflow-hidden border border-stone-800 
+              bg-stone-900 relative flex justify-center pt-3 overflow-visible"
+              >
+                <div
+                  className="relative w-[85%] rounded-none border-b border-x 
+                    shadow-[0_30px_80px_rgba(0,0,0,0.45)] border-stone-800
+                    transition-all duration-700 -mb-5 z-50
+                "
+                >
+                  {/* Browser / window header */}
+                  <div className="flex h-8 items-center gap-2 border-b border-stone-800 bg-stone-900 px-3">
+                    <span className="h-2.5 w-2.5 rounded-full bg-red-400/70" />
+                    <span className="h-2.5 w-2.5 rounded-full bg-amber-400/70" />
+                    <span className="h-2.5 w-2.5 rounded-full bg-emerald-400/70" />
+                    <div className="ml-3 h-3 flex-1 rounded bg-stone-800" />
+                  </div>
+
+                  <video
+                    controls
+                    controlsList="nodownload noremoteplayback"
+                    preload="none"
+                    playsInline
+                    //   poster="/assets/resources/images/seminar-poster.webp"
+                    className="aspect-video w-full object-cover"
+                  >
+                    <source
+                      src="/assets/resources/videos/seminar.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+
+                  {/* Glass reflection */}
+                </div>
+                <div
+                  className="pointer-events-none
+                  inset-0 bg-gradient-to-br absolute top-0 left-0
+                  from-amber-400/10 via-transparent 
+                  to-transparent opacity-60 w-full h-full"
+                />
+                <div
+                  className="pointer-events-none
+                  inset-0 bg-gradient-to-tl absolute top-0 left-0
+                  from-stone-100/20 via-transparent 
+                  to-transparent opacity-60 w-full h-full"
+                />
+                <div
+                  className="pointer-events-none absolute top-0 left-0
+                  inset-0 bg-black/5 w-full h-full"
+                />
+              </div>
+
+              {/* FOOTER */}
+              <div className="mt-6 flex flex-col gap-2 font-mono text-[10px] uppercase tracking-wider text-stone-500">
+                <span>
+                  {t(
+                    "professional-engagement-section.engagements.seminar.institution",
+                  )}
+                </span>
+                <span>
+                  {t(
+                    "professional-engagement-section.engagements.seminar.sponsor",
+                  )}
+                </span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  );
+};
+
+export default ProfessionalEngagement;

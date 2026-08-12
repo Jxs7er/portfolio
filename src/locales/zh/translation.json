@@ -334,17 +334,68 @@
       }
     }
   },
+  "professional-engagement-section": {
+    "label": "专业参与",
+    "title": "国际研讨会",
+    "description": "精选专业及国际交流活动，展现技术、数字化转型与知识交流的融合。",
+    "engagements": {
+      "seminar": {
+        "title1": "工业数字化转型",
+        "title2": "面向发展中国家",
+        "location": "中国贵阳",
+        "language": "英语",
+        "recognition": "优秀奖",
+        "duration": "00:30",
+        "institution": "贵州科学院",
+        "sponsor": "中华人民共和国商务部",
+        "type": "国际研讨会"
+      }
+    }
+  },
+  "engineering-practice-section": {
+    "label": "工程实践",
+    "title": "我的构建方式",
+    "intro": "从架构和代码组织到基础设施与安全，这些是我在设计和构建数字系统时所采用的工程实践。",
+    "practices": {
+      "architecture": {
+        "number": "01",
+        "title": "架构",
+        "category": "系统设计",
+        "description": "通过在应用程序、基础设施和数据层之间分离职责，设计具有可扩展性和可维护性的系统。"
+      },
+      "code": {
+        "number": "02",
+        "title": "代码组织",
+        "category": "软件工程",
+        "description": "围绕清晰的边界、可复用组件和关注点分离来组织应用程序。"
+      },
+      "security": {
+        "number": "03",
+        "title": "安全",
+        "category": "网络安全",
+        "description": "在网络、服务器、应用程序、身份验证和生产基础设施中实施安全实践。"
+      },
+      "distributed": {
+        "number": "04",
+        "title": "分布式系统",
+        "category": "后端 / 系统",
+        "description": "使用异步处理、消息队列、缓存和事件驱动架构。"
+      }
+    }
+  },
   "footer": {
     "navigation": {
       "about": "关于我",
-      "experience": "工作经历",
-      "education": "教育经历",
+      "experience": "经验",
+      "education": "教育",
+      "engineering-practice": "工程实践",
       "skills": "技能",
       "projects": "项目",
       "credentials": "资质",
-      "contact": "联系方式"
+      "contact": "联系方式",
+      "professional-engagement": "专业参与"
     },
     "tagline": "软件工程师 · 网络 · 基础设施 · 安全",
-    "builtBy": "开发者"
+    "builtBy": "构建者"
   }
 }

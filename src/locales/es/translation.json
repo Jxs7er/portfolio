@@ -342,15 +342,66 @@
       }
     }
   },
+  "professional-engagement-section": {
+    "label": "Participación Profesional",
+    "title": "Seminario Internacional",
+    "description": "Momentos seleccionados de experiencias profesionales e internacionales donde convergen la tecnología, la transformación digital y el intercambio de conocimientos.",
+    "engagements": {
+      "seminar": {
+        "title1": "Transformación Digital de las Industrias",
+        "title2": "para Países en Desarrollo",
+        "location": "Guiyang, China",
+        "language": "Inglés",
+        "recognition": "Mérito",
+        "duration": "00:30",
+        "institution": "Academia de Ciencias de Guizhou",
+        "sponsor": "Ministerio de Comercio de la República Popular China",
+        "type": "Seminario Internacional"
+      }
+    }
+  },
+  "engineering-practice-section": {
+    "label": "Práctica de Ingeniería",
+    "title": "Cómo construyo",
+    "intro": "Desde la arquitectura y la organización del código hasta la infraestructura y la seguridad, estas son las prácticas de ingeniería que aplico al diseñar y construir sistemas digitales.",
+    "practices": {
+      "architecture": {
+        "number": "01",
+        "title": "Arquitectura",
+        "category": "DISEÑO DE SISTEMAS",
+        "description": "Diseño de sistemas escalables y mantenibles mediante la separación de responsabilidades entre las capas de aplicación, infraestructura y datos."
+      },
+      "code": {
+        "number": "02",
+        "title": "Organización del Código",
+        "category": "INGENIERÍA DE SOFTWARE",
+        "description": "Organización de aplicaciones en torno a límites claros, componentes reutilizables y separación de responsabilidades."
+      },
+      "security": {
+        "number": "03",
+        "title": "Seguridad",
+        "category": "CIBERSEGURIDAD",
+        "description": "Aplicación de prácticas de seguridad en redes, servidores, aplicaciones, autenticación e infraestructura de producción."
+      },
+      "distributed": {
+        "number": "04",
+        "title": "Sistemas Distribuidos",
+        "category": "BACKEND / SISTEMAS",
+        "description": "Trabajo con procesamiento asíncrono, colas de mensajes, caché y arquitecturas orientadas a eventos."
+      }
+    }
+  },
   "footer": {
     "navigation": {
       "about": "Sobre mí",
       "experience": "Experiencia",
       "education": "Educación",
+      "engineering-practice": "Prácticas de Ingeniería",
       "skills": "Habilidades",
       "projects": "Proyectos",
       "credentials": "Credenciales",
-      "contact": "Contacto"
+      "contact": "Contacto",
+      "professional-engagement": "Participación Profesional"
     },
     "tagline": "Ingeniero de Software · Redes · Infraestructura · Seguridad",
     "builtBy": "Desarrollado por"

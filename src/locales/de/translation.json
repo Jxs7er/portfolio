@@ -334,17 +334,68 @@
       }
     }
   },
+  "professional-engagement-section": {
+    "label": "Berufliches Engagement",
+    "title": "Internationales Seminar",
+    "description": "Ausgewählte Momente aus beruflichen und internationalen Engagements, bei denen Technologie, digitale Transformation und Wissensaustausch zusammenkommen.",
+    "engagements": {
+      "seminar": {
+        "title1": "Digitale Transformation von Industrien",
+        "title2": "für Entwicklungsländer",
+        "location": "Guiyang, China",
+        "language": "Englisch",
+        "recognition": "Auszeichnung",
+        "duration": "00:30",
+        "institution": "Guizhou Academy of Sciences",
+        "sponsor": "Handelsministerium der Volksrepublik China",
+        "type": "Internationales Seminar"
+      }
+    }
+  },
+  "engineering-practice-section": {
+    "label": "Ingenieurpraxis",
+    "title": "Wie ich entwickle",
+    "intro": "Von Architektur und Code-Organisation bis hin zu Infrastruktur und Sicherheit sind dies die Engineering-Praktiken, die ich beim Entwerfen und Entwickeln digitaler Systeme anwende.",
+    "practices": {
+      "architecture": {
+        "number": "01",
+        "title": "Architektur",
+        "category": "SYSTEMDESIGN",
+        "description": "Entwicklung skalierbarer und wartbarer Systeme durch die Trennung von Verantwortlichkeiten zwischen Anwendungs-, Infrastruktur- und Datenebenen."
+      },
+      "code": {
+        "number": "02",
+        "title": "Code-Organisation",
+        "category": "SOFTWARE ENGINEERING",
+        "description": "Strukturierung von Anwendungen mit klaren Grenzen, wiederverwendbaren Komponenten und einer konsequenten Trennung von Verantwortlichkeiten."
+      },
+      "security": {
+        "number": "03",
+        "title": "Sicherheit",
+        "category": "CYBERSECURITY",
+        "description": "Anwendung von Sicherheitspraktiken auf Netzwerke, Server, Anwendungen, Authentifizierung und Produktionsinfrastruktur."
+      },
+      "distributed": {
+        "number": "04",
+        "title": "Verteilte Systeme",
+        "category": "BACKEND / SYSTEME",
+        "description": "Arbeit mit asynchroner Verarbeitung, Nachrichtenwarteschlangen, Caching und ereignisgesteuerten Architekturen."
+      }
+    }
+  },
   "footer": {
     "navigation": {
       "about": "Über mich",
       "experience": "Erfahrung",
       "education": "Ausbildung",
+      "engineering-practice": "Ingenieurpraxis",
       "skills": "Fähigkeiten",
       "projects": "Projekte",
       "credentials": "Qualifikationen",
-      "contact": "Kontakt"
+      "contact": "Kontakt",
+      "professional-engagement": "Berufliches Engagement"
     },
-    "tagline": "Softwareingenieur · Netzwerke · Infrastruktur · Sicherheit",
+    "tagline": "Software Engineer · Netzwerke · Infrastruktur · Sicherheit",
     "builtBy": "Erstellt von"
   }
 }

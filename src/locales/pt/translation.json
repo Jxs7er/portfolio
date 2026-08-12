@@ -334,15 +334,66 @@
       }
     }
   },
+  "professional-engagement-section": {
+    "label": "Atuação Profissional",
+    "title": "Seminário Internacional",
+    "description": "Momentos selecionados de experiências profissionais e internacionais onde tecnologia, transformação digital e troca de conhecimento se encontram.",
+    "engagements": {
+      "seminar": {
+        "title1": "Transformação Digital das Indústrias",
+        "title2": "para Países em Desenvolvimento",
+        "location": "Guiyang, China",
+        "language": "Inglês",
+        "recognition": "Mérito",
+        "duration": "00:30",
+        "institution": "Academia de Ciências de Guizhou",
+        "sponsor": "Ministério do Comércio da República Popular da China",
+        "type": "Seminário Internacional"
+      }
+    }
+  },
+  "engineering-practice-section": {
+    "label": "Prática de Engenharia",
+    "title": "Como eu desenvolvo",
+    "intro": "Da arquitetura e organização do código à infraestrutura e segurança, estas são as práticas de engenharia que aplico ao projetar e desenvolver sistemas digitais.",
+    "practices": {
+      "architecture": {
+        "number": "01",
+        "title": "Arquitetura",
+        "category": "DESIGN DE SISTEMAS",
+        "description": "Projetando sistemas escaláveis e sustentáveis por meio da separação de responsabilidades entre as camadas de aplicação, infraestrutura e dados."
+      },
+      "code": {
+        "number": "02",
+        "title": "Organização do Código",
+        "category": "ENGENHARIA DE SOFTWARE",
+        "description": "Organizando aplicações com limites claros, componentes reutilizáveis e separação de responsabilidades."
+      },
+      "security": {
+        "number": "03",
+        "title": "Segurança",
+        "category": "CIBERSEGURANÇA",
+        "description": "Aplicando práticas de segurança em redes, servidores, aplicações, autenticação e infraestrutura de produção."
+      },
+      "distributed": {
+        "number": "04",
+        "title": "Sistemas Distribuídos",
+        "category": "BACKEND / SISTEMAS",
+        "description": "Trabalhando com processamento assíncrono, filas de mensagens, cache e arquiteturas orientadas a eventos."
+      }
+    }
+  },
   "footer": {
     "navigation": {
       "about": "Sobre Mim",
       "experience": "Experiência",
       "education": "Educação",
+      "engineering-practice": "Prática de Engenharia",
       "skills": "Habilidades",
       "projects": "Projetos",
       "credentials": "Credenciais",
-      "contact": "Contato"
+      "contact": "Contato",
+      "professional-engagement": "Atuação Profissional"
     },
     "tagline": "Engenheiro de Software · Redes · Infraestrutura · Segurança",
     "builtBy": "Desenvolvido por"

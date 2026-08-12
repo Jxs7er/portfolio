@@ -334,17 +334,68 @@
       }
     }
   },
+  "professional-engagement-section": {
+    "label": "Keterlibatan Profesional",
+    "title": "Seminar Internasional",
+    "description": "Momen-momen terpilih dari keterlibatan profesional dan internasional di mana teknologi, transformasi digital, dan pertukaran pengetahuan bertemu.",
+    "engagements": {
+      "seminar": {
+        "title1": "Transformasi Digital Industri",
+        "title2": "untuk Negara Berkembang",
+        "location": "Guiyang, Tiongkok",
+        "language": "Bahasa Inggris",
+        "recognition": "Penghargaan",
+        "duration": "00:30",
+        "institution": "Akademi Ilmu Pengetahuan Guizhou",
+        "sponsor": "Kementerian Perdagangan Republik Rakyat Tiongkok",
+        "type": "Seminar Internasional"
+      }
+    }
+  },
+  "engineering-practice-section": {
+    "label": "Praktik Rekayasa",
+    "title": "Cara saya membangun",
+    "intro": "Mulai dari arsitektur dan organisasi kode hingga infrastruktur dan keamanan, inilah praktik rekayasa yang saya terapkan saat merancang dan membangun sistem digital.",
+    "practices": {
+      "architecture": {
+        "number": "01",
+        "title": "Arsitektur",
+        "category": "DESAIN SISTEM",
+        "description": "Merancang sistem yang skalabel dan mudah dipelihara dengan memisahkan tanggung jawab antara lapisan aplikasi, infrastruktur, dan data."
+      },
+      "code": {
+        "number": "02",
+        "title": "Organisasi Kode",
+        "category": "REKAYASA PERANGKAT LUNAK",
+        "description": "Mengorganisasi aplikasi berdasarkan batasan yang jelas, komponen yang dapat digunakan kembali, dan pemisahan tanggung jawab."
+      },
+      "security": {
+        "number": "03",
+        "title": "Keamanan",
+        "category": "KEAMANAN SIBER",
+        "description": "Menerapkan praktik keamanan pada jaringan, server, aplikasi, autentikasi, dan infrastruktur produksi."
+      },
+      "distributed": {
+        "number": "04",
+        "title": "Sistem Terdistribusi",
+        "category": "BACKEND / SISTEM",
+        "description": "Bekerja dengan pemrosesan asinkron, antrean pesan, caching, dan arsitektur berbasis peristiwa."
+      }
+    }
+  },
   "footer": {
     "navigation": {
       "about": "Tentang Saya",
       "experience": "Pengalaman",
       "education": "Pendidikan",
+      "engineering-practice": "Praktik Rekayasa",
       "skills": "Keahlian",
       "projects": "Proyek",
       "credentials": "Kredensial",
-      "contact": "Kontak"
+      "contact": "Kontak",
+      "professional-engagement": "Keterlibatan Profesional"
     },
-    "tagline": "Insinyur Perangkat Lunak · Jaringan · Infrastruktur · Keamanan",
+    "tagline": "Software Engineer · Jaringan · Infrastruktur · Keamanan",
     "builtBy": "Dibuat oleh"
   }
 }

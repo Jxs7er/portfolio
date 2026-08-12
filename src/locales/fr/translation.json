@@ -334,17 +334,68 @@
       }
     }
   },
+  "professional-engagement-section": {
+    "label": "Engagement Professionnel",
+    "title": "Séminaire International",
+    "description": "Moments sélectionnés de participations professionnelles et internationales où se rencontrent technologie, transformation numérique et échange de connaissances.",
+    "engagements": {
+      "seminar": {
+        "title1": "Transformation Numérique des Industries",
+        "title2": "pour les Pays en Développement",
+        "location": "Guiyang, Chine",
+        "language": "Anglais",
+        "recognition": "Mérite",
+        "duration": "00:30",
+        "institution": "Académie des Sciences du Guizhou",
+        "sponsor": "Ministère du Commerce de la République populaire de Chine",
+        "type": "Séminaire International"
+      }
+    }
+  },
+  "engineering-practice-section": {
+    "label": "Pratique d'Ingénierie",
+    "title": "Comment je construis",
+    "intro": "De l'architecture et de l'organisation du code à l'infrastructure et à la sécurité, voici les pratiques d'ingénierie que j'applique lors de la conception et de la construction de systèmes numériques.",
+    "practices": {
+      "architecture": {
+        "number": "01",
+        "title": "Architecture",
+        "category": "CONCEPTION DE SYSTÈMES",
+        "description": "Conception de systèmes évolutifs et maintenables en séparant les responsabilités entre les couches applicative, infrastructure et données."
+      },
+      "code": {
+        "number": "02",
+        "title": "Organisation du Code",
+        "category": "GÉNIE LOGICIEL",
+        "description": "Organisation des applications autour de frontières claires, de composants réutilisables et de la séparation des responsabilités."
+      },
+      "security": {
+        "number": "03",
+        "title": "Sécurité",
+        "category": "CYBERSÉCURITÉ",
+        "description": "Application de pratiques de sécurité aux réseaux, serveurs, applications, systèmes d'authentification et infrastructures de production."
+      },
+      "distributed": {
+        "number": "04",
+        "title": "Systèmes Distribués",
+        "category": "BACKEND / SYSTÈMES",
+        "description": "Travail avec le traitement asynchrone, les files de messages, la mise en cache et les architectures orientées événements."
+      }
+    }
+  },
   "footer": {
     "navigation": {
-      "about": "À propos",
+      "about": "À propos de moi",
       "experience": "Expérience",
       "education": "Formation",
+      "engineering-practice": "Pratiques d'Ingénierie",
       "skills": "Compétences",
       "projects": "Projets",
       "credentials": "Certifications",
-      "contact": "Contact"
+      "contact": "Contact",
+      "professional-engagement": "Engagement Professionnel"
     },
-    "tagline": "Ingénieur logiciel · Réseaux · Infrastructure · Sécurité",
-    "builtBy": "Développé par"
+    "tagline": "Ingénieur Logiciel · Réseaux · Infrastructure · Sécurité",
+    "builtBy": "Créé par"
   }
 }

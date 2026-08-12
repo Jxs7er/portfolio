@@ -334,17 +334,68 @@
       }
     }
   },
+  "professional-engagement-section": {
+    "label": "전문 활동",
+    "title": "국제 세미나",
+    "description": "기술, 디지털 전환, 지식 교류가 만나는 전문적 및 국제적 활동의 주요 순간을 소개합니다.",
+    "engagements": {
+      "seminar": {
+        "title1": "산업의 디지털 전환",
+        "title2": "개발도상국을 위한",
+        "location": "중국 구이양",
+        "language": "영어",
+        "recognition": "공로",
+        "duration": "00:30",
+        "institution": "구이저우 과학원",
+        "sponsor": "중화인민공화국 상무부",
+        "type": "국제 세미나"
+      }
+    }
+  },
+  "engineering-practice-section": {
+    "label": "엔지니어링 실무",
+    "title": "나의 개발 방식",
+    "intro": "아키텍처와 코드 구성부터 인프라와 보안까지, 디지털 시스템을 설계하고 구축할 때 적용하는 엔지니어링 실무입니다.",
+    "practices": {
+      "architecture": {
+        "number": "01",
+        "title": "아키텍처",
+        "category": "시스템 설계",
+        "description": "애플리케이션, 인프라, 데이터 계층의 책임을 분리하여 확장 가능하고 유지보수하기 쉬운 시스템을 설계합니다."
+      },
+      "code": {
+        "number": "02",
+        "title": "코드 구성",
+        "category": "소프트웨어 엔지니어링",
+        "description": "명확한 경계, 재사용 가능한 컴포넌트, 관심사의 분리를 중심으로 애플리케이션을 구성합니다."
+      },
+      "security": {
+        "number": "03",
+        "title": "보안",
+        "category": "사이버 보안",
+        "description": "네트워크, 서버, 애플리케이션, 인증 및 운영 인프라 전반에 보안 실무를 적용합니다."
+      },
+      "distributed": {
+        "number": "04",
+        "title": "분산 시스템",
+        "category": "백엔드 / 시스템",
+        "description": "비동기 처리, 메시지 큐, 캐싱 및 이벤트 기반 아키텍처를 다룹니다."
+      }
+    }
+  },
   "footer": {
     "navigation": {
       "about": "소개",
       "experience": "경력",
       "education": "학력",
+      "engineering-practice": "엔지니어링 실무",
       "skills": "기술",
       "projects": "프로젝트",
-      "credentials": "자격",
-      "contact": "연락처"
+      "credentials": "자격 및 성과",
+      "contact": "연락처",
+      "professional-engagement": "전문 활동"
     },
     "tagline": "소프트웨어 엔지니어 · 네트워킹 · 인프라 · 보안",
-    "builtBy": "제작:"
+    "builtBy": "제작"
   }
 }

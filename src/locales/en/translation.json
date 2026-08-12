@@ -334,15 +334,66 @@
       }
     }
   },
+  "professional-engagement-section": {
+    "label": "Professional Engagement",
+    "title": "International Seminar",
+    "description": "Selected moments from professional and international engagements where technology, digital transformation, and knowledge exchange come together.",
+    "engagements": {
+      "seminar": {
+        "title1": "Digital Transformation of Industries",
+        "title2": "for Developing Countries",
+        "location": "Guiyang, China",
+        "language": "English",
+        "recognition": "Merit",
+        "duration": "00:30",
+        "institution": "Guizhou Academy of Sciences",
+        "sponsor": "Ministry of Commerce of the People's Republic of China",
+        "type": "International Seminar"
+      }
+    }
+  },
+  "engineering-practice-section": {
+    "label": "Engineering Practice",
+    "title": "How I build",
+    "intro": "From architecture and code organization to infrastructure and security, these are the engineering practices I apply when designing and building digital systems.",
+    "practices": {
+      "architecture": {
+        "number": "01",
+        "title": "Architecture",
+        "category": "SYSTEM DESIGN",
+        "description": "Designing scalable and maintainable systems by separating responsibilities across application, infrastructure, and data layers."
+      },
+      "code": {
+        "number": "02",
+        "title": "Code Organization",
+        "category": "SOFTWARE ENGINEERING",
+        "description": "Organizing applications around clear boundaries, reusable components, and separation of concerns."
+      },
+      "security": {
+        "number": "03",
+        "title": "Security",
+        "category": "CYBERSECURITY",
+        "description": "Applying security practices across networks, servers, applications, authentication, and production infrastructure."
+      },
+      "distributed": {
+        "number": "04",
+        "title": "Distributed Systems",
+        "category": "BACKEND / SYSTEMS",
+        "description": "Working with asynchronous processing, message queues, caching, and event-driven architectures."
+      }
+    }
+  },
   "footer": {
     "navigation": {
       "about": "About Me",
       "experience": "Experience",
       "education": "Education",
+      "engineering-practice": "Engineering Practices",
       "skills": "Skills",
       "projects": "Projects",
       "credentials": "Credentials",
-      "contact": "Contact"
+      "contact": "Contact",
+      "professional-engagement": "Professional Engagement"
     },
     "tagline": "Software Engineer · Networking · Infrastructure · Security",
     "builtBy": "Built by"

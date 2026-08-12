@@ -5,3 +5,4 @@ export { CONTACT_LINKS } from "./contact-links";
 export { CERTIFICATES } from "./certificates";
 export { PROJECTS } from "./projects";
 export { COUNTRIES } from "./countries";
+export { ENGINEERING_PRACTICES } from "./engineering-practices";

@@ -2,6 +2,9 @@ import { HeroBannerSection } from "@/components";
 import { CertificatesSection } from "@/components/certificates";
 import { ContactSection } from "@/components/contact";
 import { EducationSection } from "@/components/education";
+import { ProfessionalEngagement } from "@/components/engagment";
+import { EngineeringPractices } from "@/components/engineering";
+import EngineeringPracticeSection from "@/components/engineering/EngineeringPractices";
 import { ExperiencesSection } from "@/components/experience";
 import { ProjectsSection } from "@/components/projects";
 import { SkillsSection } from "@/components/skills";
@@ -68,10 +71,12 @@ const HomePage = () => {
         </div>
         <ExperiencesSection />
         <EducationSection />
+        <EngineeringPracticeSection />
         <SkillsSection />
-        <ContactSection />
         <ProjectsSection />
         <CertificatesSection />
+        <ProfessionalEngagement />
+        <ContactSection />
       </div>
     </>
   );

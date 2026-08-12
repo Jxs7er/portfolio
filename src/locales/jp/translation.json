@@ -334,17 +334,68 @@
       }
     }
   },
+  "professional-engagement-section": {
+    "label": "プロフェッショナル活動",
+    "title": "国際セミナー",
+    "description": "テクノロジー、デジタルトランスフォーメーション、知識交流が交わる、専門的・国際的な活動から選んだ瞬間をご紹介します。",
+    "engagements": {
+      "seminar": {
+        "title1": "産業のデジタルトランスフォーメーション",
+        "title2": "発展途上国に向けて",
+        "location": "中国・貴陽",
+        "language": "英語",
+        "recognition": "功績認定",
+        "duration": "00:30",
+        "institution": "貴州科学院",
+        "sponsor": "中華人民共和国商務部",
+        "type": "国際セミナー"
+      }
+    }
+  },
+  "engineering-practice-section": {
+    "label": "エンジニアリング実践",
+    "title": "私の開発方法",
+    "intro": "アーキテクチャやコード構成からインフラストラクチャ、セキュリティまで、デジタルシステムの設計・開発において私が実践しているエンジニアリング手法です。",
+    "practices": {
+      "architecture": {
+        "number": "01",
+        "title": "アーキテクチャ",
+        "category": "システム設計",
+        "description": "アプリケーション、インフラストラクチャ、データ層の責任を分離し、スケーラブルで保守性の高いシステムを設計します。"
+      },
+      "code": {
+        "number": "02",
+        "title": "コード構成",
+        "category": "ソフトウェアエンジニアリング",
+        "description": "明確な境界、再利用可能なコンポーネント、関心の分離を中心にアプリケーションを構成します。"
+      },
+      "security": {
+        "number": "03",
+        "title": "セキュリティ",
+        "category": "サイバーセキュリティ",
+        "description": "ネットワーク、サーバー、アプリケーション、認証、本番インフラストラクチャ全体にセキュリティ対策を適用します。"
+      },
+      "distributed": {
+        "number": "04",
+        "title": "分散システム",
+        "category": "バックエンド / システム",
+        "description": "非同期処理、メッセージキュー、キャッシュ、イベント駆動型アーキテクチャを扱います。"
+      }
+    }
+  },
   "footer": {
     "navigation": {
       "about": "自己紹介",
       "experience": "経験",
       "education": "学歴",
+      "engineering-practice": "エンジニアリング実践",
       "skills": "スキル",
       "projects": "プロジェクト",
-      "credentials": "資格",
-      "contact": "お問い合わせ"
+      "credentials": "資格・実績",
+      "contact": "お問い合わせ",
+      "professional-engagement": "プロフェッショナル活動"
     },
-    "tagline": "ソフトウェアエンジニア · ネットワーク · インフラ · セキュリティ",
-    "builtBy": "制作:"
+    "tagline": "ソフトウェアエンジニア · ネットワーク · インフラストラクチャ · セキュリティ",
+    "builtBy": "制作"
   }
 }

@@ -18,6 +18,10 @@ const Footer = () => {
       href: "#education",
     },
     {
+      label: t("footer.navigation.engineering-practice"),
+      href: "#engineering-practice",
+    },
+    {
       label: t("footer.navigation.skills"),
       href: "#skills",
     },
@@ -32,6 +36,10 @@ const Footer = () => {
     {
       label: t("footer.navigation.contact"),
       href: "#contact",
+    },
+    {
+      label: t("footer.navigation.professional-engagement"),
+      href: "#professional-engagement",
     },
   ];
 

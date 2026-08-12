@@ -334,17 +334,68 @@
       }
     }
   },
+  "professional-engagement-section": {
+    "label": "Profesyonel Katılım",
+    "title": "Uluslararası Seminer",
+    "description": "Teknoloji, dijital dönüşüm ve bilgi paylaşımının bir araya geldiği profesyonel ve uluslararası faaliyetlerden seçilmiş anlar.",
+    "engagements": {
+      "seminar": {
+        "title1": "Endüstrilerin Dijital Dönüşümü",
+        "title2": "Gelişmekte Olan Ülkeler İçin",
+        "location": "Guiyang, Çin",
+        "language": "İngilizce",
+        "recognition": "Liyakat",
+        "duration": "00:30",
+        "institution": "Guizhou Bilimler Akademisi",
+        "sponsor": "Çin Halk Cumhuriyeti Ticaret Bakanlığı",
+        "type": "Uluslararası Seminer"
+      }
+    }
+  },
+  "engineering-practice-section": {
+    "label": "Mühendislik Uygulamaları",
+    "title": "Nasıl geliştiriyorum",
+    "intro": "Mimari ve kod organizasyonundan altyapı ve güvenliğe kadar, dijital sistemleri tasarlarken ve geliştirirken uyguladığım mühendislik pratikleri.",
+    "practices": {
+      "architecture": {
+        "number": "01",
+        "title": "Mimari",
+        "category": "SİSTEM TASARIMI",
+        "description": "Uygulama, altyapı ve veri katmanları arasındaki sorumlulukları ayırarak ölçeklenebilir ve sürdürülebilir sistemler tasarlamak."
+      },
+      "code": {
+        "number": "02",
+        "title": "Kod Organizasyonu",
+        "category": "YAZILIM MÜHENDİSLİĞİ",
+        "description": "Uygulamaları net sınırlar, yeniden kullanılabilir bileşenler ve sorumlulukların ayrılması etrafında organize etmek."
+      },
+      "security": {
+        "number": "03",
+        "title": "Güvenlik",
+        "category": "SİBER GÜVENLİK",
+        "description": "Ağlar, sunucular, uygulamalar, kimlik doğrulama ve üretim altyapısı genelinde güvenlik uygulamalarını hayata geçirmek."
+      },
+      "distributed": {
+        "number": "04",
+        "title": "Dağıtık Sistemler",
+        "category": "BACKEND / SİSTEMLER",
+        "description": "Asenkron işleme, mesaj kuyrukları, önbellekleme ve olay güdümlü mimarilerle çalışmak."
+      }
+    }
+  },
   "footer": {
     "navigation": {
       "about": "Hakkımda",
       "experience": "Deneyim",
       "education": "Eğitim",
+      "engineering-practice": "Mühendislik Uygulamaları",
       "skills": "Yetenekler",
       "projects": "Projeler",
       "credentials": "Yetkinlikler",
-      "contact": "İletişim"
+      "contact": "İletişim",
+      "professional-engagement": "Profesyonel Katılım"
     },
     "tagline": "Yazılım Mühendisi · Ağ · Altyapı · Güvenlik",
-    "builtBy": "Tarafından geliştirildi"
+    "builtBy": "Geliştiren"
   }
 }
