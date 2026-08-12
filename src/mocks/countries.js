@@ -68,10 +68,10 @@ export const COUNTRIES = [
     emoji: "/assets/resources/flags/sa.webp",
   },
   {
-    value: "tr",
-    locale: "tr-TR",
-    label: "Türkçe",
-    emoji: "/assets/resources/flags/tr.webp",
+    value: "it",
+    locale: "it-IT",
+    label: "Italiano",
+    emoji: "/assets/resources/flags/it.webp",
   },
 
   {
