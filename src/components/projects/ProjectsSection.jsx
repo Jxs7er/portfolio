@@ -15,7 +15,7 @@ const PROJECTS = [
     description:
       "Full-stack marketplace platform built for digital commerce, payments, and scalable production operations.",
 
-    images: ["/src/assets/projects/andinet/andinet.png"],
+    images: ["/assets/resources/projects/andinet/andinet.png"],
 
     stack: [
       "React",
@@ -51,7 +51,7 @@ const PROJECTS = [
     description:
       "Financial management system designed to modernize accounting workflows and secure institutional data.",
 
-    images: ["/src/assets/projects/abk-ope/abk-ope.jpeg"],
+    images: ["/assets/resources/projects/abk-ope/abk-ope.jpeg"],
 
     stack: ["React", "Node.js", "PostgreSQL", "Authentication", "REST API"],
 
@@ -79,7 +79,7 @@ const PROJECTS = [
     description:
       "An e-commerce website built with WordPress and WooCommerce for a retail business, designed to showcase products and enable basic online sales functionality.",
 
-    images: ["/src/assets/projects/planbsrl/planbsrl.jpeg"],
+    images: ["/assets/resources/projects/planbsrl/planbsrl.jpeg"],
 
     stack: ["WordPress", "WooCommerce", "PHP", "MySQL"],
 
@@ -111,7 +111,7 @@ const PROJECTS = [
     description:
       "Gaming platform concept created as a technical frontend project and UI implementation.",
 
-    images: ["/src/assets/projects/gamor/gamor.png"],
+    images: ["/assets/resources/projects/gamor/gamor.png"],
 
     stack: ["React", "TailwindCSS"],
 
@@ -122,7 +122,7 @@ const PROJECTS = [
     ],
 
     url: "#",
-    video: "/src/assets/projects/gamor/gamor-video.mp4",
+    video: "/assets/resources/projects/gamor/gamor-video.mp4",
     github:
       "https://github.com/Jxs7er/streaming-platform-gamor/tree/refactor/tailwindcss-to-css",
   },

@@ -8,7 +8,7 @@ const CERTIFICATES = [
     description:
       "English certification focused on communication and technical vocabulary for developers.",
     url: "https://www.freecodecamp.org/certification/jxs7er/a2-english-for-developers",
-    image: "/src/assets/certificates/freecodecamp.png",
+    image: "/assets/resources/certificates/freecodecamp.png",
   },
 
   {
@@ -20,7 +20,7 @@ const CERTIFICATES = [
     description:
       "International seminar focused on digital transformation, emerging technologies, and data security.",
     url: null,
-    image: "/src/assets/certificates/seminar2.png",
+    image: "/assets/resources/certificates/seminar2.png",
   },
 
   {
