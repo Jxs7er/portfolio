@@ -107,8 +107,8 @@ const ProfessionalEngagement = () => {
                     className="aspect-video w-full object-cover"
                   >
                     <source
-                      src="/assets/resources/videos/seminar.mp4"
-                      type="video/mp4"
+                      src="/assets/resources/videos/seminar.webm"
+                      type="video/webm"
                     />
                   </video>
 
