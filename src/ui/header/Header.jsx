@@ -160,9 +160,7 @@ const Header = () => {
 
           {/* MOBILE ACTIONS */}
           <div className="flex items-center gap-3 md:hidden">
-            <div className="mx-16">
-              <LanguageSwitcher />
-            </div>
+            <LanguageSwitcher />
 
             {/* MENU BUTTON */}
             <button

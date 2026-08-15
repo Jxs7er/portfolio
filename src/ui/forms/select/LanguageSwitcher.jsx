@@ -54,7 +54,7 @@ const LanguageSwitcher = ({ allowedCountries = COUNTRIES }) => {
 
       {/* Dropdown animado */}
       <ul
-        className={`absolute backdrop-blur-2xl bg-white/90 mt-1 
+        className={`absolute backdrop-blur-2xl right-0 bg-white/90 mt-1 
           rounded-none shadow-lg z-10 flex flex-col w-44 md:w-full
           transition-all duration-200 ease-in-out transform origin-top
           ${
