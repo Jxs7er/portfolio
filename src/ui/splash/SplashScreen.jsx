@@ -51,7 +51,7 @@ const SplashScreen = () => {
                 fontFamily: "'Press Start 2P', serif",
               }}
             >
-              {showFullName ? "ARIEL ALEJANDRO MARZO GOMEZ" : "JXS7ER_"}
+              {showFullName ? "ARIEL A. MARZO GOMEZ" : "JXS7ER_"}
             </span>
           </div>
 

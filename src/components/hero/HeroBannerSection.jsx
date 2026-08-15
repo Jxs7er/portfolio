@@ -64,7 +64,8 @@ const HeroBannerSection = () => {
               {t("hero-section.portfolio")}
             </span>
 
-            <div className="space-y-2 sticky top-1 flex flex-col justify-center items-center">
+            <div className="space-y-2 sticky top-12 backdrop-blur-2xl 
+            flex flex-col justify-center items-center">
               <h1
                 className="mt-4 text-xl font-normal text-stone-600 leading-tight"
                 style={{ fontFamily: "'Georgia', serif" }}
