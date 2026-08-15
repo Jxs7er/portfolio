@@ -1,4 +1,7 @@
 {
+  "header": {
+    "change-language": "Change Language"
+  },
   "hero-section": {
     "main-role": "Computer Engineer | Full Stack Developer",
     "portfolio": "Portfolio",
@@ -382,6 +385,24 @@
         "description": "Working with asynchronous processing, message queues, caching, and event-driven architectures."
       }
     }
+  },
+  "resume-section": {
+    "label": "Resume",
+    "category": "Professional Document",
+    "title": "Curriculum Vitae",
+    "description": "A concise overview of my professional experience, education, skills and selected work.",
+    "document": {
+      "name": "Ariel Alejandro Marzo Gomez",
+      "role": "Computer Engineer • Full Stack Developer ",
+      "experience": "Experience",
+      "education": "Education"
+    },
+    "meta": {
+      "format": "PDF",
+      "updated": "Updated 2026",
+      "localized": "Available in the selected language"
+    },
+    "cta": "Open Resume"
   },
   "footer": {
     "navigation": {

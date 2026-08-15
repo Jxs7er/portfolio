@@ -1,4 +1,7 @@
 {
+  "header": {
+    "change-language": "เปลี่ยนภาษา"
+  },
   "hero-section": {
     "main-role": "วิศวกรคอมพิวเตอร์ | นักพัฒนาฟูลสแตก",
     "portfolio": "พอร์ตโฟลิโอ",
@@ -382,6 +385,24 @@
         "description": "ทำงานกับการประมวลผลแบบอะซิงโครนัส คิวข้อความ แคช และสถาปัตยกรรมที่ขับเคลื่อนด้วยเหตุการณ์"
       }
     }
+  },
+  "resume-section": {
+    "label": "Özgeçmiş",
+    "category": "Profesyonel Belge",
+    "title": "Özgeçmiş",
+    "description": "Profesyonel deneyimim, eğitimim, becerilerim ve seçilmiş çalışmalarım hakkında kısa bir genel bakış.",
+    "document": {
+      "name": "Ariel Alejandro Marzo Gomez",
+      "role": "Bilgisayar Mühendisi • Full Stack Geliştirici",
+      "experience": "Deneyim",
+      "education": "Eğitim"
+    },
+    "meta": {
+      "format": "PDF",
+      "updated": "2026 Güncellendi",
+      "localized": "Seçilen dilde mevcut"
+    },
+    "cta": "Özgeçmişi Aç"
   },
   "footer": {
     "navigation": {

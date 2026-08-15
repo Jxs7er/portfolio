@@ -1,4 +1,7 @@
 {
+  "header": {
+    "change-language": "言語を変更"
+  },
   "hero-section": {
     "main-role": "コンピューターエンジニア | フルスタック開発者",
     "portfolio": "ポートフォリオ",
@@ -382,6 +385,24 @@
         "description": "非同期処理、メッセージキュー、キャッシュ、イベント駆動型アーキテクチャを扱います。"
       }
     }
+  },
+  "resume-section": {
+    "label": "履歴書",
+    "category": "職務関連資料",
+    "title": "履歴書",
+    "description": "これまでの職務経験、学歴、スキル、主な実績を簡潔にまとめています。",
+    "document": {
+      "name": "Ariel Alejandro Marzo Gomez",
+      "role": "コンピュータエンジニア • フルスタック開発者",
+      "experience": "職務経験",
+      "education": "学歴"
+    },
+    "meta": {
+      "format": "PDF",
+      "updated": "2026年更新",
+      "localized": "選択した言語で利用可能"
+    },
+    "cta": "履歴書を開く"
   },
   "footer": {
     "navigation": {

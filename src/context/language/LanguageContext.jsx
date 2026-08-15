@@ -4,20 +4,39 @@ import { createContext, useContext, useEffect, useState } from "react";
 const LanguageContext = createContext();
 
 const LanguageProvider = ({ children }) => {
-  const [language, setLanguage] = useState({
-    value: i18n.language || "en",
-    locale: "en-US",
-  });
+  const [language, setLanguage] = useState(null);
 
   useEffect(() => {
+    let language;
+
+    try {
+      const languageStr = sessionStorage.getItem("language");
+      const parsedLanguage = languageStr ? JSON.parse(languageStr) : null;
+
+      language = parsedLanguage || {
+        value: i18n.language || "en",
+        locale: "en-US",
+      };
+    } catch (error) {
+      language = {
+        value: i18n.language || "en",
+        locale: "en-US",
+      };
+    }
+
+    setLanguage(language);
+    i18n.changeLanguage(language.value);
+  }, []);
+
+  useEffect(() => {
+    sessionStorage.setItem("language", JSON.stringify(language));
     document.documentElement.setAttribute("language", language);
-    sessionStorage.setItem("language", language);
   }, [language]);
 
   const handleChangeLanguage = ({ value, locale }) => {
     setLanguage({ value, locale });
     i18n.changeLanguage(value);
-    sessionStorage.setItem("language", value, locale);
+    sessionStorage.setItem("language", JSON.stringify({ value, locale }));
   };
 
   return (

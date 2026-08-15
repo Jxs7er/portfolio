@@ -2,8 +2,10 @@ import { useLanguage } from "@/context/language/LanguageContext";
 import { COUNTRIES } from "@/mocks";
 import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/outline";
 import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const LanguageSwitcher = ({ allowedCountries = COUNTRIES }) => {
+  const { t } = useTranslation();
   const { language, handleChangeLanguage } = useLanguage();
 
   const [isOpen, setIsOpen] = useState(false);
@@ -27,8 +29,7 @@ const LanguageSwitcher = ({ allowedCountries = COUNTRIES }) => {
             flex flex-col items-center justify-between p-1 md:px-3 my-1 gap-1"
       >
         <span className="hidden md:flex text-[0.65rem] font-semibold whitespace-nowrap">
-          {/* {t("common.language.change")} */}
-          Change Language
+          {t("header.change-language")}
         </span>
         <button
           onClick={() => setIsOpen(!isOpen)}
@@ -53,8 +54,8 @@ const LanguageSwitcher = ({ allowedCountries = COUNTRIES }) => {
 
       {/* Dropdown animado */}
       <ul
-        className={`absolute w-full backdrop-blur-2xl bg-white/90 mt-1 
-          rounded-none shadow-lg z-10 flex flex-col
+        className={`absolute backdrop-blur-2xl bg-white/90 mt-1 
+          rounded-none shadow-lg z-10 flex flex-col w-44 md:w-full
           transition-all duration-200 ease-in-out transform origin-top
           ${
             isOpen
@@ -65,7 +66,8 @@ const LanguageSwitcher = ({ allowedCountries = COUNTRIES }) => {
         {allowedCountries.map((country) => (
           <li
             key={country.value}
-            className="flex items-center gap-2 px-3 py-2 hover:bg-gray-100 cursor-pointer justify-between w-full"
+            className="flex items-center gap-2 px-3 py-2 
+            hover:bg-gray-100 cursor-pointer justify-between w-full"
             onClick={() => {
               handleChangeLanguage(country);
               setIsOpen(!isOpen);
@@ -75,7 +77,7 @@ const LanguageSwitcher = ({ allowedCountries = COUNTRIES }) => {
               src={country.emoji}
               className="w-5 h-5 rounded-full object-cover object-center"
             />
-            <span className="hidden md:flex text-[0.7rem] font-semibold truncate">
+            <span className="flex text-[0.7rem] font-semibold truncate">
               {country.label}
             </span>
           </li>

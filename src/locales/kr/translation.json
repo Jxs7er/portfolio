@@ -1,4 +1,7 @@
 {
+  "header": {
+    "change-language": "언어 변경"
+  },
   "hero-section": {
     "main-role": "컴퓨터 엔지니어 | 풀스택 개발자",
     "portfolio": "포트폴리오",
@@ -382,6 +385,24 @@
         "description": "비동기 처리, 메시지 큐, 캐싱 및 이벤트 기반 아키텍처를 다룹니다."
       }
     }
+  },
+  "resume-section": {
+    "label": "이력서",
+    "category": "전문 문서",
+    "title": "이력서",
+    "description": "저의 경력, 학력, 기술 및 주요 작업을 간략하게 소개합니다.",
+    "document": {
+      "name": "Ariel Alejandro Marzo Gomez",
+      "role": "컴퓨터 엔지니어 • 풀스택 개발자",
+      "experience": "경력",
+      "education": "학력"
+    },
+    "meta": {
+      "format": "PDF",
+      "updated": "2026년 업데이트",
+      "localized": "선택한 언어로 제공"
+    },
+    "cta": "이력서 열기"
   },
   "footer": {
     "navigation": {

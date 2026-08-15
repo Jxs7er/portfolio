@@ -1,4 +1,7 @@
 {
+  "header": {
+    "change-language": "تغيير اللغة"
+  },
   "hero-section": {
     "main-role": "مهندس حاسوب | مطور Full Stack",
     "portfolio": "معرض الأعمال",
@@ -382,6 +385,24 @@
         "description": "العمل مع المعالجة غير المتزامنة وقوائم انتظار الرسائل والتخزين المؤقت والبنى المعتمدة على الأحداث."
       }
     }
+  },
+  "resume-section": {
+    "label": "السيرة الذاتية",
+    "category": "وثيقة مهنية",
+    "title": "السيرة الذاتية",
+    "description": "نبذة موجزة عن خبرتي المهنية وتعليمي ومهاراتي وأعمالي المختارة.",
+    "document": {
+      "name": "Ariel Alejandro Marzo Gomez",
+      "role": "مهندس حاسوب • مطور Full Stack",
+      "experience": "الخبرة",
+      "education": "التعليم"
+    },
+    "meta": {
+      "format": "PDF",
+      "updated": "تم التحديث في 2026",
+      "localized": "متاحة باللغة المحددة"
+    },
+    "cta": "فتح السيرة الذاتية"
   },
   "footer": {
     "navigation": {

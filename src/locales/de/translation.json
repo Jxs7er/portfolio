@@ -1,4 +1,7 @@
 {
+  "header": {
+    "change-language": "Sprache ändern"
+  },
   "hero-section": {
     "main-role": "Computeringenieur | Full-Stack-Entwickler",
     "portfolio": "Portfolio",
@@ -382,6 +385,24 @@
         "description": "Arbeit mit asynchroner Verarbeitung, Nachrichtenwarteschlangen, Caching und ereignisgesteuerten Architekturen."
       }
     }
+  },
+  "resume-section": {
+    "label": "Lebenslauf",
+    "category": "Berufliches Dokument",
+    "title": "Lebenslauf",
+    "description": "Ein kompakter Überblick über meine Berufserfahrung, Ausbildung, Fähigkeiten und ausgewählte Projekte.",
+    "document": {
+      "name": "Ariel Alejandro Marzo Gomez",
+      "role": "Computer Engineer • Full-Stack-Entwickler",
+      "experience": "Berufserfahrung",
+      "education": "Ausbildung"
+    },
+    "meta": {
+      "format": "PDF",
+      "updated": "Aktualisiert 2026",
+      "localized": "In der ausgewählten Sprache verfügbar"
+    },
+    "cta": "Lebenslauf öffnen"
   },
   "footer": {
     "navigation": {

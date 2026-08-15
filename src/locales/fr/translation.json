@@ -1,4 +1,7 @@
 {
+  "header": {
+    "change-language": "Changer de langue"
+  },
   "hero-section": {
     "main-role": "Ingénieur informatique | Développeur Full Stack",
     "portfolio": "Portfolio",
@@ -382,6 +385,24 @@
         "description": "Travail avec le traitement asynchrone, les files de messages, la mise en cache et les architectures orientées événements."
       }
     }
+  },
+  "resume-section": {
+    "label": "CV",
+    "category": "Document professionnel",
+    "title": "Curriculum Vitae",
+    "description": "Un aperçu concis de mon expérience professionnelle, de ma formation, de mes compétences et d'une sélection de mes travaux.",
+    "document": {
+      "name": "Ariel Alejandro Marzo Gomez",
+      "role": "Ingénieur informatique • Développeur Full Stack",
+      "experience": "Expérience",
+      "education": "Formation"
+    },
+    "meta": {
+      "format": "PDF",
+      "updated": "Mis à jour en 2026",
+      "localized": "Disponible dans la langue sélectionnée"
+    },
+    "cta": "Ouvrir le CV"
   },
   "footer": {
     "navigation": {

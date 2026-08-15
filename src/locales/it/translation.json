@@ -1,4 +1,7 @@
 {
+  "header": {
+    "change-language": "Cambia lingua"
+  },
   "hero-section": {
     "main-role": "Ingegnere Informatico | Sviluppatore Full Stack",
     "portfolio": "Portfolio",
@@ -382,6 +385,24 @@
         "description": "Lavoro con elaborazione asincrona, code di messaggi, caching e architetture basate sugli eventi."
       }
     }
+  },
+  "resume-section": {
+    "label": "Curriculum",
+    "category": "Documento professionale",
+    "title": "Curriculum Vitae",
+    "description": "Una panoramica concisa della mia esperienza professionale, formazione, competenze e lavori selezionati.",
+    "document": {
+      "name": "Ariel Alejandro Marzo Gomez",
+      "role": "Ingegnere informatico • Sviluppatore Full Stack",
+      "experience": "Esperienza",
+      "education": "Formazione"
+    },
+    "meta": {
+      "format": "PDF",
+      "updated": "Aggiornato 2026",
+      "localized": "Disponibile nella lingua selezionata"
+    },
+    "cta": "Apri il Curriculum"
   },
   "footer": {
     "navigation": {

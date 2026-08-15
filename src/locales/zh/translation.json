@@ -1,4 +1,7 @@
 {
+  "header": {
+    "change-language": "更改语言"
+  },
   "hero-section": {
     "main-role": "计算机工程师 | 全栈开发工程师",
     "portfolio": "作品集",
@@ -382,6 +385,24 @@
         "description": "使用异步处理、消息队列、缓存和事件驱动架构。"
       }
     }
+  },
+  "resume-section": {
+    "label": "简历",
+    "category": "专业文档",
+    "title": "个人简历",
+    "description": "简要介绍我的专业经历、教育背景、技能以及精选作品。",
+    "document": {
+      "name": "Ariel Alejandro Marzo Gomez",
+      "role": "计算机工程师 • 全栈开发工程师",
+      "experience": "工作经历",
+      "education": "教育背景"
+    },
+    "meta": {
+      "format": "PDF",
+      "updated": "2026年更新",
+      "localized": "提供所选语言版本"
+    },
+    "cta": "打开简历"
   },
   "footer": {
     "navigation": {

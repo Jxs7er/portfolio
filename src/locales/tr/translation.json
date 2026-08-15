@@ -1,4 +1,7 @@
 {
+  "header": {
+    "change-language": "Dili Değiştir"
+  },
   "hero-section": {
     "main-role": "Bilgisayar Mühendisi | Full Stack Geliştirici",
     "portfolio": "Portföy",
@@ -382,6 +385,24 @@
         "description": "Asenkron işleme, mesaj kuyrukları, önbellekleme ve olay güdümlü mimarilerle çalışmak."
       }
     }
+  },
+  "resume-section": {
+    "label": "Özgeçmiş",
+    "category": "Profesyonel Belge",
+    "title": "Özgeçmiş",
+    "description": "Profesyonel deneyimim, eğitimim, becerilerim ve seçilmiş çalışmalarım hakkında kısa bir genel bakış.",
+    "document": {
+      "name": "Ariel Alejandro Marzo Gomez",
+      "role": "Bilgisayar Mühendisi • Full Stack Geliştirici",
+      "experience": "Deneyim",
+      "education": "Eğitim"
+    },
+    "meta": {
+      "format": "PDF",
+      "updated": "2026 Güncellendi",
+      "localized": "Seçilen dilde mevcut"
+    },
+    "cta": "Özgeçmişi Aç"
   },
   "footer": {
     "navigation": {

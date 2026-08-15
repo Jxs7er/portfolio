@@ -1,4 +1,7 @@
 {
+  "header": {
+    "change-language": "Ganti Bahasa"
+  },
   "hero-section": {
     "main-role": "Insinyur Komputer | Pengembang Full Stack",
     "portfolio": "Portofolio",
@@ -382,6 +385,24 @@
         "description": "Bekerja dengan pemrosesan asinkron, antrean pesan, caching, dan arsitektur berbasis peristiwa."
       }
     }
+  },
+  "resume-section": {
+    "label": "Resume",
+    "category": "Dokumen Profesional",
+    "title": "Curriculum Vitae",
+    "description": "Ringkasan singkat mengenai pengalaman profesional, pendidikan, keterampilan, dan pekerjaan pilihan saya.",
+    "document": {
+      "name": "Ariel Alejandro Marzo Gomez",
+      "role": "Insinyur Komputer • Pengembang Full Stack",
+      "experience": "Pengalaman",
+      "education": "Pendidikan"
+    },
+    "meta": {
+      "format": "PDF",
+      "updated": "Diperbarui 2026",
+      "localized": "Tersedia dalam bahasa yang dipilih"
+    },
+    "cta": "Buka Resume"
   },
   "footer": {
     "navigation": {
