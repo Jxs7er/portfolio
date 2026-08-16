@@ -7,8 +7,8 @@ export const CERTIFICATES = [
     year: "2026",
     type: "certificate-section.certificates.freecodecamp.type",
     description: "certificate-section.certificates.freecodecamp.description",
-    url: "https://www.freecodecamp.org/certification/jxs7er/a2-english-for-developers",
-    image: "/assets/resources/certificates/freecodecamp.webp",
+    url: "https://www.freecodecamp.org/certification/jxs7er/b1-english-for-developers",
+    image: "/assets/resources/certificates/freecodecamp-b1.webp",
   },
 
   {
