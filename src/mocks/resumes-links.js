@@ -1,5 +1,5 @@
 export const RESUME_LINKS = {
-  am: "https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing",
+  am: "https://drive.google.com/file/d/1CRoL9o0Vc5zbLHi9o_bh1to0S38sxu52/view?usp=sharing",
   de: "https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing",
   en: "https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing",
   es: "https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing",
