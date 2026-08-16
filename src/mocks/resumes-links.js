@@ -1,0 +1,18 @@
+export const RESUME_LINKS = {
+  am: "https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing",
+  de: "https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing",
+  en: "https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing",
+  es: "https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing",
+  fr: "https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing",
+  id: "https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing",
+  in: "https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing",
+  it: "https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing",
+  jp: "https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing",
+  kr: "https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing",
+  pt: "https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing",
+  ru: "https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing",
+  sa: "https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing",
+  th: "https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing",
+  tr: "https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing",
+  zh: "https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing",
+};

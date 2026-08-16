@@ -6,3 +6,4 @@ export { CERTIFICATES } from "./certificates";
 export { PROJECTS } from "./projects";
 export { COUNTRIES } from "./countries";
 export { ENGINEERING_PRACTICES } from "./engineering-practices";
+export { RESUME_LINKS } from "./resumes-links";

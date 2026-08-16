@@ -1,8 +1,14 @@
 import { useLanguage } from "@/context/language/LanguageContext";
+import { RESUME_LINKS } from "@/mocks";
 import { useTranslation } from "react-i18next";
 
 const ResumeSection = () => {
   const { t } = useTranslation();
+
+  const { language } = useLanguage();
+  const selected_lng = language?.value || "en";
+
+  const resume_link = RESUME_LINKS[selected_lng];
 
   return (
     <section
@@ -73,7 +79,7 @@ const ResumeSection = () => {
                     "
                   >
                     <span className="block min-w-0 truncate whitespace-nowrap text-[10px] font-normal text-stone-100/35">
-                      https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing
+                      {resume_link}
                     </span>
                   </div>
 
@@ -140,7 +146,7 @@ const ResumeSection = () => {
               >
                 {/* GOOGLE DRIVE LINK */}
                 <a
-                  href="https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing"
+                  href={resume_link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex items-center gap-3 self-start border border-amber-400/40

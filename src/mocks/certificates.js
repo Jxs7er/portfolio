@@ -16,7 +16,7 @@ export const CERTIFICATES = [
     issuer: "certificate-section.certificates.seminar.issuer",
     featured: "certificate-section.certificates.seminar.featured",
     category: "certificate-section.certificates.seminar.category",
-    year: "2024",
+    year: "2026",
     type: "certificate-section.certificates.seminar.type",
     description: "certificate-section.certificates.seminar.description",
     url: null,

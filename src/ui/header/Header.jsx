@@ -7,6 +7,8 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
+import { RESUME_LINKS } from "@/mocks";
+import { useLanguage } from "@/context/language/LanguageContext";
 
 const Header = () => {
   const { t } = useTranslation();
@@ -50,6 +52,11 @@ const Header = () => {
       href: "#contact",
     },
   ];
+
+  const { language } = useLanguage();
+  const selected_lng = language?.value || "en";
+
+  const resume_link = RESUME_LINKS[selected_lng];
 
   const handleNavigation = () => {
     setIsMenuOpen(false);
@@ -127,7 +134,7 @@ const Header = () => {
           {/* DESKTOP ACTIONS */}
           <div className="hidden items-center gap-4 md:flex">
             <a
-              href="https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing"
+              href={resume_link}
               target="_blank"
               rel="noopener noreferrer"
               className="
@@ -247,7 +254,7 @@ const Header = () => {
 
             {/* RESUME */}
             <a
-              href="https://drive.google.com/file/d/1Ei7wrG-ib1WRyofSlN6PhX6zQnb9Pmjh/view?usp=sharing"
+              href={resume_link}
               target="_blank"
               rel="noopener noreferrer"
               onClick={handleNavigation}

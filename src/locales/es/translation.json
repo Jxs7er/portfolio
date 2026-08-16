@@ -304,44 +304,36 @@
     }
   },
   "certificate-section": {
-    "label": "Credentials",
-    "title": "Certificates",
+    "label": "Credenciales",
+    "title": "Certificados",
     "action": {
-      "view": "View",
-      "verified": "Verified"
+      "view": "Ver",
+      "verified": "Verificado"
     },
-    "certificate-section": {
-      "label": "Credenciales",
-      "title": "Certificados",
-      "action": {
-        "view": "Ver",
-        "verified": "Verificado"
+    "certificates": {
+      "freecodecamp": {
+        "title": "Inglés A2 para Desarrolladores",
+        "issuer": "freeCodeCamp",
+        "featured": "",
+        "category": "IDIOMA",
+        "type": "Certificado",
+        "description": "Certificación de inglés enfocada en la comunicación y el vocabulario técnico para desarrolladores."
       },
-      "certificates": {
-        "freecodecamp": {
-          "title": "Inglés A2 para Desarrolladores",
-          "issuer": "freeCodeCamp",
-          "featured": "",
-          "category": "IDIOMA",
-          "type": "Certificado",
-          "description": "Certificación de inglés enfocada en la comunicación y el vocabulario técnico para desarrolladores."
-        },
-        "seminar": {
-          "title": "Transformación Digital de las Industrias para Países en Desarrollo",
-          "issuer": "Academia de Ciencias de Guizhou",
-          "featured": "Mérito",
-          "category": "SEMINARIO",
-          "type": "Certificado",
-          "description": "Seminario internacional enfocado en la transformación digital, las tecnologías emergentes y la seguridad de los datos."
-        },
-        "ggj": {
-          "title": "Premio al Mejor Diseño 2D",
-          "issuer": "Global Game Jam Cuba",
-          "featured": "",
-          "category": "PREMIO",
-          "type": "LOGRO",
-          "description": "Premio recibido por diseño 2D durante Global Game Jam Cuba."
-        }
+      "seminar": {
+        "title": "Transformación Digital de las Industrias para Países en Desarrollo",
+        "issuer": "Academia de Ciencias de Guizhou",
+        "featured": "Mérito",
+        "category": "SEMINARIO",
+        "type": "Certificado",
+        "description": "Seminario internacional enfocado en la transformación digital, las tecnologías emergentes y la seguridad de los datos."
+      },
+      "ggj": {
+        "title": "Premio al Mejor Diseño 2D",
+        "issuer": "Global Game Jam Cuba",
+        "featured": "",
+        "category": "PREMIO",
+        "type": "LOGRO",
+        "description": "Premio recibido por diseño 2D durante Global Game Jam Cuba."
       }
     }
   },
