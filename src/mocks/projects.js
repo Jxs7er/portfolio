@@ -1,4 +1,3 @@
-
 export const PROJECTS = [
   {
     title: "projects-section.projects.andinet.title",
@@ -85,7 +84,8 @@ export const PROJECTS = [
       "projects-section.projects.planb-srl.highlights.item4",
     ],
 
-    url: "https://planbsrlshop.com",
+    // url: "https://planbsrlshop.com",
+    url: null,
     github: null,
   },
 
@@ -115,7 +115,7 @@ export const PROJECTS = [
       "projects-section.projects.gamor.highlights.item3",
     ],
 
-    url: "#",
+    url: null,
     video: "/assets/resources/projects/gamor/gamor-video.webm",
     github:
       "https://github.com/Jxs7er/streaming-platform-gamor/tree/refactor/tailwindcss-to-css",

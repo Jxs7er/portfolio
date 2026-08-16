@@ -219,8 +219,8 @@ const ProjectsSection = ({ projects = PROJECTS }) => {
                       </Link>
                     )}
 
-                    <Link
-                      to={``}
+                    {project.url && <Link
+                      to={project.url}
                       className="font-mono text-sm text-stone-800 
                       hover:text-stone-900 hover:font-semibold cursor-pointer bg-amber-200 px-2 py-1"
                     >
@@ -228,7 +228,7 @@ const ProjectsSection = ({ projects = PROJECTS }) => {
                         {t("projects-section.action.explore")}{" "}
                         <ArrowRightIcon className="w-4 h-4" />
                       </span>
-                    </Link>
+                    </Link>}
                   </div>
                 </div>
               </div>
