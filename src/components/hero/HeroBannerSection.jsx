@@ -29,7 +29,7 @@ const HeroBannerSection = () => {
     <section
       id="about"
       className="flex flex-col gap-x-1 md:gap-x-0
-      items-center w-full"
+      items-center w-full py-16"
     >
       {/* Gallery */}
       <div
