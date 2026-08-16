@@ -19,7 +19,7 @@ export const CERTIFICATES = [
     year: "2026",
     type: "certificate-section.certificates.seminar.type",
     description: "certificate-section.certificates.seminar.description",
-    url: null,
+    url: "https://drive.google.com/file/d/1iNUCz4I91nClMkHSWBc2vryq-l9nG_Cc/view?usp=sharing",
     image: "/assets/resources/certificates/seminar2.webp",
   },
 

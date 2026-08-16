@@ -39,12 +39,99 @@ const EducationSection = ({ education = EDUCATION }) => {
             className="
               relative mt-16
               grid gap-12
-              md:grid-cols-[180px_1fr]
-            "
+              md:grid-cols-[280px_1fr]
+              "
           >
             {/* Year */}
-            <div className="font-mono text-sm text-stone-400">
-              <span className="text-amber-600">/</span> {item.period}
+            <div className="font-mono text-sm text-stone-400 w-full">
+              <div>
+                <span className="text-amber-600">/</span> {item.period}
+              </div>
+              <div className="my-4 w-[300px] group">
+                {/* Card */}
+                <div
+                  className="
+                    relative
+                    overflow-hidden
+                    h-[340px]
+                    rounded-2xl
+                    border border-stone-800/20
+                    bg-stone-100/50
+                    shadow-xl
+                    transition-all duration-500 ease-out
+                    group-hover:-translate-y-2
+                    group-hover:shadow-2xl
+                  "
+                >
+                  {/* Image */}
+                  <img
+                    src={item.image}
+                    alt={t(item.title)}
+                    className="
+                      absolute
+                      top-0 left-0
+                      w-full
+                      h-auto
+                      object-cover
+                      transition-transform duration-700 ease-out
+                      group-hover:scale-[1.03]
+                    "
+                  />
+
+                  {/* Bottom fade */}
+                  <div
+                    className="
+                      absolute inset-x-0 top-0
+                      h-full bg-stone-800/10
+                      ease-in-out duration-700 transition-all
+                      group-hover:backdrop-blur-sm
+                    "
+                  />
+                  <div
+                    className="
+                      absolute inset-x-0 bottom-0
+                      h-32
+                      bg-gradient-to-t
+                      from-stone-100
+                      via-stone-100/80
+                      to-transparent
+                    "
+                  />
+
+                  {/* Explore */}
+                  <div className="absolute bottom-5 left-5 right-5 flex items-center justify-between">
+                    <span className="font-mono text-[9px] uppercase tracking-[0.3em] text-stone-500 font-semibold">
+                      {t("certificate-section.certificates.seminar.type")}
+                    </span>
+
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="
+                        inline-flex items-center gap-2
+                        rounded-full
+                        border border-stone-800/20
+                        bg-stone-100/80
+                        px-4 py-2
+                        font-mono text-[9px]
+                        uppercase tracking-[0.2em]
+                        text-stone-700
+                        backdrop-blur-md
+                        transition-all duration-300
+                        hover:border-amber-600/40
+                        hover:bg-amber-600
+                        hover:text-stone-100
+                      "
+                    >
+                      {t("projects-section.action.explore")}
+                      <span className="text-amber-600 transition-colors group-hover:text-stone-100">
+                        →
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
 
             {/* Main */}
