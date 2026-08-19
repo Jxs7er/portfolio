@@ -1,7 +1,130 @@
+import { useLanguage } from "@/context/language/LanguageContext";
 import { useTranslation } from "react-i18next";
+
+const SubtitlesSelector = ({ ln }) => (
+  <>
+    <track
+      src="/assets/resources/videos/subtitles/seminar-en.vtt"
+      kind="subtitles"
+      srcLang="en"
+      label="English"
+      default={ln === "en"}
+    />
+    <track
+      src="/assets/resources/videos/subtitles/seminar-es.vtt"
+      kind="subtitles"
+      srcLang="es"
+      label="Español"
+      default={ln === "es"}
+    />
+    <track
+      src="/assets/resources/videos/subtitles/seminar-am.vtt"
+      kind="subtitles"
+      srcLang="am"
+      label="Հայերեն"
+      default={ln === "am"}
+    />
+    <track
+      src="/assets/resources/videos/subtitles/seminar-fr.vtt"
+      kind="subtitles"
+      srcLang="fr"
+      label="Français"
+      default={ln === "fr"}
+    />
+    <track
+      src="/assets/resources/videos/subtitles/seminar-zh.vtt"
+      kind="subtitles"
+      srcLang="zh"
+      label="中文"
+      default={ln === "zh"}
+    />
+
+    <track
+      src="/assets/resources/videos/subtitles/seminar-de.vtt"
+      kind="subtitles"
+      srcLang="de"
+      label="Deutsch"
+      default={ln === "de"}
+    />
+    <track
+      src="/assets/resources/videos/subtitles/seminar-jp.vtt"
+      kind="subtitles"
+      srcLang="jp"
+      label="日本語"
+      default={ln === "jp"}
+    />
+    <track
+      src="/assets/resources/videos/subtitles/seminar-pt.vtt"
+      kind="subtitles"
+      srcLang="pt"
+      label="Português"
+      default={ln === "pt"}
+    />
+    <track
+      src="/assets/resources/videos/subtitles/seminar-kr.vtt"
+      kind="subtitles"
+      srcLang="kr"
+      label="한국어"
+      default={ln === "kr"}
+    />
+    <track
+      src="/assets/resources/videos/subtitles/seminar-ru.vtt"
+      kind="subtitles"
+      srcLang="ru"
+      label="Русский"
+      default={ln === "ru"}
+    />
+
+    <track
+      src="/assets/resources/videos/subtitles/seminar-sa.vtt"
+      kind="subtitles"
+      srcLang="sa"
+      label="العربية"
+      default={ln === "sa"}
+    />
+    <track
+      src="/assets/resources/videos/subtitles/seminar-it.vtt"
+      kind="subtitles"
+      srcLang="it"
+      label="Italiano"
+      default={ln === "it"}
+    />
+    <track
+      src="/assets/resources/videos/subtitles/seminar-id.vtt"
+      kind="subtitles"
+      srcLang="id"
+      label="Bahasa Indonesia"
+      default={ln === "id"}
+    />
+    <track
+      src="/assets/resources/videos/subtitles/seminar-in.vtt"
+      kind="subtitles"
+      srcLang="in"
+      label="हिन्दी"
+      default={ln === "in"}
+    />
+    <track
+      src="/assets/resources/videos/subtitles/seminar-th.vtt"
+      kind="subtitles"
+      srcLang="th"
+      label="ไทย"
+      default={ln === "th"}
+    />
+    <track
+      src="/assets/resources/videos/subtitles/seminar-tr.vtt"
+      kind="subtitles"
+      srcLang="tr"
+      label="Türkçe"
+      default={ln === "tr"}
+    />
+  </>
+);
 
 const ProfessionalEngagement = () => {
   const { t } = useTranslation();
+
+  const { language } = useLanguage();
+  const value = language?.value || "en";
 
   return (
     <section
@@ -104,12 +227,13 @@ const ProfessionalEngagement = () => {
                     preload="none"
                     playsInline
                     //   poster="/assets/resources/images/seminar-poster.webp"
-                    className="aspect-video w-full object-cover"
+                    className="aspect-video w-full object-cover [&::cue]:text-[28px]"
                   >
                     <source
                       src="/assets/resources/videos/seminar.webm"
                       type="video/webm"
                     />
+                    <SubtitlesSelector ln={value} />
                   </video>
 
                   {/* Glass reflection */}
